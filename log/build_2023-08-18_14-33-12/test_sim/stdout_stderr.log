@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/config
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/config/view_bot.rviz
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/inertial_macros.xacro
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot_core.xacro
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot.urdf.xacro
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/robot.launch.py
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/test.launch.py
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/worlds
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/worlds/empty.world
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/package_run_dependencies/test_sim
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/parent_prefix_path/test_sim
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.bash
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.zsh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/package.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/packages/test_sim
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/cmake/test_simConfig.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/cmake/test_simConfig-version.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/package.xml

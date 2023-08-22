@@ -1,0 +1,58 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In constructor ‘[01m[KSensors::Sensors()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:7:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+    7 |     imu_pub = this->create_publisher<[01;31m[Ksensor_msgs[m[K::msg::Imu>("imu_data", 10);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:7:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    7 |     imu_pub = this->[01;31m[Kcreate_publisher<sensor_msgs::msg::Imu>[m[K("imu_data", 10);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:7:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSensors::create_publisher<<expression error> >(const char [9], int)[m[K’
+    7 |     imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 10[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/sensors.hpp:4[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:7:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |     imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 10[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:32:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+   32 |     auto msg = [01;31m[Ksensor_msgs[m[K::msg::Imu();
+      |                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:44:40:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   44 |     msg.angular_velocity_covariance = [[01;31m[K0[m[K, 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                        [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:44:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   44 |     msg.angular_velocity_covariance = [0[01;31m[K,[m[K 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K][m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:44:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:45:35:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   45 |     msg.orientation_covariance = [[01;31m[K0[m[K, 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                   [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:45:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   45 |     msg.orientation_covariance = [0[01;31m[K,[m[K 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                    [01;31m[K^[m[K
+      |                                    [32m[K][m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:45:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:46:43:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   46 |     msg.linear_acceleration_covariance = [[01;31m[K0[m[K, 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                           [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:46:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   46 |     msg.linear_acceleration_covariance = [0[01;31m[K,[m[K 0, 0, 0, 0, 0, 0, 0, 0];
+      |                                            [01;31m[K^[m[K
+      |                                            [32m[K][m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:46:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

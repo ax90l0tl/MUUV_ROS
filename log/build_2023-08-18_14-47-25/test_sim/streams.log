@@ -1,0 +1,31 @@
+[0.263s] Invoking command in '/home/isopodin-time/ros2_ws/build/test_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/test_sim -- -j8 -l8
+[0.718s] Invoked command in '/home/isopodin-time/ros2_ws/build/test_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/test_sim -- -j8 -l8
+[1.101s] Invoking command in '/home/isopodin-time/ros2_ws/build/test_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/test_sim
+[1.266s] -- Install configuration: ""
+[1.266s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/config
+[1.266s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/config/view_bot.rviz
+[1.266s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/inertial_macros.xacro
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot_core.xacro
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot.urdf.xacro
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/robot.launch.py
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/test.launch.py
+[1.267s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/worlds
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/worlds/empty.world
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/package_run_dependencies/test_sim
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/parent_prefix_path/test_sim
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/ament_prefix_path.sh
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/ament_prefix_path.dsv
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/path.sh
+[1.268s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/environment/path.dsv
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.bash
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.sh
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.zsh
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/local_setup.dsv
+[1.269s] -- Installing: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/package.dsv
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/packages/test_sim
+[1.269s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/cmake/test_simConfig.cmake
+[1.270s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/cmake/test_simConfig-version.cmake
+[1.270s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/package.xml
+[1.496s] Invoked command in '/home/isopodin-time/ros2_ws/build/test_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/test_sim

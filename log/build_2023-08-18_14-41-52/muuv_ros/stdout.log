@@ -1,0 +1,26 @@
+[ 44%] Built target sensors
+[ 66%] Built target global_parameter_server
+[100%] Built target thrusters
+-- Install configuration: ""
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/global_parameter_server
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch/global_params_launch.py
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/config
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/config/global_params.yaml
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/package_run_dependencies/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/parent_prefix_path/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.bash
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.zsh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/packages/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig-version.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.xml

@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/foxy/**",
+                "~/pigpio-master/**",
+                "${workspaceFolder}/muuv_ros/include",
+                "${workspaceFolder}/muuv_ros/include/muuv_ros/raspi_dma_pwm"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

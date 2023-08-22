@@ -1,0 +1,6 @@
+{
+  "package_name": "uuv_auv_control_allocator",
+  "non_idl_tuples": [
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_auv_control_allocator:msg/AUVCommand.msg"
+  ]
+}

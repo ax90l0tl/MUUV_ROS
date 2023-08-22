@@ -1,0 +1,16 @@
+srv/GetThrusterCurve.idl
+srv/GetThrusterCurve.srv
+srv/GetThrusterCurve_Request.msg
+srv/GetThrusterCurve_Response.msg
+srv/GetThrusterManagerConfig.idl
+srv/GetThrusterManagerConfig.srv
+srv/GetThrusterManagerConfig_Request.msg
+srv/GetThrusterManagerConfig_Response.msg
+srv/SetThrusterManagerConfig.idl
+srv/SetThrusterManagerConfig.srv
+srv/SetThrusterManagerConfig_Request.msg
+srv/SetThrusterManagerConfig_Response.msg
+srv/ThrusterManagerInfo.idl
+srv/ThrusterManagerInfo.srv
+srv/ThrusterManagerInfo_Request.msg
+srv/ThrusterManagerInfo_Response.msg

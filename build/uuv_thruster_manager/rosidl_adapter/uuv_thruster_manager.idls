@@ -1,0 +1,4 @@
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/GetThrusterCurve.idl
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/ThrusterManagerInfo.idl
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/SetThrusterManagerConfig.idl
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/GetThrusterManagerConfig.idl

@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from uuv_control_msgs/srv/InitWaypointSet.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "std_msgs/msg/String.idl"
+#include "uuv_control_msgs/msg/Waypoint.idl"
+
+module uuv_control_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Copyright (c) 2020 The Plankton Authors." "\n"
+      " All rights reserved." "\n"
+      "" "\n"
+      " This source code is derived from UUV Simulator" "\n"
+      " (https://github.com/uuvsimulator/uuv_simulator)" "\n"
+      " Copyright (c) 2016-2019 The UUV Simulator Authors" "\n"
+      " licensed under the Apache license, Version 2.0" "\n"
+      " cf. 3rd-party-licenses.txt file in the root directory of this source tree." "\n"
+      "" "\n"
+      " Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      " you may not use this file except in compliance with the License." "\n"
+      " You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "     http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      " Unless required by applicable law or agreed to in writing, software" "\n"
+      " distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      " WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      " See the License for the specific language governing permissions and" "\n"
+      " limitations under the License.")
+    struct InitWaypointSet_Request {
+      builtin_interfaces::msg::Time start_time;
+
+      boolean start_now;
+
+      sequence<uuv_control_msgs::msg::Waypoint> waypoints;
+
+      double max_forward_speed;
+
+      double heading_offset;
+
+      std_msgs::msg::String interpolator;
+    };
+    struct InitWaypointSet_Response {
+      boolean success;
+    };
+  };
+};

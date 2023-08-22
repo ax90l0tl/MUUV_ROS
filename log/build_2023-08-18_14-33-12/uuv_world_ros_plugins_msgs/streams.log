@@ -1,0 +1,429 @@
+[0.109s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs
+[0.477s] -- The C compiler identification is GNU 9.4.0
+[0.865s] -- The CXX compiler identification is GNU 9.4.0
+[1.038s] -- Check for working C compiler: /usr/bin/cc
+[1.307s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.307s] -- Detecting C compiler ABI info
+[1.563s] -- Detecting C compiler ABI info - done
+[1.585s] -- Detecting C compile features
+[1.585s] -- Detecting C compile features - done
+[1.590s] -- Check for working CXX compiler: /usr/bin/c++
+[2.010s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.010s] -- Detecting CXX compiler ABI info
+[2.297s] -- Detecting CXX compiler ABI info - done
+[2.320s] -- Detecting CXX compile features
+[2.321s] -- Detecting CXX compile features - done
+[2.326s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.373s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.373s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.039s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.553s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.931s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.008s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[9.087s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[9.809s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[17.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.618s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[17.621s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[18.485s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[18.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.486s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[18.486s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[18.521s] -- Found PythonExtra: .so  
+[18.814s] -- Configuring done
+[18.997s] -- Generating done
+[19.003s] -- Build files have been written to: /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs
+[19.034s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins_msgs -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs
+[19.035s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs -- -j8 -l8
+[19.121s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__cpp[0m
+[19.121s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.140s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.568s] [  2%] Built target uuv_world_ros_plugins_msgs__cpp
+[22.668s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.697s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.703s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.723s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_generator_c[0m
+[22.864s] [  6%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.c.o[0m
+[22.888s] [  8%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.c.o[0m
+[22.898s] [  9%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.c.o[0m
+[22.911s] [ 10%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.c.o[0m
+[22.915s] [ 11%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.c.o[0m
+[23.168s] [ 12%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.c.o[0m
+[23.287s] [ 14%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.c.o[0m
+[23.297s] [ 14%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.c.o[0m
+[23.747s] [ 16%] [32m[1mLinking C shared library libuuv_world_ros_plugins_msgs__rosidl_generator_c.so[0m
+[24.307s] [ 16%] Built target uuv_world_ros_plugins_msgs__rosidl_generator_c
+[24.427s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.441s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.698s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp[0m
+[28.840s] [ 19%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/get_current_model__type_support.cpp.o[0m
+[28.853s] [ 20%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_model__type_support.cpp.o[0m
+[28.926s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_velocity__type_support.cpp.o[0m
+[29.440s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp[0m
+[29.521s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[29.527s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_current_direction__type_support.cpp.o[0m
+[29.544s] [ 24%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.cpp.o[0m
+[29.677s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_model__type_support.cpp.o[0m
+[30.808s] [ 26%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord__type_support.cpp.o[0m
+[30.916s] [ 27%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord__type_support.cpp.o[0m
+[31.018s] [ 28%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord__type_support.cpp.o[0m
+[31.035s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_c[0m
+[31.250s] [ 29%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_model__type_support.cpp.o[0m
+[31.525s] [ 31%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord__type_support.cpp.o[0m
+[31.568s] [ 32%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/get_current_model__type_support.cpp.o[0m
+[31.720s] [ 33%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.cpp.o[0m
+[31.867s] [ 34%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_velocity__type_support.cpp.o[0m
+[32.172s] [ 35%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_current_direction__type_support.cpp.o[0m
+[32.457s] [ 36%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord__type_support.cpp.o[0m
+[32.649s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c[0m
+[32.689s] [ 37%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/get_current_model__type_support.cpp.o[0m
+[32.712s] [ 39%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord__type_support.cpp.o[0m
+[32.740s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_velocity__type_support.cpp.o[0m
+[32.775s] [ 41%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.c.o[0m
+[32.883s] [ 42%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_current_direction__type_support.cpp.o[0m
+[32.961s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord__type_support.cpp.o[0m
+[32.962s] [ 44%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord__type_support.cpp.o[0m
+[33.001s] [ 45%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.c.o[0m
+[33.195s] [ 47%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.c.o[0m
+[33.297s] [ 48%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.c.o[0m
+[33.421s] [ 49%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so[0m
+[33.541s] [ 50%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.c.o[0m
+[33.588s] [ 51%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so[0m
+[33.637s] [ 52%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.c.o[0m
+[33.825s] [ 54%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.c.o[0m
+[34.072s] [ 55%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.c.o[0m
+[34.130s] [ 56%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/set_origin_spherical_coord__type_support.cpp.o[0m
+[34.163s] [ 57%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.cpp.o[0m
+[34.220s] [ 57%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_cpp
+[34.329s] [ 58%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.cpp.o[0m
+[34.330s] [ 58%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c
+[34.418s] [ 59%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.cpp.o[0m
+[34.449s] [ 60%] [32m[1mLinking C shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so[0m
+[35.023s] [ 60%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c
+[35.117s] [ 62%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.cpp.o[0m
+[36.057s] [ 63%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/get_origin_spherical_coord__type_support.cpp.o[0m
+[36.082s] [ 64%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/transform_to_spherical_coord__type_support.cpp.o[0m
+[36.159s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.cpp.o[0m
+[37.020s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.cpp.o[0m
+[37.174s] [ 67%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps/transform_from_spherical_coord__type_support.cpp.o[0m
+[39.163s] [ 68%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[39.965s] [ 68%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp
+[40.368s] [ 70%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[41.242s] [ 70%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp
+[41.313s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[45.559s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c[0m
+[45.683s] [ 72%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support_c.cpp.o[0m
+[46.622s] [ 73%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support_c.cpp.o[0m
+[47.532s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support_c.cpp.o[0m
+[48.512s] [ 75%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support_c.cpp.o[0m
+[49.526s] [ 77%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support_c.cpp.o[0m
+[50.440s] [ 78%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support_c.cpp.o[0m
+[51.404s] [ 79%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support_c.cpp.o[0m
+[52.245s] [ 80%] [32mBuilding CXX object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support_c.cpp.o[0m
+[53.093s] [ 81%] [32m[1mLinking CXX shared library libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[53.606s] [ 81%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c
+[53.627s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs[0m
+[53.653s] [ 81%] Built target uuv_world_ros_plugins_msgs
+[53.685s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__py[0m
+[53.718s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[60.783s] [ 82%] Built target uuv_world_ros_plugins_msgs__py
+[60.810s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__python[0m
+[60.944s] [ 83%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_model_s.c.o[0m
+[61.514s] [ 85%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord_s.c.o[0m
+[61.828s] [ 86%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord_s.c.o[0m
+[62.125s] [ 87%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord_s.c.o[0m
+[62.465s] [ 88%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord_s.c.o[0m
+[62.859s] [ 89%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_direction_s.c.o[0m
+[63.132s] [ 90%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_set_current_velocity_s.c.o[0m
+[63.456s] [ 91%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__python.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/srv/_get_current_model_s.c.o[0m
+[63.741s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/libuuv_world_ros_plugins_msgs__python.so[0m
+[64.382s] [ 93%] Built target uuv_world_ros_plugins_msgs__python
+[64.411s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[64.499s] [ 94%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[64.976s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[65.430s] [ 95%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext
+[65.454s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext[0m
+[65.536s] [ 96%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[65.886s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[66.297s] [ 97%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_c__pyext
+[66.322s] [35m[1mScanning dependencies of target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[66.417s] [ 98%] [32mBuilding C object CMakeFiles/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_world_ros_plugins_msgs/_uuv_world_ros_plugins_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[66.824s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[67.196s] [100%] Built target uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext
+[67.252s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs -- -j8 -l8
+[68.167s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs
+[74.472s] -- Install configuration: ""
+[74.473s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/rosidl_interfaces/uuv_world_ros_plugins_msgs
+[74.473s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.473s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg
+[74.473s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg/rosidl_generator_c__visibility_control.h
+[74.474s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.476s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.477s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__struct.h
+[74.477s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.c
+[74.478s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.h
+[74.478s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.h
+[74.478s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__struct.h
+[74.479s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.h
+[74.479s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__struct.h
+[74.479s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__functions.c
+[74.479s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__struct.h
+[74.480s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.h
+[74.480s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.h
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__struct.h
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.h
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.h
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__functions.c
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.h
+[74.481s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.h
+[74.482s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__struct.h
+[74.482s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__functions.h
+[74.482s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.h
+[74.482s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.h
+[74.487s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.h
+[74.493s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.h
+[74.496s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__functions.c
+[74.497s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__functions.c
+[74.497s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.h
+[74.497s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__functions.c
+[74.497s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__struct.h
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__functions.c
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.h
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__functions.c
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__struct.h
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/get_current_model.h
+[74.498s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_velocity.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_direction.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_model.h
+[74.499s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/library_path.sh
+[74.500s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/library_path.dsv
+[74.500s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_c.so
+[74.500s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_generator_c.so" to ""
+[74.500s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.500s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg
+[74.500s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[74.501s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.501s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.501s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_fastrtps_c.h
+[74.501s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_fastrtps_c.h
+[74.501s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[74.501s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[74.502s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_fastrtps_c.h
+[74.502s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[74.502s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_fastrtps_c.h
+[74.502s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_fastrtps_c.h
+[74.502s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so
+[74.502s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[74.503s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.503s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg
+[74.503s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[74.504s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.504s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_fastrtps_cpp.hpp
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_fastrtps_cpp.hpp
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/dds_fastrtps
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[74.504s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[74.505s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[74.505s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_fastrtps_cpp.hpp
+[74.505s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_fastrtps_cpp.hpp
+[74.505s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so
+[74.505s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[74.505s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.505s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg
+[74.505s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[74.506s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.506s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.517s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_introspection_c.h
+[74.517s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_introspection_c.h
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.c
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_introspection_c.h
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.c
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.c
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_introspection_c.h
+[74.518s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_introspection_c.h
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.c
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.c
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_introspection_c.h
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_introspection_c.h
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.c
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_introspection_c.h
+[74.519s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.c
+[74.520s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.c
+[74.520s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so
+[74.520s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_c.so" to ""
+[74.520s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so
+[74.520s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_c.so" to ""
+[74.520s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.521s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg
+[74.521s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[74.521s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.521s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_velocity.hpp
+[74.521s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/transform_to_spherical_coord.hpp
+[74.521s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_model.hpp
+[74.522s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.522s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__builder.hpp
+[74.522s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__traits.hpp
+[74.522s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__struct.hpp
+[74.522s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.hpp
+[74.522s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__builder.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__builder.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__traits.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__struct.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__struct.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__traits.hpp
+[74.523s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__traits.hpp
+[74.524s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.hpp
+[74.524s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.hpp
+[74.524s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__struct.hpp
+[74.524s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.hpp
+[74.525s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.hpp
+[74.525s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__struct.hpp
+[74.525s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__struct.hpp
+[74.525s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__traits.hpp
+[74.525s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__traits.hpp
+[74.526s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__traits.hpp
+[74.526s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.hpp
+[74.536s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.hpp
+[74.536s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__builder.hpp
+[74.536s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__struct.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__traits.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__builder.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__struct.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__builder.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__builder.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.hpp
+[74.537s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__builder.hpp
+[74.538s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_current_direction.hpp
+[74.538s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/get_current_model.hpp
+[74.538s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/set_origin_spherical_coord.hpp
+[74.538s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/transform_from_spherical_coord.hpp
+[74.538s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/get_origin_spherical_coord.hpp
+[74.538s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs
+[74.538s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv
+[74.539s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail
+[74.539s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__type_support.cpp
+[74.539s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[74.540s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__type_support.cpp
+[74.540s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__rosidl_typesupport_introspection_cpp.hpp
+[74.540s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__rosidl_typesupport_introspection_cpp.hpp
+[74.540s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_from_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[74.540s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__type_support.cpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_velocity__type_support.cpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__type_support.cpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/transform_to_spherical_coord__type_support.cpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_current_model__rosidl_typesupport_introspection_cpp.hpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/get_origin_spherical_coord__rosidl_typesupport_introspection_cpp.hpp
+[74.541s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_direction__type_support.cpp
+[74.542s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_current_model__rosidl_typesupport_introspection_cpp.hpp
+[74.542s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/include/uuv_world_ros_plugins_msgs/srv/detail/set_origin_spherical_coord__type_support.cpp
+[74.542s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so
+[74.542s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[74.544s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so
+[74.545s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__rosidl_typesupport_cpp.so" to ""
+[74.545s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/pythonpath.sh
+[74.545s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/pythonpath.dsv
+[74.546s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/__init__.py
+[74.564s] Compiling '/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/__init__.py'...
+[74.586s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_direction.py
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord_s.c
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord_s.c
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_get_current_model_s.c
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_get_current_model.py
+[74.587s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_velocity_s.c
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_velocity.py
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord_s.c
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/__init__.py
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_model_s.c
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_transform_to_spherical_coord.py
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_get_origin_spherical_coord.py
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord.py
+[74.588s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_transform_from_spherical_coord_s.c
+[74.589s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_direction_s.c
+[74.589s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_origin_spherical_coord.py
+[74.589s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/srv/_set_current_model.py
+[74.589s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[74.590s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[74.591s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[74.594s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[74.596s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[74.597s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages/uuv_world_ros_plugins_msgs/uuv_world_ros_plugins_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[74.598s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__python.so
+[74.599s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/libuuv_world_ros_plugins_msgs__python.so" to ""
+[74.600s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.idl
+[74.600s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.idl
+[74.601s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.idl
+[74.601s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.idl
+[74.603s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.idl
+[74.605s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.idl
+[74.606s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.idl
+[74.611s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.idl
+[74.633s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel.srv
+[74.633s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel_Request.msg
+[74.634s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentModel_Response.msg
+[74.634s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel.srv
+[74.635s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel_Request.msg
+[74.636s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetCurrentModel_Response.msg
+[74.636s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity.srv
+[74.637s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity_Request.msg
+[74.637s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentVelocity_Response.msg
+[74.638s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection.srv
+[74.638s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection_Request.msg
+[74.639s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetCurrentDirection_Response.msg
+[74.639s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord.srv
+[74.640s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord_Request.msg
+[74.640s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/SetOriginSphericalCoord_Response.msg
+[74.641s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord.srv
+[74.641s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord_Request.msg
+[74.642s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/GetOriginSphericalCoord_Response.msg
+[74.643s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord.srv
+[74.643s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord_Request.msg
+[74.644s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformToSphericalCoord_Response.msg
+[74.645s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord.srv
+[74.645s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord_Request.msg
+[74.646s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/srv/TransformFromSphericalCoord_Response.msg
+[74.647s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/package_run_dependencies/uuv_world_ros_plugins_msgs
+[74.648s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/parent_prefix_path/uuv_world_ros_plugins_msgs
+[74.649s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/ament_prefix_path.sh
+[74.649s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/ament_prefix_path.dsv
+[74.650s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/path.sh
+[74.650s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/environment/path.dsv
+[74.651s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.bash
+[74.651s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.sh
+[74.652s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.zsh
+[74.653s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/local_setup.dsv
+[74.653s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/package.dsv
+[74.654s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/ament_index/resource_index/packages/uuv_world_ros_plugins_msgs
+[74.655s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_generator_cExport.cmake
+[74.656s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_generator_cExport-noconfig.cmake
+[74.656s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cExport.cmake
+[74.657s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[74.658s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cExport.cmake
+[74.659s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[74.662s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_generator_cppExport.cmake
+[74.663s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[74.665s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[74.666s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cppExport.cmake
+[74.667s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[74.667s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake-extras.cmake
+[74.668s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.668s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[74.669s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[74.669s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.670s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[74.671s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[74.671s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgsConfig.cmake
+[74.671s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake/uuv_world_ros_plugins_msgsConfig-version.cmake
+[74.672s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/package.xml
+[74.697s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs

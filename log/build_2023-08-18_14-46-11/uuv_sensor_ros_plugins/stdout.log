@@ -1,0 +1,177 @@
+[  3%] Built target uuv_gazebo_ros_camera_plugin
+[ 29%] Built target uuv_sensor_gazebo_msgs
+[ 33%] Built target image_sonar_ros_plugin
+[ 38%] Built target uuv_gazebo_ros_base_sensor_plugin
+[ 45%] Built target uuv_gazebo_ros_cpc_plugin
+[ 47%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 54%] Built target uuv_gazebo_ros_gps_plugin
+[ 61%] Built target uuv_gazebo_ros_pose_gt_plugin
+[ 68%] Built target uuv_gazebo_ros_magnetometer_plugin
+[ 77%] Built target uuv_gazebo_ros_subsea_pressure_plugin
+[ 82%] Built target uuv_gazebo_ros_dvl_plugin
+[ 89%] Built target uuv_gazebo_ros_rpt_plugin
+[ 96%] Built target uuv_gazebo_ros_imu_plugin
+[ 98%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_base_model_plugin.so[0m
+[100%] Built target uuv_gazebo_ros_base_model_plugin
+-- Install configuration: ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorImu.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_export_include_directories
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_environment_hooks
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorPressure.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/msgs
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorDvl.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_export_dependencies
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_export_libraries
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorImu.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/vector3d.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorPressure.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/vector3d.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/quaternion.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_uninstall_target
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/quaternion.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_ros_plugins_uninstall.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_gps_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_gps_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/SensorRpt.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/SensorImu.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/SensorPressure.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/SensorMagnetic.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/vector3d.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/SensorDvl.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_sensor_gazebo_msgs.dir/quaternion.pb.cc.o
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uninstall.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/3.16.3
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/3.16.3/CompilerIdC
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/3.16.3/CompilerIdC/tmp
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/3.16.3/CompilerIdCXX
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/CMakeTmp
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/image_sonar_ros_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/image_sonar_ros_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_base_sensor_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_base_sensor_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_pose_gt_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_pose_gt_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_cpc_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_cpc_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_camera_plugin.dir
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CMakeFiles/uuv_gazebo_ros_camera_plugin.dir/src
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorMagnetic.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorRpt.pb.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_package_templates
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorDvl.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_core
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_core/stamps
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorRpt.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SensorMagnetic.pb.cc
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share/ament_index
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share/ament_index/resource_index
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ament_cmake_index/share/ament_index/resource_index/packages
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_sensor_gazebo_msgs.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_sensor_gazebo_msgs.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_model_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_model_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_sensor_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_base_sensor_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_gps_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_gps_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_pose_gt_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_pose_gt_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_subsea_pressure_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_subsea_pressure_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_dvl_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_dvl_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_magnetometer_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_magnetometer_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_cpc_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_cpc_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_imu_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_imu_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_rpt_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_rpt_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_camera_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libuuv_gazebo_ros_camera_plugin.so" to ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libimage_sonar_ros_plugin.so
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib/libimage_sonar_ros_plugin.so" to ""
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/MagnetometerROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBasePlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/GPSROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/RPTROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/DVLROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/UnderwaterCameraROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/SubseaPressureROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/gazebo_ros_image_sonar.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/CPCROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseSensorPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/PoseGTROSPlugin.h
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/rpt.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/dvl.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/duo3d.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/p900.stl
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/m450-130.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/pressure.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/oe14-372.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/p900.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/dvl.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/rpt.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/p900.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/pressure.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/oe14-372.dae
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/meshes/m450-130.blend
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/stereo_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/pressure_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/sensor_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/sonar_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/chemical_concentration_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/gps_sensor_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/dvl_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/pose_3d_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/camera_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/rpt_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/magnetometer_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/urdf/imu_snippets.xacro
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/library_path.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/library_path.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_sensor_ros_plugins
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_sensor_ros_plugins
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/path.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/environment/path.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/local_setup.bash
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/local_setup.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/local_setup.zsh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/local_setup.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/ament_index/resource_index/packages/uuv_sensor_ros_plugins
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/cmake/uuv_sensor_ros_pluginsConfig.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/cmake/uuv_sensor_ros_pluginsConfig-version.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.xml

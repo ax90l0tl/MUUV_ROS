@@ -1,0 +1,39 @@
+[ 26%] Built target uuv_sensor_gazebo_msgs
+[ 29%] Built target uuv_gazebo_ros_camera_plugin
+[ 33%] Built target image_sonar_ros_plugin
+[35m[1mScanning dependencies of target uuv_gazebo_ros_subsea_pressure_plugin[0m
+[35m[1mScanning dependencies of target uuv_gazebo_ros_magnetometer_plugin[0m
+[35m[1mScanning dependencies of target uuv_gazebo_ros_dvl_plugin[0m
+[ 38%] Built target uuv_gazebo_ros_base_sensor_plugin
+[ 45%] Built target uuv_gazebo_ros_gps_plugin
+[ 52%] Built target uuv_gazebo_ros_pose_gt_plugin
+[35m[1mScanning dependencies of target uuv_gazebo_ros_imu_plugin[0m
+[35m[1mScanning dependencies of target uuv_gazebo_ros_rpt_plugin[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_base_model_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 63%] Built target uuv_gazebo_ros_cpc_plugin
+[ 64%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/src/RPTROSPlugin.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/IMUROSPlugin.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/src/MagnetometerROSPlugin.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/src/SubseaPressureROSPlugin.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/src/DVLROSPlugin.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_rpt_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_magnetometer_plugin.dir/src/ROSBasePlugin.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_subsea_pressure_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_imu_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 89%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_rpt_plugin.so[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/uuv_gazebo_ros_dvl_plugin.dir/src/ROSBaseModelPlugin.cpp.o[0m
+[ 92%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_subsea_pressure_plugin.so[0m
+[ 94%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_imu_plugin.so[0m
+[ 96%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_magnetometer_plugin.so[0m
+[ 98%] [32m[1mLinking CXX shared library libuuv_gazebo_ros_dvl_plugin.so[0m
+[ 98%] Built target uuv_gazebo_ros_rpt_plugin
+[ 98%] Built target uuv_gazebo_ros_subsea_pressure_plugin
+[ 98%] Built target uuv_gazebo_ros_imu_plugin
+[ 98%] Built target uuv_gazebo_ros_magnetometer_plugin
+[ 98%] Built target uuv_gazebo_ros_dvl_plugin

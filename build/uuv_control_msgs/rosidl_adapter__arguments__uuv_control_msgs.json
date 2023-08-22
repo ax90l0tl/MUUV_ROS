@@ -1,0 +1,31 @@
+{
+  "package_name": "uuv_control_msgs",
+  "non_idl_tuples": [
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:msg/Trajectory.msg",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:msg/TrajectoryPoint.msg",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:msg/Waypoint.msg",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:msg/WaypointSet.msg",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/AddWaypoint.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/ClearWaypoints.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/InitCircularTrajectory.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/InitHelicalTrajectory.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/InitWaypointsFromFile.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GetWaypoints.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GoTo.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GoToIncremental.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/Hold.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/IsRunningTrajectory.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/InitWaypointSet.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/InitRectTrajectory.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/StartTrajectory.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/SwitchToAutomatic.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/SwitchToManual.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/SetPIDParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GetPIDParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/SetSMControllerParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GetSMControllerParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/SetMBSMControllerParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/GetMBSMControllerParams.srv",
+    "/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs:srv/ResetController.srv"
+  ]
+}

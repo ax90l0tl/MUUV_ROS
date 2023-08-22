@@ -1,0 +1,8 @@
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentModel.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/GetCurrentModel.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentVelocity.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetCurrentDirection.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/SetOriginSphericalCoord.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/GetOriginSphericalCoord.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/TransformToSphericalCoord.idl
+/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins_msgs/rosidl_adapter/uuv_world_ros_plugins_msgs:srv/TransformFromSphericalCoord.idl

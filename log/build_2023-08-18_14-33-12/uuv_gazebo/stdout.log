@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isopodin-time/ros2_ws/build/uuv_gazebo
+-- Install configuration: ""
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_oberon_jt_controller.rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_sonar.rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_default.rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov.perspective
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/bathymetry.rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/controller_demo.rviz
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_mb_smc_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_disturbance_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_pid_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/record_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nmb_smc_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nl_pid_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_pid_demo_with_teleop.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nmb_smc_demo_with_teleop.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_bop_panel.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_default.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_demo_logitech_joy.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_arms_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon4_demo.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_arms_demo_logitech_joy.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon4_demo_logitech_joy.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_default_logitech_joy.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_sonar.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_sonar_logitech_joy.launch
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config/disturbances
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config/disturbances/test_disturbances.yaml
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/path.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/path.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.bash
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.sh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.zsh
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/package.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/packages/uuv_gazebo
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/cmake/uuv_gazeboConfig.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/cmake/uuv_gazeboConfig-version.cmake
+-- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/package.xml

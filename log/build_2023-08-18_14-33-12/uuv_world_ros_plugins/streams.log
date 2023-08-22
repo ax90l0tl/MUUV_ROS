@@ -1,0 +1,145 @@
+[0.525s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins
+[0.796s] -- The C compiler identification is GNU 9.4.0
+[1.286s] -- The CXX compiler identification is GNU 9.4.0
+[1.496s] -- Check for working C compiler: /usr/bin/cc
+[1.785s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.787s] -- Detecting C compiler ABI info
+[2.051s] -- Detecting C compiler ABI info - done
+[2.062s] -- Detecting C compile features
+[2.062s] -- Detecting C compile features - done
+[2.066s] -- Check for working CXX compiler: /usr/bin/c++
+[2.373s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.375s] -- Detecting CXX compiler ABI info
+[2.651s] -- Detecting CXX compiler ABI info - done
+[2.675s] -- Detecting CXX compile features
+[2.676s] -- Detecting CXX compile features - done
+[2.679s] -- Found uuv_world_plugins: 0.6.1 (/home/isopodin-time/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake)
+[2.733s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.734s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.262s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[3.272s] -- Checking for module 'bullet>=2.82'
+[3.362s] --   Found bullet, version 2.88
+[5.712s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[5.866s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[6.089s] -- Found assimp: /usr/include (found version "5.0.0") 
+[6.142s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.229s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[7.944s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[7.954s] -- Looking for ignition-math6 -- found version 6.14.0
+[7.963s] -- Searching for dependencies of ignition-math6
+[7.965s] -- Looking for OGRE...
+[7.966s] -- OGRE_PREFIX_WATCH changed.
+[7.974s] -- Checking for module 'OGRE'
+[8.002s] --   Found OGRE, version 1.9.0
+[8.219s] -- Found Ogre Ghadamon (1.9.0)
+[9.749s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[9.770s] -- Looking for OGRE_Paging...
+[10.454s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[10.454s] -- Looking for OGRE_Terrain...
+[11.123s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[11.124s] -- Looking for OGRE_Property...
+[11.816s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[11.817s] -- Looking for OGRE_RTShaderSystem...
+[12.557s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[12.558s] -- Looking for OGRE_Volume...
+[13.296s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[13.296s] -- Looking for OGRE_Overlay...
+[14.017s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[55.050s] -- Looking for ignition-math6 -- found version 6.14.0
+[55.055s] -- Looking for ignition-transport8 -- found version 8.4.0
+[55.055s] -- Searching for dependencies of ignition-transport8
+[57.244s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[59.115s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[59.125s] -- Checking for module 'libzmq >= 4'
+[59.165s] --   Found libzmq , version 4.3.2
+[59.377s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[59.436s] -- Checking for module 'uuid'
+[59.472s] --   Found uuid, version 2.34.0
+[59.703s] -- Found UUID: TRUE  
+[59.713s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[59.714s] -- Searching for dependencies of ignition-msgs5
+[61.626s] -- Looking for ignition-math6 -- found version 6.14.0
+[61.635s] -- Checking for module 'tinyxml2'
+[61.697s] --   Found tinyxml2, version 6.2.0
+[61.983s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[61.990s] -- Looking for ignition-common3 -- found version 3.16.0
+[61.991s] -- Searching for dependencies of ignition-common3
+[62.075s] -- Looking for dlfcn.h - found
+[62.172s] -- Looking for libdl - found
+[62.178s] -- Found DL: TRUE  
+[62.366s] -- Searching for <ignition-common3> component [graphics]
+[62.372s] -- Looking for ignition-common3-graphics -- found version 3.16.0
+[62.375s] -- Searching for dependencies of ignition-common3-graphics
+[62.377s] -- Looking for ignition-math6 -- found version 6.14.0
+[62.385s] -- Looking for ignition-fuel_tools4 -- found version 4.9.0
+[62.388s] -- Searching for dependencies of ignition-fuel_tools4
+[63.373s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[63.411s] -- Checking for module 'jsoncpp'
+[63.456s] --   Found jsoncpp, version 1.7.4
+[63.772s] -- Found JSONCPP: TRUE  
+[63.794s] -- Checking for module 'libzip'
+[63.848s] --   Found libzip, version 1.5.1
+[64.155s] -- Found ZIP: TRUE  
+[64.158s] -- Looking for ignition-common3 -- found version 3.16.0
+[64.161s] -- Looking for ignition-math6 -- found version 6.14.0
+[64.164s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[64.167s] -- Gazebo version: 11.13
+[64.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[64.490s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[67.077s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[69.302s] -- Found FastRTPS: /opt/ros/foxy/include  
+[73.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[74.327s] -- Found uuv_world_ros_plugins_msgs: 0.6.1 (/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/share/uuv_world_ros_plugins_msgs/cmake)
+[74.427s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[74.507s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[74.513s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[74.516s] -- Found Threads: TRUE  
+[75.035s] -- Configuring done
+[75.141s] -- Generating done
+[75.144s] -- Build files have been written to: /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins
+[75.158s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins' returned '0': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_ros_plugins -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins
+[75.162s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins -- -j8 -l8
+[75.220s] [35m[1mScanning dependencies of target uuv_sc_ros_interface_plugin[0m
+[75.221s] [35m[1mScanning dependencies of target uuv_underwater_current_ros_plugin[0m
+[75.385s] [ 25%] [32mBuilding CXX object CMakeFiles/uuv_sc_ros_interface_plugin.dir/src/SphericalCoordinatesROSInterfacePlugin.cpp.o[0m
+[75.399s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_ros_plugin.dir/src/UnderwaterCurrentROSPlugin.cpp.o[0m
+[94.610s] [ 75%] [32m[1mLinking CXX shared library libuuv_sc_ros_interface_plugin.so[0m
+[95.859s] [ 75%] Built target uuv_sc_ros_interface_plugin
+[98.367s] [100%] [32m[1mLinking CXX shared library libuuv_underwater_current_ros_plugin.so[0m
+[99.580s] [100%] Built target uuv_underwater_current_ros_plugin
+[99.596s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins' returned '0': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins -- -j8 -l8
+[99.654s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins
+[99.665s] -- Install configuration: ""
+[99.665s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib/libuuv_underwater_current_ros_plugin.so
+[99.672s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib/libuuv_underwater_current_ros_plugin.so" to ""
+[99.672s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib/libuuv_sc_ros_interface_plugin.so
+[99.678s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib/libuuv_sc_ros_interface_plugin.so" to ""
+[99.678s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/include/uuv_world_ros_plugins
+[99.681s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.h
+[99.681s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.h
+[99.682s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/library_path.sh
+[99.682s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/library_path.dsv
+[99.683s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_world_ros_plugins
+[99.684s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_world_ros_plugins
+[99.684s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/ament_prefix_path.sh
+[99.684s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/ament_prefix_path.dsv
+[99.685s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/path.sh
+[99.685s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/environment/path.dsv
+[99.686s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/local_setup.bash
+[99.686s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/local_setup.sh
+[99.686s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/local_setup.zsh
+[99.686s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/local_setup.dsv
+[99.687s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/package.dsv
+[99.687s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/ament_index/resource_index/packages/uuv_world_ros_plugins
+[99.688s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/export_uuv_underwater_current_ros_pluginExport.cmake
+[99.688s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/export_uuv_underwater_current_ros_pluginExport-noconfig.cmake
+[99.689s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/export_uuv_sc_ros_interface_pluginExport.cmake
+[99.689s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/export_uuv_sc_ros_interface_pluginExport-noconfig.cmake
+[99.690s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[99.690s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[99.690s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.691s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[99.691s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/uuv_world_ros_pluginsConfig.cmake
+[99.691s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/cmake/uuv_world_ros_pluginsConfig-version.cmake
+[99.691s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/share/uuv_world_ros_plugins/package.xml
+[99.700s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins' returned '0': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_world_ros_plugins

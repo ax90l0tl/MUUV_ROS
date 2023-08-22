@@ -1,0 +1,35 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isopodin-time/ros2_ws/build/muuv_sim_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/urdf/actuators.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/urdf/base.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/urdf/gazebo.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/urdf/sensors.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/urdf/snippets.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/meshes/README.md
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/robots/default.xacro
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/launch/upload.launch
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/package_run_dependencies/muuv_sim_description
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/parent_prefix_path/muuv_sim_description
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/path.sh
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/path.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.bash
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.sh
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.zsh
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/package.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/packages/muuv_sim_description
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/cmake/muuv_sim_descriptionConfig.cmake
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/cmake/muuv_sim_descriptionConfig-version.cmake
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/package.xml

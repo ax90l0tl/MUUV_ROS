@@ -1,0 +1,20 @@
+[0.055s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_sim_description -- -j8 -l8
+[10.010s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_sim_description -- -j8 -l8
+[10.065s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_sim_description
+[11.091s] -- Install configuration: ""
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/package_run_dependencies/muuv_sim_description
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/parent_prefix_path/muuv_sim_description
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/ament_prefix_path.sh
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/ament_prefix_path.dsv
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/path.sh
+[11.092s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/environment/path.dsv
+[11.093s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.bash
+[11.093s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.sh
+[11.093s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.zsh
+[11.093s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/local_setup.dsv
+[11.094s] -- Installing: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/package.dsv
+[11.100s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/ament_index/resource_index/packages/muuv_sim_description
+[11.101s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/cmake/muuv_sim_descriptionConfig.cmake
+[11.101s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/cmake/muuv_sim_descriptionConfig-version.cmake
+[11.101s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_sim_description/share/muuv_sim_description/package.xml
+[11.120s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_sim_description

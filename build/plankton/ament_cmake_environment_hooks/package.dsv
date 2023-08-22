@@ -1,0 +1,4 @@
+source;share/plankton/local_setup.bash
+source;share/plankton/local_setup.dsv
+source;share/plankton/local_setup.sh
+source;share/plankton/local_setup.zsh

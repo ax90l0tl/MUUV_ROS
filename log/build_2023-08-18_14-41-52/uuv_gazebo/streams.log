@@ -1,0 +1,52 @@
+[0.132s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_gazebo -- -j8 -l8
+[0.313s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_gazebo -- -j8 -l8
+[0.572s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_gazebo
+[0.646s] -- Install configuration: ""
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_oberon_jt_controller.rviz
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_sonar.rviz
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov_default.rviz
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/rexrov.perspective
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/bathymetry.rviz
+[0.646s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/rviz/controller_demo.rviz
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_mb_smc_demo.launch
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_disturbance_demo.launch
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_pid_demo.launch
+[0.647s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/record_demo.launch
+[0.648s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nmb_smc_demo.launch
+[0.650s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nl_pid_demo.launch
+[0.651s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_pid_demo_with_teleop.launch
+[0.651s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/controller_demos/start_nmb_smc_demo_with_teleop.launch
+[0.654s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos
+[0.655s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_demo.launch
+[0.655s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_bop_panel.launch
+[0.655s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_default.launch
+[0.655s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_demo_logitech_joy.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_arms_demo.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon4_demo.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon_arms_demo_logitech_joy.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_oberon4_demo_logitech_joy.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_default_logitech_joy.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_sonar.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/launch/rexrov_demos/rexrov_sonar_logitech_joy.launch
+[0.656s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config
+[0.657s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config/disturbances
+[0.657s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/config/disturbances/test_disturbances.yaml
+[0.658s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo
+[0.660s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo
+[0.661s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/ament_prefix_path.sh
+[0.661s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/ament_prefix_path.dsv
+[0.661s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/path.sh
+[0.661s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/environment/path.dsv
+[0.662s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.bash
+[0.662s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.sh
+[0.662s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.zsh
+[0.662s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/local_setup.dsv
+[0.663s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/package.dsv
+[0.663s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/ament_index/resource_index/packages/uuv_gazebo
+[0.663s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/cmake/uuv_gazeboConfig.cmake
+[0.663s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/cmake/uuv_gazeboConfig-version.cmake
+[0.664s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_gazebo/share/uuv_gazebo/package.xml
+[0.728s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_gazebo

@@ -1,0 +1,971 @@
+[0.120s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_control_msgs
+[0.457s] -- The C compiler identification is GNU 9.4.0
+[0.830s] -- The CXX compiler identification is GNU 9.4.0
+[1.010s] -- Check for working C compiler: /usr/bin/cc
+[1.274s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.285s] -- Detecting C compiler ABI info
+[1.562s] -- Detecting C compiler ABI info - done
+[1.581s] -- Detecting C compile features
+[1.582s] -- Detecting C compile features - done
+[1.586s] -- Check for working CXX compiler: /usr/bin/c++
+[1.944s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.944s] -- Detecting CXX compiler ABI info
+[2.194s] -- Detecting CXX compiler ABI info - done
+[2.223s] -- Detecting CXX compile features
+[2.224s] -- Detecting CXX compile features - done
+[2.228s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.068s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.581s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.500s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.573s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[9.650s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[10.501s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[19.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.065s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.132s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[20.134s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[21.247s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[21.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.247s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[21.247s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[21.301s] -- Found PythonExtra: .so  
+[21.839s] -- Configuring done
+[22.484s] -- Generating done
+[22.503s] -- Build files have been written to: /home/isopodin-time/ros2_ws/build/uuv_control_msgs
+[22.557s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_control_msgs -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/uuv_control_msgs
+[22.558s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_control_msgs -- -j8 -l8
+[49.405s] [35m[1mScanning dependencies of target uuv_control_msgs__cpp[0m
+[49.405s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[49.405s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[49.406s] [  0%] Built target uuv_control_msgs__cpp
+[49.406s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_generator_c[0m
+[49.406s] [  1%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/trajectory__functions.c.o[0m
+[49.406s] [  2%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/add_waypoint__functions.c.o[0m
+[49.407s] [  2%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/clear_waypoints__functions.c.o[0m
+[49.407s] [  3%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_circular_trajectory__functions.c.o[0m
+[49.407s] [  3%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_helical_trajectory__functions.c.o[0m
+[49.408s] [  3%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__functions.c.o[0m
+[49.409s] [  4%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_waypoints__functions.c.o[0m
+[49.409s] [  4%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/go_to__functions.c.o[0m
+[49.409s] [  5%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/go_to_incremental__functions.c.o[0m
+[49.410s] [  5%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/hold__functions.c.o[0m
+[49.459s] [  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/is_running_trajectory__functions.c.o[0m
+[49.601s] [  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_waypoint_set__functions.c.o[0m
+[49.912s] [  6%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/init_rect_trajectory__functions.c.o[0m
+[50.064s] [  7%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/start_trajectory__functions.c.o[0m
+[50.211s] [  7%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/switch_to_automatic__functions.c.o[0m
+[50.360s] [  8%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/switch_to_manual__functions.c.o[0m
+[50.511s] [  8%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_pid_params__functions.c.o[0m
+[50.670s] [  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_pid_params__functions.c.o[0m
+[50.905s] [  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_sm_controller_params__functions.c.o[0m
+[51.100s] [  9%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_sm_controller_params__functions.c.o[0m
+[51.246s] [ 10%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__functions.c.o[0m
+[51.373s] [ 10%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__functions.c.o[0m
+[51.524s] [ 11%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/srv/detail/reset_controller__functions.c.o[0m
+[51.663s] [ 11%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/waypoint_set__functions.c.o[0m
+[51.800s] [ 12%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/waypoint__functions.c.o[0m
+[51.944s] [ 12%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/uuv_control_msgs/msg/detail/trajectory_point__functions.c.o[0m
+[52.061s] [ 12%] [32m[1mLinking C shared library libuuv_control_msgs__rosidl_generator_c.so[0m
+[52.439s] [ 12%] Built target uuv_control_msgs__rosidl_generator_c
+[52.474s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[57.744s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_cpp[0m
+[57.916s] [ 13%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/trajectory__type_support.cpp.o[0m
+[58.654s] [ 13%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/waypoint_set__type_support.cpp.o[0m
+[59.383s] [ 14%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/add_waypoint__type_support.cpp.o[0m
+[60.136s] [ 14%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/clear_waypoints__type_support.cpp.o[0m
+[61.088s] [ 15%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_circular_trajectory__type_support.cpp.o[0m
+[62.124s] [ 15%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_helical_trajectory__type_support.cpp.o[0m
+[63.040s] [ 15%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_waypoints_from_file__type_support.cpp.o[0m
+[63.912s] [ 16%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_waypoints__type_support.cpp.o[0m
+[64.755s] [ 16%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/go_to__type_support.cpp.o[0m
+[65.548s] [ 17%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/go_to_incremental__type_support.cpp.o[0m
+[66.279s] [ 17%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/hold__type_support.cpp.o[0m
+[67.080s] [ 18%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/is_running_trajectory__type_support.cpp.o[0m
+[67.866s] [ 18%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_waypoint_set__type_support.cpp.o[0m
+[68.607s] [ 19%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/init_rect_trajectory__type_support.cpp.o[0m
+[69.315s] [ 19%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[69.964s] [ 19%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/switch_to_automatic__type_support.cpp.o[0m
+[70.602s] [ 20%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/switch_to_manual__type_support.cpp.o[0m
+[71.220s] [ 20%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_pid_params__type_support.cpp.o[0m
+[71.822s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_pid_params__type_support.cpp.o[0m
+[72.405s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_sm_controller_params__type_support.cpp.o[0m
+[73.036s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_sm_controller_params__type_support.cpp.o[0m
+[73.660s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/set_mbsm_controller_params__type_support.cpp.o[0m
+[74.239s] [ 22%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/get_mbsm_controller_params__type_support.cpp.o[0m
+[74.947s] [ 23%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/srv/reset_controller__type_support.cpp.o[0m
+[75.908s] [ 24%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/waypoint__type_support.cpp.o[0m
+[76.729s] [ 24%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_control_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[77.522s] [ 24%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_cpp.so[0m
+[77.873s] [ 24%] Built target uuv_control_msgs__rosidl_typesupport_cpp
+[77.942s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[85.215s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_introspection_c[0m
+[85.317s] [ 25%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/trajectory__type_support.c.o[0m
+[85.446s] [ 25%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/add_waypoint__type_support.c.o[0m
+[85.528s] [ 25%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/clear_waypoints__type_support.c.o[0m
+[85.616s] [ 26%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.c.o[0m
+[85.690s] [ 26%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.c.o[0m
+[85.765s] [ 27%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.c.o[0m
+[85.842s] [ 27%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_waypoints__type_support.c.o[0m
+[85.923s] [ 28%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/go_to__type_support.c.o[0m
+[85.995s] [ 28%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/go_to_incremental__type_support.c.o[0m
+[86.065s] [ 28%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/hold__type_support.c.o[0m
+[86.142s] [ 29%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.c.o[0m
+[86.222s] [ 29%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.c.o[0m
+[86.358s] [ 30%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.c.o[0m
+[86.456s] [ 30%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/start_trajectory__type_support.c.o[0m
+[86.529s] [ 31%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.c.o[0m
+[86.606s] [ 31%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/switch_to_manual__type_support.c.o[0m
+[86.676s] [ 31%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_pid_params__type_support.c.o[0m
+[86.757s] [ 32%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_pid_params__type_support.c.o[0m
+[86.834s] [ 32%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.c.o[0m
+[86.921s] [ 33%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.c.o[0m
+[87.002s] [ 33%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.c.o[0m
+[87.080s] [ 34%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.c.o[0m
+[87.169s] [ 34%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/srv/detail/reset_controller__type_support.c.o[0m
+[87.278s] [ 35%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/waypoint_set__type_support.c.o[0m
+[87.405s] [ 35%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/waypoint__type_support.c.o[0m
+[87.493s] [ 36%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_control_msgs/msg/detail/trajectory_point__type_support.c.o[0m
+[87.603s] [ 37%] [32m[1mLinking C shared library libuuv_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[87.974s] [ 37%] Built target uuv_control_msgs__rosidl_typesupport_introspection_c
+[88.006s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[93.318s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_c[0m
+[93.380s] [ 38%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/trajectory__type_support.cpp.o[0m
+[93.537s] [ 38%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/clear_waypoints__type_support.cpp.o[0m
+[93.615s] [ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_circular_trajectory__type_support.cpp.o[0m
+[93.684s] [ 39%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_helical_trajectory__type_support.cpp.o[0m
+[93.746s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_waypoints_from_file__type_support.cpp.o[0m
+[93.810s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_waypoints__type_support.cpp.o[0m
+[93.877s] [ 40%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/go_to__type_support.cpp.o[0m
+[93.944s] [ 41%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/go_to_incremental__type_support.cpp.o[0m
+[94.009s] [ 41%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/hold__type_support.cpp.o[0m
+[94.073s] [ 42%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/is_running_trajectory__type_support.cpp.o[0m
+[94.174s] [ 42%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_waypoint_set__type_support.cpp.o[0m
+[94.240s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/init_rect_trajectory__type_support.cpp.o[0m
+[94.303s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/start_trajectory__type_support.cpp.o[0m
+[94.366s] [ 43%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/switch_to_automatic__type_support.cpp.o[0m
+[94.430s] [ 44%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/switch_to_manual__type_support.cpp.o[0m
+[94.527s] [ 44%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_pid_params__type_support.cpp.o[0m
+[94.616s] [ 45%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_pid_params__type_support.cpp.o[0m
+[94.682s] [ 45%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_sm_controller_params__type_support.cpp.o[0m
+[94.783s] [ 46%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_sm_controller_params__type_support.cpp.o[0m
+[94.853s] [ 46%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/set_mbsm_controller_params__type_support.cpp.o[0m
+[94.915s] [ 46%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/get_mbsm_controller_params__type_support.cpp.o[0m
+[94.977s] [ 47%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/reset_controller__type_support.cpp.o[0m
+[95.040s] [ 48%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/srv/add_waypoint__type_support.cpp.o[0m
+[95.154s] [ 48%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/waypoint_set__type_support.cpp.o[0m
+[95.220s] [ 49%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/waypoint__type_support.cpp.o[0m
+[95.279s] [ 49%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_control_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[95.343s] [ 49%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_c.so[0m
+[95.581s] [ 49%] Built target uuv_control_msgs__rosidl_typesupport_c
+[95.606s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[102.153s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[102.258s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[103.319s] [ 51%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_circular_trajectory__type_support.cpp.o[0m
+[104.296s] [ 51%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_helical_trajectory__type_support.cpp.o[0m
+[105.415s] [ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_waypoints_from_file__type_support.cpp.o[0m
+[106.470s] [ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_waypoints__type_support.cpp.o[0m
+[107.521s] [ 52%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[108.447s] [ 53%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/go_to_incremental__type_support.cpp.o[0m
+[109.385s] [ 53%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/hold__type_support.cpp.o[0m
+[110.364s] [ 54%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/is_running_trajectory__type_support.cpp.o[0m
+[111.361s] [ 54%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_waypoint_set__type_support.cpp.o[0m
+[112.429s] [ 55%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/init_rect_trajectory__type_support.cpp.o[0m
+[113.382s] [ 55%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/start_trajectory__type_support.cpp.o[0m
+[114.343s] [ 55%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/switch_to_automatic__type_support.cpp.o[0m
+[115.436s] [ 56%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/switch_to_manual__type_support.cpp.o[0m
+[116.398s] [ 56%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_pid_params__type_support.cpp.o[0m
+[117.353s] [ 57%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_pid_params__type_support.cpp.o[0m
+[118.302s] [ 57%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_sm_controller_params__type_support.cpp.o[0m
+[119.331s] [ 58%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_sm_controller_params__type_support.cpp.o[0m
+[120.215s] [ 58%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/set_mbsm_controller_params__type_support.cpp.o[0m
+[121.083s] [ 59%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/get_mbsm_controller_params__type_support.cpp.o[0m
+[121.955s] [ 59%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/reset_controller__type_support.cpp.o[0m
+[122.808s] [ 59%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp.o[0m
+[123.544s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp.o[0m
+[124.377s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/waypoint_set__type_support.cpp.o[0m
+[125.200s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[125.961s] [ 61%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_control_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o[0m
+[126.722s] [ 61%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[127.140s] [ 61%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_cpp
+[127.165s] [ 62%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[132.609s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[132.669s] [ 62%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/trajectory__type_support.cpp.o[0m
+[133.311s] [ 63%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.cpp.o[0m
+[133.833s] [ 63%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.cpp.o[0m
+[134.362s] [ 64%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.cpp.o[0m
+[134.900s] [ 64%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_waypoints__type_support.cpp.o[0m
+[135.537s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/go_to__type_support.cpp.o[0m
+[136.092s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/go_to_incremental__type_support.cpp.o[0m
+[136.604s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/hold__type_support.cpp.o[0m
+[137.173s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.cpp.o[0m
+[138.059s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.cpp.o[0m
+[138.771s] [ 67%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.cpp.o[0m
+[139.285s] [ 67%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/start_trajectory__type_support.cpp.o[0m
+[139.770s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.cpp.o[0m
+[139.774s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/clear_waypoints__type_support.cpp.o[0m
+[140.274s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/switch_to_manual__type_support.cpp.o[0m
+[140.432s] [ 68%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_pid_params__type_support.cpp.o[0m
+[140.848s] [ 69%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_pid_params__type_support.cpp.o[0m
+[141.222s] [ 69%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.cpp.o[0m
+[141.480s] [ 70%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.cpp.o[0m
+[141.876s] [ 70%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.cpp.o[0m
+[142.142s] [ 71%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.cpp.o[0m
+[142.519s] [ 71%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/reset_controller__type_support.cpp.o[0m
+[142.741s] [ 71%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/srv/detail/add_waypoint__type_support.cpp.o[0m
+[143.022s] [ 72%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/waypoint_set__type_support.cpp.o[0m
+[143.443s] [ 72%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/waypoint__type_support.cpp.o[0m
+[144.022s] [ 73%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_control_msgs/msg/detail/trajectory_point__type_support.cpp.o[0m
+[145.154s] [ 74%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[145.730s] [ 74%] Built target uuv_control_msgs__rosidl_typesupport_introspection_cpp
+[145.781s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[153.162s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[153.327s] [ 76%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/trajectory_point__type_support_c.cpp.o[0m
+[153.334s] [ 76%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/trajectory__type_support_c.cpp.o[0m
+[154.168s] [ 76%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support_c.cpp.o[0m
+[154.321s] [ 77%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support_c.cpp.o[0m
+[155.220s] [ 77%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/go_to__type_support_c.cpp.o[0m
+[155.949s] [ 78%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/go_to_incremental__type_support_c.cpp.o[0m
+[156.643s] [ 78%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/hold__type_support_c.cpp.o[0m
+[157.413s] [ 79%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/is_running_trajectory__type_support_c.cpp.o[0m
+[158.132s] [ 79%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_waypoint_set__type_support_c.cpp.o[0m
+[158.857s] [ 80%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support_c.cpp.o[0m
+[159.538s] [ 80%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/start_trajectory__type_support_c.cpp.o[0m
+[160.204s] [ 81%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/switch_to_automatic__type_support_c.cpp.o[0m
+[160.909s] [ 81%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/switch_to_manual__type_support_c.cpp.o[0m
+[161.590s] [ 81%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_pid_params__type_support_c.cpp.o[0m
+[162.269s] [ 82%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_pid_params__type_support_c.cpp.o[0m
+[163.064s] [ 82%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support_c.cpp.o[0m
+[163.858s] [ 83%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support_c.cpp.o[0m
+[164.537s] [ 83%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support_c.cpp.o[0m
+[165.305s] [ 84%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support_c.cpp.o[0m
+[165.305s] [ 84%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/get_waypoints__type_support_c.cpp.o[0m
+[166.146s] [ 84%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/reset_controller__type_support_c.cpp.o[0m
+[166.162s] [ 85%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support_c.cpp.o[0m
+[166.958s] [ 85%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/clear_waypoints__type_support_c.cpp.o[0m
+[167.042s] [ 86%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/srv/detail/add_waypoint__type_support_c.cpp.o[0m
+[167.768s] [ 86%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/waypoint_set__type_support_c.cpp.o[0m
+[167.877s] [ 86%] [32mBuilding CXX object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_control_msgs/msg/detail/waypoint__type_support_c.cpp.o[0m
+[168.742s] [ 86%] [32m[1mLinking CXX shared library libuuv_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[169.178s] [ 86%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_c
+[169.203s] [35m[1mScanning dependencies of target uuv_control_msgs[0m
+[169.241s] [ 86%] Built target uuv_control_msgs
+[169.272s] [35m[1mScanning dependencies of target uuv_control_msgs__py[0m
+[169.296s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[180.275s] [ 86%] Built target uuv_control_msgs__py
+[180.295s] [35m[1mScanning dependencies of target uuv_control_msgs__python[0m
+[180.429s] [ 86%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/msg/_trajectory_point_s.c.o[0m
+[180.433s] [ 87%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/msg/_trajectory_s.c.o[0m
+[180.456s] [ 88%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/msg/_waypoint_s.c.o[0m
+[180.457s] [ 88%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/msg/_waypoint_set_s.c.o[0m
+[180.740s] [ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_helical_trajectory_s.c.o[0m
+[180.760s] [ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_waypoints_from_file_s.c.o[0m
+[180.788s] [ 89%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_circular_trajectory_s.c.o[0m
+[180.793s] [ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_waypoints_s.c.o[0m
+[180.841s] [ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_clear_waypoints_s.c.o[0m
+[180.889s] [ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_go_to_s.c.o[0m
+[181.164s] [ 90%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_hold_s.c.o[0m
+[181.182s] [ 92%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_go_to_incremental_s.c.o[0m
+[181.182s] [ 92%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_add_waypoint_s.c.o[0m
+[181.281s] [ 93%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_waypoint_set_s.c.o[0m
+[181.297s] [ 93%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_is_running_trajectory_s.c.o[0m
+[181.330s] [ 94%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_start_trajectory_s.c.o[0m
+[181.501s] [ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_switch_to_manual_s.c.o[0m
+[181.509s] [ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_switch_to_automatic_s.c.o[0m
+[181.560s] [ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_pid_params_s.c.o[0m
+[181.590s] [ 95%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_pid_params_s.c.o[0m
+[181.633s] [ 96%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_sm_controller_params_s.c.o[0m
+[181.830s] [ 96%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_sm_controller_params_s.c.o[0m
+[181.843s] [ 96%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_init_rect_trajectory_s.c.o[0m
+[181.863s] [ 97%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_set_mbsm_controller_params_s.c.o[0m
+[182.044s] [ 97%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_get_mbsm_controller_params_s.c.o[0m
+[182.133s] [ 98%] [32mBuilding C object CMakeFiles/uuv_control_msgs__python.dir/rosidl_generator_py/uuv_control_msgs/srv/_reset_controller_s.c.o[0m
+[182.554s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/libuuv_control_msgs__python.so[0m
+[182.896s] [ 98%] Built target uuv_control_msgs__python
+[182.929s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[182.937s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[182.967s] [35m[1mScanning dependencies of target uuv_control_msgs__rosidl_typesupport_c__pyext[0m
+[183.038s] [ 99%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[183.060s] [100%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[183.063s] [100%] [32mBuilding C object CMakeFiles/uuv_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_control_msgs/_uuv_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[183.842s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[183.872s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[183.921s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[184.353s] [100%] Built target uuv_control_msgs__rosidl_typesupport_introspection_c__pyext
+[184.368s] [100%] Built target uuv_control_msgs__rosidl_typesupport_c__pyext
+[184.374s] [100%] Built target uuv_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[184.409s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/uuv_control_msgs -- -j8 -l8
+[185.726s] Invoking command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_control_msgs
+[185.749s] -- Install configuration: ""
+[185.750s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/ament_index/resource_index/rosidl_interfaces/uuv_control_msgs
+[185.750s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.751s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.752s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/waypoint.h
+[185.752s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/trajectory_point.h
+[185.752s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.753s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__functions.c
+[185.753s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__functions.c
+[185.754s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__functions.h
+[185.754s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__type_support.h
+[185.754s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__type_support.h
+[185.754s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__functions.h
+[185.754s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__type_support.h
+[185.755s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__struct.h
+[185.755s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__struct.h
+[185.755s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__functions.c
+[185.755s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__functions.h
+[185.756s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__struct.h
+[185.756s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__type_support.h
+[185.756s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__struct.h
+[185.756s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__functions.c
+[185.756s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__functions.h
+[185.757s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/waypoint_set.h
+[185.757s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/trajectory.h
+[185.757s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[185.757s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.757s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/switch_to_automatic.h
+[185.758s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/start_trajectory.h
+[185.758s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_waypoints_from_file.h
+[185.758s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_sm_controller_params.h
+[185.759s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/is_running_trajectory.h
+[185.759s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/reset_controller.h
+[185.759s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_sm_controller_params.h
+[185.759s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/clear_waypoints.h
+[185.759s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_pid_params.h
+[185.760s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.760s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__functions.c
+[185.760s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__functions.c
+[185.760s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__struct.h
+[185.761s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__struct.h
+[185.761s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__functions.h
+[185.761s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__functions.h
+[185.761s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__functions.h
+[185.762s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__functions.c
+[185.775s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__functions.h
+[185.776s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__functions.c
+[185.777s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__functions.h
+[185.777s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__functions.h
+[185.777s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__struct.h
+[185.777s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__type_support.h
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__functions.c
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__struct.h
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__struct.h
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__functions.h
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__struct.h
+[185.778s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__functions.c
+[185.779s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__functions.h
+[185.779s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__functions.h
+[185.779s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.h
+[185.779s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__functions.c
+[185.779s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.h
+[185.780s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.h
+[185.780s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__functions.h
+[185.780s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__functions.c
+[185.780s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__struct.h
+[185.780s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__functions.h
+[185.781s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__struct.h
+[185.781s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.h
+[185.781s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__functions.c
+[185.781s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__functions.c
+[185.781s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.h
+[185.782s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__struct.h
+[185.782s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__type_support.h
+[185.782s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__functions.h
+[185.782s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__struct.h
+[185.782s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__struct.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__functions.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__type_support.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__functions.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__functions.h
+[185.783s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.h
+[185.784s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__functions.c
+[185.784s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__functions.c
+[185.784s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.h
+[185.784s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__functions.c
+[185.785s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__type_support.h
+[185.785s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__functions.c
+[185.785s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__struct.h
+[185.785s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__type_support.h
+[185.794s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__type_support.h
+[185.795s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__type_support.h
+[185.795s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__struct.h
+[185.795s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__struct.h
+[185.795s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__functions.h
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__functions.c
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__functions.c
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__type_support.h
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__struct.h
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.h
+[185.796s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__struct.h
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__functions.h
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__type_support.h
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__functions.c
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__functions.c
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__functions.h
+[185.797s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__functions.c
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__functions.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__struct.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__type_support.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__functions.c
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__functions.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__type_support.h
+[185.798s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__struct.h
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__functions.h
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__functions.c
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__functions.c
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__struct.h
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.h
+[185.799s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__struct.h
+[185.800s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__functions.h
+[185.800s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__struct.h
+[185.800s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__struct.h
+[185.800s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_helical_trajectory.h
+[185.800s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_circular_trajectory.h
+[185.801s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_pid_params.h
+[185.801s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_waypoint_set.h
+[185.801s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/hold.h
+[185.801s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/add_waypoint.h
+[185.801s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/go_to.h
+[185.802s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/go_to_incremental.h
+[185.802s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_mbsm_controller_params.h
+[185.802s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_rect_trajectory.h
+[185.802s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/switch_to_manual.h
+[185.803s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_mbsm_controller_params.h
+[185.803s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_waypoints.h
+[185.803s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/library_path.sh
+[185.803s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/library_path.dsv
+[185.804s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_generator_c.so
+[185.815s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_generator_c.so" to ""
+[185.815s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.815s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.815s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[185.815s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.815s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[185.815s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__rosidl_typesupport_fastrtps_c.h
+[185.815s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[185.816s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h
+[185.816s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.816s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.816s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__rosidl_typesupport_fastrtps_c.h
+[185.816s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__rosidl_typesupport_fastrtps_c.h
+[185.816s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__rosidl_typesupport_fastrtps_c.h
+[185.816s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__rosidl_typesupport_fastrtps_c.h
+[185.817s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_c.h
+[185.818s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__rosidl_typesupport_fastrtps_c.h
+[185.819s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__rosidl_typesupport_fastrtps_c.h
+[185.819s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__rosidl_typesupport_fastrtps_c.h
+[185.819s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__rosidl_typesupport_fastrtps_c.h
+[185.820s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__rosidl_typesupport_fastrtps_c.h
+[185.821s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_fastrtps_c.so
+[185.821s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[185.822s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.822s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.822s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.822s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/dds_fastrtps
+[185.822s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.823s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[185.823s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[185.823s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__rosidl_typesupport_fastrtps_cpp.hpp
+[185.824s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[185.824s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.824s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.824s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.825s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.825s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[185.825s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+[185.825s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.826s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.826s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__rosidl_typesupport_fastrtps_cpp.hpp
+[185.826s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.826s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/dds_fastrtps
+[185.826s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[185.827s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__rosidl_typesupport_fastrtps_cpp.hpp
+[185.854s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__rosidl_typesupport_fastrtps_cpp.hpp
+[185.855s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__rosidl_typesupport_fastrtps_cpp.hpp
+[185.856s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[185.856s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[185.856s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.856s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.856s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__type_support.c
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__type_support.c
+[185.857s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__type_support.c
+[185.858s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__type_support.c
+[185.858s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__rosidl_typesupport_introspection_c.h
+[185.858s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[185.858s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.858s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.858s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.c
+[185.858s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.c
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__type_support.c
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__rosidl_typesupport_introspection_c.h
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__rosidl_typesupport_introspection_c.h
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__type_support.c
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__type_support.c
+[185.859s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__rosidl_typesupport_introspection_c.h
+[185.860s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__rosidl_typesupport_introspection_c.h
+[185.860s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__rosidl_typesupport_introspection_c.h
+[185.860s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__rosidl_typesupport_introspection_c.h
+[185.860s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.c
+[185.861s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.c
+[185.861s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__type_support.c
+[185.861s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__rosidl_typesupport_introspection_c.h
+[185.861s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__rosidl_typesupport_introspection_c.h
+[185.862s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__type_support.c
+[185.862s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__type_support.c
+[185.862s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__rosidl_typesupport_introspection_c.h
+[185.862s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.c
+[185.863s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__rosidl_typesupport_introspection_c.h
+[185.863s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__rosidl_typesupport_introspection_c.h
+[185.863s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__type_support.c
+[185.863s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__type_support.c
+[185.864s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__rosidl_typesupport_introspection_c.h
+[185.864s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.c
+[185.864s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.c
+[185.864s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__rosidl_typesupport_introspection_c.h
+[185.865s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.c
+[185.865s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__rosidl_typesupport_introspection_c.h
+[185.865s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__rosidl_typesupport_introspection_c.h
+[185.865s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__rosidl_typesupport_introspection_c.h
+[185.874s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.c
+[185.875s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__rosidl_typesupport_introspection_c.h
+[185.875s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__type_support.c
+[185.875s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.c
+[185.875s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__rosidl_typesupport_introspection_c.h
+[185.876s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.c
+[185.876s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__type_support.c
+[185.876s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__rosidl_typesupport_introspection_c.h
+[185.876s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h
+[185.876s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__rosidl_typesupport_introspection_c.h
+[185.877s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__rosidl_typesupport_introspection_c.h
+[185.877s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__type_support.c
+[185.877s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_introspection_c.so
+[185.877s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[185.877s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_c.so
+[185.877s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_c.so" to ""
+[185.878s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.878s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.878s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/waypoint_set.hpp
+[185.878s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/waypoint.hpp
+[185.878s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/trajectory_point.hpp
+[185.878s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.878s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__struct.hpp
+[185.879s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__type_support.hpp
+[185.879s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__traits.hpp
+[185.879s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__struct.hpp
+[185.879s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__struct.hpp
+[185.879s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__type_support.hpp
+[185.880s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__traits.hpp
+[185.880s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__traits.hpp
+[185.880s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__traits.hpp
+[185.880s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__builder.hpp
+[185.880s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__struct.hpp
+[185.881s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__builder.hpp
+[185.881s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__builder.hpp
+[185.881s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__type_support.hpp
+[185.881s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__type_support.hpp
+[185.882s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__builder.hpp
+[185.882s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[185.882s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/trajectory.hpp
+[185.882s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.883s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/hold.hpp
+[185.883s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_sm_controller_params.hpp
+[185.883s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_pid_params.hpp
+[185.883s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/clear_waypoints.hpp
+[185.883s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_mbsm_controller_params.hpp
+[185.884s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/set_mbsm_controller_params.hpp
+[185.884s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_waypoints_from_file.hpp
+[185.884s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_waypoints.hpp
+[185.895s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_rect_trajectory.hpp
+[185.895s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.895s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.hpp
+[185.895s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__struct.hpp
+[185.895s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__struct.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__traits.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__struct.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__type_support.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__struct.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__builder.hpp
+[185.896s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__traits.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__type_support.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__type_support.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__struct.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__traits.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__struct.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__builder.hpp
+[185.897s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__struct.hpp
+[185.898s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__traits.hpp
+[185.898s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__traits.hpp
+[185.898s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__struct.hpp
+[185.898s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__builder.hpp
+[185.898s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__type_support.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__builder.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__traits.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__traits.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__traits.hpp
+[185.899s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__traits.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__traits.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__builder.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__builder.hpp
+[185.900s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__struct.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__struct.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__builder.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__traits.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__type_support.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__builder.hpp
+[185.901s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__struct.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__type_support.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__struct.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__struct.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__struct.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__traits.hpp
+[185.902s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__builder.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__type_support.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__builder.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__traits.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__traits.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__struct.hpp
+[185.903s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__struct.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__traits.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__builder.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__struct.hpp
+[185.904s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.hpp
+[185.905s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__traits.hpp
+[185.905s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__struct.hpp
+[185.905s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__builder.hpp
+[185.905s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__builder.hpp
+[185.906s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.hpp
+[185.906s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__type_support.hpp
+[185.906s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__traits.hpp
+[185.906s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__struct.hpp
+[185.924s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__traits.hpp
+[185.925s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__traits.hpp
+[185.925s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__builder.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__builder.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__struct.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__traits.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__traits.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__type_support.hpp
+[185.926s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__builder.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__builder.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__builder.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__builder.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__type_support.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.hpp
+[185.927s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__builder.hpp
+[185.928s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__type_support.hpp
+[185.928s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__builder.hpp
+[185.928s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__builder.hpp
+[185.928s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__struct.hpp
+[185.928s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__struct.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__traits.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_helical_trajectory.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/switch_to_manual.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_circular_trajectory.hpp
+[185.929s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/reset_controller.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/switch_to_automatic.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/go_to.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_sm_controller_params.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/is_running_trajectory.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/get_pid_params.hpp
+[185.930s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/add_waypoint.hpp
+[185.931s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/init_waypoint_set.hpp
+[185.931s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/start_trajectory.hpp
+[185.931s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/go_to_incremental.hpp
+[185.931s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs
+[185.931s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg
+[185.932s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail
+[185.933s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[185.933s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__type_support.cpp
+[185.933s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__rosidl_typesupport_introspection_cpp.hpp
+[185.935s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[185.936s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint__type_support.cpp
+[185.937s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory_point__type_support.cpp
+[185.937s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/waypoint_set__type_support.cpp
+[185.937s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.937s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv
+[185.937s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail
+[185.937s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__type_support.cpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__type_support.cpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__rosidl_typesupport_introspection_cpp.hpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__rosidl_typesupport_introspection_cpp.hpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/add_waypoint__type_support.cpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_pid_params__type_support.cpp
+[185.938s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__type_support.cpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_pid_params__type_support.cpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.939s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__rosidl_typesupport_introspection_cpp.hpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__type_support.cpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__type_support.cpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__rosidl_typesupport_introspection_cpp.hpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__rosidl_typesupport_introspection_cpp.hpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/go_to_incremental__type_support.cpp
+[185.940s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_automatic__type_support.cpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__rosidl_typesupport_introspection_cpp.hpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_rect_trajectory__type_support.cpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoint_set__type_support.cpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_helical_trajectory__type_support.cpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__rosidl_typesupport_introspection_cpp.hpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_circular_trajectory__type_support.cpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[185.941s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_mbsm_controller_params__rosidl_typesupport_introspection_cpp.hpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/init_waypoints_from_file__type_support.cpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_sm_controller_params__type_support.cpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_mbsm_controller_params__type_support.cpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/set_sm_controller_params__type_support.cpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/start_trajectory__type_support.cpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/get_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[185.942s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/is_running_trajectory__type_support.cpp
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/switch_to_manual__type_support.cpp
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/reset_controller__rosidl_typesupport_introspection_cpp.hpp
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/hold__rosidl_typesupport_introspection_cpp.hpp
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/include/uuv_control_msgs/srv/detail/clear_waypoints__type_support.cpp
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_introspection_cpp.so
+[185.943s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_cpp.so
+[185.943s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__rosidl_typesupport_cpp.so" to ""
+[185.943s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/pythonpath.sh
+[185.944s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/pythonpath.dsv
+[185.944s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/__init__.py
+[185.991s] Compiling '/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/__init__.py'...
+[186.015s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg
+[186.015s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_waypoint_s.c
+[186.015s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_waypoint_set_s.c
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_trajectory_point_s.c
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/__init__.py
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_trajectory_point.py
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_trajectory.py
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_waypoint.py
+[186.016s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_waypoint_set.py
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/msg/_trajectory_s.c
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_waypoints_from_file.py
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_pid_params.py
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_sm_controller_params_s.c
+[186.017s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_switch_to_automatic_s.c
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_pid_params_s.c
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_go_to.py
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_waypoints_from_file_s.c
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_switch_to_manual.py
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_go_to_incremental_s.c
+[186.018s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/__init__.py
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_mbsm_controller_params.py
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_sm_controller_params.py
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_add_waypoint_s.c
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_pid_params_s.c
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_hold_s.c
+[186.019s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_go_to_s.c
+[186.020s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_waypoints.py
+[186.020s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_sm_controller_params_s.c
+[186.020s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_waypoints_s.c
+[186.020s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_rect_trajectory.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_clear_waypoints.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_is_running_trajectory.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_mbsm_controller_params_s.c
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_waypoint_set.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_circular_trajectory.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_reset_controller.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_go_to_incremental.py
+[186.021s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_circular_trajectory_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_clear_waypoints_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_start_trajectory.py
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_switch_to_manual_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_start_trajectory_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_reset_controller_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_is_running_trajectory_s.c
+[186.022s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_hold.py
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_helical_trajectory_s.c
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_pid_params.py
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_get_sm_controller_params.py
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_waypoint_set_s.c
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_mbsm_controller_params_s.c
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_switch_to_automatic.py
+[186.023s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_helical_trajectory.py
+[186.024s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_add_waypoint.py
+[186.024s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_init_rect_trajectory_s.c
+[186.024s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/srv/_set_mbsm_controller_params.py
+[186.024s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[186.025s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[186.026s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[186.027s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[186.028s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[186.030s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages/uuv_control_msgs/uuv_control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[186.030s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__python.so
+[186.032s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/libuuv_control_msgs__python.so" to ""
+[186.033s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/Trajectory.idl
+[186.033s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/TrajectoryPoint.idl
+[186.034s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/Waypoint.idl
+[186.034s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/WaypointSet.idl
+[186.035s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/AddWaypoint.idl
+[186.036s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ClearWaypoints.idl
+[186.036s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitCircularTrajectory.idl
+[186.037s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitHelicalTrajectory.idl
+[186.038s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointsFromFile.idl
+[186.038s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetWaypoints.idl
+[186.039s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoTo.idl
+[186.039s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoToIncremental.idl
+[186.040s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/Hold.idl
+[186.041s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/IsRunningTrajectory.idl
+[186.042s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointSet.idl
+[186.042s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitRectTrajectory.idl
+[186.043s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/StartTrajectory.idl
+[186.044s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToAutomatic.idl
+[186.045s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToManual.idl
+[186.046s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetPIDParams.idl
+[186.046s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetPIDParams.idl
+[186.047s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetSMControllerParams.idl
+[186.047s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetSMControllerParams.idl
+[186.048s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetMBSMControllerParams.idl
+[186.049s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetMBSMControllerParams.idl
+[186.049s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ResetController.idl
+[186.050s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/Trajectory.msg
+[186.051s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/TrajectoryPoint.msg
+[186.052s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/Waypoint.msg
+[186.053s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/msg/WaypointSet.msg
+[186.054s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/AddWaypoint.srv
+[186.055s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/AddWaypoint_Request.msg
+[186.055s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/AddWaypoint_Response.msg
+[186.056s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ClearWaypoints.srv
+[186.058s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ClearWaypoints_Request.msg
+[186.060s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ClearWaypoints_Response.msg
+[186.060s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitCircularTrajectory.srv
+[186.061s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitCircularTrajectory_Request.msg
+[186.063s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitCircularTrajectory_Response.msg
+[186.064s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitHelicalTrajectory.srv
+[186.064s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitHelicalTrajectory_Request.msg
+[186.065s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitHelicalTrajectory_Response.msg
+[186.066s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointsFromFile.srv
+[186.067s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointsFromFile_Request.msg
+[186.068s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointsFromFile_Response.msg
+[186.069s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetWaypoints.srv
+[186.070s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetWaypoints_Request.msg
+[186.071s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetWaypoints_Response.msg
+[186.071s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoTo.srv
+[186.072s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoTo_Request.msg
+[186.073s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoTo_Response.msg
+[186.073s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoToIncremental.srv
+[186.074s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoToIncremental_Request.msg
+[186.074s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GoToIncremental_Response.msg
+[186.075s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/Hold.srv
+[186.076s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/Hold_Request.msg
+[186.076s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/Hold_Response.msg
+[186.077s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/IsRunningTrajectory.srv
+[186.077s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/IsRunningTrajectory_Request.msg
+[186.078s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/IsRunningTrajectory_Response.msg
+[186.079s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointSet.srv
+[186.081s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointSet_Request.msg
+[186.083s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitWaypointSet_Response.msg
+[186.083s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitRectTrajectory.srv
+[186.084s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitRectTrajectory_Request.msg
+[186.085s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/InitRectTrajectory_Response.msg
+[186.086s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/StartTrajectory.srv
+[186.087s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/StartTrajectory_Request.msg
+[186.088s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/StartTrajectory_Response.msg
+[186.089s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToAutomatic.srv
+[186.089s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToAutomatic_Request.msg
+[186.090s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToAutomatic_Response.msg
+[186.091s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToManual.srv
+[186.091s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToManual_Request.msg
+[186.093s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SwitchToManual_Response.msg
+[186.093s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetPIDParams.srv
+[186.094s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetPIDParams_Request.msg
+[186.095s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetPIDParams_Response.msg
+[186.096s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetPIDParams.srv
+[186.098s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetPIDParams_Request.msg
+[186.098s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetPIDParams_Response.msg
+[186.099s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetSMControllerParams.srv
+[186.100s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetSMControllerParams_Request.msg
+[186.101s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetSMControllerParams_Response.msg
+[186.101s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetSMControllerParams.srv
+[186.102s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetSMControllerParams_Request.msg
+[186.103s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetSMControllerParams_Response.msg
+[186.104s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetMBSMControllerParams.srv
+[186.104s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetMBSMControllerParams_Request.msg
+[186.105s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/SetMBSMControllerParams_Response.msg
+[186.106s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetMBSMControllerParams.srv
+[186.107s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetMBSMControllerParams_Request.msg
+[186.108s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/GetMBSMControllerParams_Response.msg
+[186.109s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ResetController.srv
+[186.109s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ResetController_Request.msg
+[186.110s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/srv/ResetController_Response.msg
+[186.111s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/ament_index/resource_index/package_run_dependencies/uuv_control_msgs
+[186.112s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/ament_index/resource_index/parent_prefix_path/uuv_control_msgs
+[186.113s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/ament_prefix_path.sh
+[186.114s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/ament_prefix_path.dsv
+[186.116s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/path.sh
+[186.117s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/environment/path.dsv
+[186.118s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/local_setup.bash
+[186.118s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/local_setup.sh
+[186.119s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/local_setup.zsh
+[186.120s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/local_setup.dsv
+[186.120s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/package.dsv
+[186.122s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/ament_index/resource_index/packages/uuv_control_msgs
+[186.123s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_generator_cExport.cmake
+[186.124s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[186.125s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[186.126s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[186.129s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_cExport.cmake
+[186.130s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[186.130s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_generator_cppExport.cmake
+[186.131s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[186.133s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[186.135s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_cppExport.cmake
+[186.136s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[186.136s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/rosidl_cmake-extras.cmake
+[186.137s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[186.138s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[186.139s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[186.140s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[186.141s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[186.142s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[186.143s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgsConfig.cmake
+[186.144s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/cmake/uuv_control_msgsConfig-version.cmake
+[186.145s] -- Installing: /home/isopodin-time/ros2_ws/install/uuv_control_msgs/share/uuv_control_msgs/package.xml
+[186.169s] Invoked command in '/home/isopodin-time/ros2_ws/build/uuv_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/uuv_control_msgs
