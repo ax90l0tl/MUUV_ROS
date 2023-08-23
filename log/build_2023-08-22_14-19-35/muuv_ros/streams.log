@@ -1,0 +1,36 @@
+[0.022s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.083s] [35m[1mScanning dependencies of target sensors[0m
+[0.104s] [ 11%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o[0m
+[0.112s] [ 33%] Built target pid
+[0.113s] [ 66%] Built target thrusters
+[0.335s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[0.335s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:238:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+[0.335s]   238 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+[0.335s]       |           [01;35m[K^~~[m[K
+[0.403s] [ 77%] [32m[1mLinking CXX executable sensors[0m
+[0.777s] [100%] Built target sensors
+[0.793s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.855s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_ros
+[0.865s] -- Install configuration: ""
+[0.865s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid
+[0.865s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
+[0.866s] -- Installing: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
+[0.868s] -- Set runtime path of "/home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors" to ""
+[0.868s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch
+[0.868s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/config
+[0.868s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/package_run_dependencies/muuv_ros
+[0.869s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/parent_prefix_path/muuv_ros
+[0.869s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.sh
+[0.869s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.dsv
+[0.869s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.sh
+[0.869s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.dsv
+[0.870s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.bash
+[0.870s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.sh
+[0.870s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.zsh
+[0.870s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.dsv
+[0.870s] -- Installing: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.dsv
+[0.870s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/packages/muuv_ros
+[0.871s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig.cmake
+[0.871s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig-version.cmake
+[0.871s] -- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.xml
+[0.874s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_ros

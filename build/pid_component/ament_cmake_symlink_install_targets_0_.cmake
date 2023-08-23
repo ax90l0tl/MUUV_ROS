@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/isopodin-time/ros2_ws/build/pid_component/libpid_component.so" "TARGETS" "pid_component" "DESTINATION" "lib/pid_component" "ARCHIVE_DESTINATION" "lib/pid_component" "LIBRARY_DESTINATION" "lib/pid_component" "RUNTIME_DESTINATION" "bin/pid_component")

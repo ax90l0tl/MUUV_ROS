@@ -1,0 +1,10 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In constructor ‘[01m[KSensors::Sensors()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:10:81:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kconst char*[m[K’
+   10 |     pi = pigpio_start((const char *)this->get_parameter("pi_address").as_string([01;31m[K)[m[K, this->get_parameter("pi_port").as_string());
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:9:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpi_address[m[K’ [[01;35m[K-Wunused-variable[m[K]
+    9 |     const char *[01;35m[Kpi_address[m[K = this->get_parameter("pi_address").as_string().c_str();
+      |                 [01;35m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

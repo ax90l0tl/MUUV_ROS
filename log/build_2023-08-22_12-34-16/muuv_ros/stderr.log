@@ -1,0 +1,4 @@
+make[2]: *** Deleting file 'CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o'
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 22%] Built target pid
+[ 55%] Built target thrusters
+[ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In constructor ‘[01m[KSensors::Sensors()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:9:66:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+    9 |     pi = pigpio_start([01;31m[Kthis->get_parameter("pi_address").as_string()[m[K, this->get_parameter("pi_port").as_string());
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                  [01;31m[K|[m[K
+      |                                                                  [01;31m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.h:3[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/MTi.h:4[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/sensors.hpp:6[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:432:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint pigpio_start(const char*, const char*)[m[K’
+  432 | int pigpio_start([01;36m[Kconst char *addrStr[m[K, const char *portStr);
+      |                  [01;36m[K~~~~~~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+CMake Error at CMakeLists.txt:53 (target_include_directories):
+  Cannot specify include directories for target "pid" which is not built by
+  this project.
+
+
+CMake Error at CMakeLists.txt:57 (install):
+  install TARGETS given target "pid" which does not exist.
+
+
+make: *** [Makefile:444: cmake_check_build_system] Error 1

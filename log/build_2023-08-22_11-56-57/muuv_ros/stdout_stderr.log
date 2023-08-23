@@ -1,0 +1,40 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 44%] Built target thrusters
+[ 44%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o[0m
+[ 66%] Built target pid
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::readPipeNotif()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdatanotif_2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   63 |   uint8_t *[01;35m[Kdatanotif_2[m[K;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::readPipeMeas()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:79:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdatameas_2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   79 |   uint8_t *[01;35m[Kdatameas_2[m[K;
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:241:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+  241 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+      |           [01;35m[K^~~[m[K
+[ 77%] [32m[1mLinking CXX executable sensors[0m
+[100%] Built target sensors
+-- Install configuration: ""
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
+-- Installing: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
+-- Set runtime path of "/home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors" to ""
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/config
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/package_run_dependencies/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/parent_prefix_path/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.bash
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.sh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.zsh
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.dsv
+-- Installing: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.dsv
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/packages/muuv_ros
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig-version.cmake
+-- Up-to-date: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.xml

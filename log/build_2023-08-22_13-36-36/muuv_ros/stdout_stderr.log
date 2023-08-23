@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 33%] Built target thrusters
+[ 55%] Built target pid
+[ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:46:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _header_type = struct std_msgs::msg::Header_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseq[m[K’
+   46 |     msg.header.[01;31m[Kseq[m[K = count_++;
+      |                [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

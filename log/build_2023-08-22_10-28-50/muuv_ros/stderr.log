@@ -1,0 +1,4 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/MTi.cpp:[m[K In member function ‘[01m[Kbool MTi::sendMessage(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/MTi.cpp:578:8:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmessage_cs[m[K’ [[01;35m[K-Wvla[m[K]
+  578 |   char [01;35m[Kmessage_cs[m[K[int(numBytes + 2)] = {0};
+      |        [01;35m[K^~~~~~~~~~[m[K

@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target pid_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:50[m[K:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:55:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid[m[K’ is not a member of ‘[01m[Kcomposition[m[K’
+   55 | RCLCPP_COMPONENTS_REGISTER_NODE(composition::[01;31m[Kpid[m[K)
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:55:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(composition::pid)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:50[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint*[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

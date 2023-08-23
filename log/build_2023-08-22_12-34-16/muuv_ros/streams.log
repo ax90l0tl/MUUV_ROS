@@ -1,0 +1,10 @@
+[0.034s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.148s] [35m[1mScanning dependencies of target sensors[0m
+[0.201s] [ 22%] Built target pid
+[0.206s] [ 55%] Built target thrusters
+[0.236s] [ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[5.806s] make[2]: *** Deleting file 'CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o'
+[5.806s] make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Interrupt
+[5.806s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Interrupt
+[5.807s] make: *** [Makefile:141: all] Interrupt
+[5.812s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8

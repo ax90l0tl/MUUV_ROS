@@ -1,0 +1,41 @@
+[0.040s] Invoking command in '/home/isopodin-time/ros2_ws/build/pid_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/pid_component -- -j8 -l8
+[0.090s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.445s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.456s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.578s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.913s] -- Found control_toolbox: 2.2.0 (/opt/ros/foxy/share/control_toolbox/cmake)
+[16.089s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[16.426s] -- Configuring done
+[16.459s] -- Generating done
+[16.464s] -- Build files have been written to: /home/isopodin-time/ros2_ws/build/pid_component
+[16.538s] [35m[1mScanning dependencies of target pid_component[0m
+[16.619s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o[0m
+[26.961s] [100%] [32m[1mLinking CXX shared library libpid_component.so[0m
+[27.874s] [100%] Built target pid_component
+[27.901s] Invoked command in '/home/isopodin-time/ros2_ws/build/pid_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/pid_component -- -j8 -l8
+[27.997s] Invoking command in '/home/isopodin-time/ros2_ws/build/pid_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/pid_component
+[28.021s] -- Install configuration: ""
+[28.022s] -- Execute custom install script
+[28.024s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/pid.launch.py
+[28.025s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/package_run_dependencies/pid_component
+[28.026s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/parent_prefix_path/pid_component
+[28.026s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/ament_prefix_path.sh
+[28.027s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/ament_prefix_path.dsv
+[28.028s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/path.sh
+[28.029s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/path.dsv
+[28.030s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.bash
+[28.031s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.sh
+[28.032s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.zsh
+[28.033s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.dsv
+[28.034s] -- Symlinking: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/package.dsv
+[28.062s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/packages/pid_component
+[28.063s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/rclcpp_components/pid_component
+[28.064s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/cmake/pid_componentConfig.cmake
+[28.064s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/cmake/pid_componentConfig-version.cmake
+[28.065s] -- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/package.xml
+[28.076s] Invoked command in '/home/isopodin-time/ros2_ws/build/pid_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/pid_component

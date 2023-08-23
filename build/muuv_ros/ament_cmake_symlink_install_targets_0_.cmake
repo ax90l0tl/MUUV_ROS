@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/isopodin-time/ros2_ws/build/muuv_ros/thrusters" "/home/isopodin-time/ros2_ws/build/muuv_ros/sensors" "TARGETS" "thrusters" "sensors" "DESTINATION" "lib/muuv_ros")

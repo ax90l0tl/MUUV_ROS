@@ -1,0 +1,14 @@
+[0.024s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.088s] [35m[1mScanning dependencies of target sensors[0m
+[0.111s] [ 33%] Built target thrusters
+[0.114s] [ 55%] Built target pid
+[0.132s] [ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[1.736s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[1.736s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+[1.737s]    46 |     msg.header.frame_id = [01;31m[Kstr[m[K(count_++);
+[1.737s]       |                           [01;31m[K^~~[m[K
+[1.737s]       |                           [32m[Kstd[m[K
+[2.741s] make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+[2.742s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Error 2
+[2.742s] make: *** [Makefile:141: all] Error 2
+[2.746s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8

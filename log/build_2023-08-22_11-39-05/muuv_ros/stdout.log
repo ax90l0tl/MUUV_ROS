@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 22%] Built target pid
+[ 55%] Built target thrusters
+[ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m

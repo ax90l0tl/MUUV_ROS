@@ -1,0 +1,7 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:9:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pid_component[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+    9 |     ctrl_effort = this->node_->create_publisher<std_msgs::msg::Float64>(this->[01;31m[Kget_parameter[m[K("ctrl_effort_name").as_string(), 10);
+      |                                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

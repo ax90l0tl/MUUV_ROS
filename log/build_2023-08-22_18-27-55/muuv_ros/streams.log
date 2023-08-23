@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.086s] [35m[1mScanning dependencies of target pid_component[0m
+[0.113s] [ 63%] Built target sensors
+[0.113s] [ 63%] Built target thrusters
+[0.119s] [ 72%] [32m[1mLinking CXX executable component_container[0m
+[0.136s] [ 81%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/muuv_ros/pid_component.cpp.o[0m
+[0.444s] /usr/bin/ld: CMakeFiles/component_container.dir/src/muuv_ros/component_container.cpp.o: in function `void __gnu_cxx::new_allocator<rclcpp_components::ComponentManager>::construct<rclcpp_components::ComponentManager, std::shared_ptr<rclcpp::executors::SingleThreadedExecutor>&>(rclcpp_components::ComponentManager*, std::shared_ptr<rclcpp::executors::SingleThreadedExecutor>&)':
+[0.445s] component_container.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN17rclcpp_components16ComponentManagerEE9constructIS2_JRSt10shared_ptrIN6rclcpp9executors22SingleThreadedExecutorEEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN17rclcpp_components16ComponentManagerEE9constructIS2_JRSt10shared_ptrIN6rclcpp9executors22SingleThreadedExecutorEEEEEvPT_DpOT0_]+0x109): undefined reference to `rclcpp_components::ComponentManager::ComponentManager(std::weak_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, rclcpp::NodeOptions const&)'
+[0.445s] collect2: error: ld returned 1 exit status
+[0.447s] make[2]: *** [CMakeFiles/component_container.dir/build.make:131: component_container] Error 1
+[0.447s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/component_container.dir/all] Error 2
+[0.448s] make[1]: *** Waiting for unfinished jobs....
+[6.130s] [ 90%] [32m[1mLinking CXX shared library libpid_component.so[0m
+[6.588s] [ 90%] Built target pid_component
+[6.590s] make: *** [Makefile:141: all] Error 2
+[6.594s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
