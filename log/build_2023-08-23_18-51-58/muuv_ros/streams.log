@@ -1,0 +1,95 @@
+[0.252s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/custom_msg_srv:/home/isopodin-time/ros2_ws/install/pid_component:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorials:/home/isopodin-time/ros2_ws/install/uuv_tutorial_dp_controller:/home/isopodin-time/ros2_ws/install/uuv_tutorial_disturbances:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorial_seabed_world:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/test_sim:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim_description:/home/isopodin-time/ros2_ws/install/muuv_sim_control:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/custom_msg_srv/lib:/home/isopodin-time/ros2_ws/install/pid_component/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
+[0.287s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.806s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.909s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.076s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.112s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.233s] -- Found custom_msg_srv: 0.0.0 (/home/isopodin-time/ros2_ws/install/custom_msg_srv/share/custom_msg_srv/cmake)
+[7.317s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[7.612s] -- Configuring done
+[7.634s] -- Generating done
+[7.636s] -- Build files have been written to: /home/isopodin-time/ros2_ws/build/muuv_ros
+[7.672s] [35m[1mScanning dependencies of target pid_recombiner[0m
+[7.696s] [ 44%] Built target sensors
+[7.697s] [ 77%] Built target thrusters
+[7.710s] [ 88%] [32mBuilding CXX object CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o[0m
+[9.717s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+[9.717s]    64 |     [01;31m[Kcustom_qos_profile[m[K.depth = 1;
+[9.717s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.720s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+[9.720s]    65 |     [01;31m[Kcustom_qos_profile[m[K.reliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+[9.720s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.723s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+[9.723s]    66 |     [01;31m[Kcustom_qos_profile[m[K.history = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+[9.723s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.726s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+[9.726s]    67 |     [01;31m[Kcustom_qos_profile[m[K.durability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+[9.726s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.726s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+[9.726s]    74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[34m[K([m[K[01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+[9.727s]       |                                                                                         [34m[K~[m[K[01;31m[K^[m[K[32m[K~[m[K
+[9.727s]       |                                                                                          [32m[K)[m[K
+[9.727s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+[9.727s]    74 |     message_filters::Synchronizer<approximate_policy> syncApproximate[34m[K([m[Kapproximate_policy([01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+[9.727s]       |                                                                      [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[9.727s]       |                                                                                          [32m[K)[m[K
+[9.728s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:89:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.728s]    74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[01;31m[K([m[K10), sub_x, sub_y, sub_z,
+[9.728s]       |                                                                                         [01;31m[K^[m[K
+[9.728s]       |                                                                                          [32m[K;[m[K
+[9.728s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[9.728s]    74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy([01;31m[K10[m[K), sub_x, sub_y, sub_z,
+[9.728s]       |                                                                                          [01;31m[K^~[m[K
+[9.728s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[9.728s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+[9.728s]    27 |         : Node::make_shared[01;31m[K([m[K"pid_recombiner")
+[9.728s]       |                            [01;31m[K^[m[K
+[9.728s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[9.728s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.728s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[9.728s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.728s]                  from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:8[m[K:
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[9.729s]  1193 |   [01;36m[KNode[m[K(
+[9.729s]       |   [01;36m[K^~~~[m[K
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[9.729s]    98 |   explicit [01;36m[KNode[m[K(
+[9.729s]       |            [01;36m[K^~~~[m[K
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[9.729s]    86 |   explicit [01;36m[KNode[m[K(
+[9.729s]       |            [01;36m[K^~~~[m[K
+[9.729s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.730s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+[9.730s]    27 |         : Node::make_shared[01;31m[K([m[K"pid_recombiner")
+[9.730s]       |                            [01;31m[K^[m[K
+[9.732s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In member function ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.732s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:47:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.732s]    47 |         msg.linear.x = msg_x.[01;31m[Kdata[m[K;
+[9.732s]       |                              [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:48:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.733s]    48 |         msg.linear.y = msg_y.[01;31m[Kdata[m[K;
+[9.733s]       |                              [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:49:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.733s]    49 |         msg.linear.z = msg_z.[01;31m[Kdata[m[K;
+[9.733s]       |                              [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:50:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.733s]    50 |         msg.angular.x = msg_rx.[01;31m[Kdata[m[K;
+[9.733s]       |                                [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.733s]    51 |         msg.angular.y = msg_ry.[01;31m[Kdata[m[K;
+[9.733s]       |                                [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:52:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[9.733s]    52 |         msg.angular.z = msg_rz.[01;31m[Kdata[m[K;
+[9.733s]       |                                [01;31m[K^~~~[m[K
+[11.553s] make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+[11.553s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+[11.553s] make: *** [Makefile:141: all] Error 2
+[11.557s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '2': CMAKE_PREFIX_PATH=/home/isopodin-time/ros2_ws/install/custom_msg_srv:/home/isopodin-time/ros2_ws/install/pid_component:/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorials:/home/isopodin-time/ros2_ws/install/uuv_tutorial_dp_controller:/home/isopodin-time/ros2_ws/install/uuv_tutorial_disturbances:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorial_seabed_world:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/test_sim:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim_description:/home/isopodin-time/ros2_ws/install/muuv_sim_control:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/isopodin-time/ros2_ws/install/custom_msg_srv/lib:/home/isopodin-time/ros2_ws/install/pid_component/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8

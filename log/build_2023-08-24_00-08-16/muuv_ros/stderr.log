@@ -1,0 +1,7 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:53:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > > > >[m[K’ has no member named ‘[01m[KregisterCallback[m[K’
+   53 |         syncApproximate.[01;31m[KregisterCallback[m[K(std::bind(&Pid_recombiner::ctrl_effort_callback, this, _1, _2, _3, _4, _5, _6));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

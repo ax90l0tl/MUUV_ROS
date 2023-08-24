@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target pid_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:28:45:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Krclcpp::Time[m[K’ to type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+   28 |     last_time = (uint64_t) this->node_->now([01;31m[K)[m[K;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:47:43:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}) ()[m[K’
+   47 |         uint64_t dt = state->header.stamp([01;31m[K)[m[K - last_time;
+      |                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

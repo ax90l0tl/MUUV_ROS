@@ -1,0 +1,36 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:13:47:[m[K [01;31m[Kerror: [m[Kempty character constant
+   13 |     this->node_->declare_parameter(namespace =[01;31m[K''[m[K,
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:15:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   15 |                                        ([01;35m[K'my_str'[m[K, rclpy.Parameter.Type.STRING),
+      |                                         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:16:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   16 |                                        ([01;35m[K'my_int'[m[K, rclpy.Parameter.Type.INTEGER),
+      |                                         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:17:41:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   17 |                                        ([01;35m[K'my_double_array'[m[K, rclpy.Parameter.Type.DOUBLE_ARRAY)
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:13:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knamespace[m[K’
+   13 |     this->node_->declare_parameter([01;31m[Knamespace[m[K ='',
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:14:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters[m[K’ was not declared in this scope
+   14 |                                    [01;31m[Kparameters[m[K = [
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:15:40:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K([m[K’ token
+   15 |                                        [01;31m[K([m[K'my_str', rclpy.Parameter.Type.STRING),
+      |                                        [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:15:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   15 |                                        ('my_str', rclpy.Parameter.Type.STRING)[01;31m[K,[m[K
+      |                                                                               [01;31m[K^[m[K
+      |                                                                               [32m[K][m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:15:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:16:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpy[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp[m[K’?
+   16 |                                        ('my_int', [01;31m[Krclpy[m[K.Parameter.Type.INTEGER),
+      |                                                   [01;31m[K^~~~~[m[K
+      |                                                   [32m[Krclcpp[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

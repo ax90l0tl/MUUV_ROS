@@ -53,7 +53,9 @@ CMAKE_BINARY_DIR = /home/isopodin-time/ros2_ws/build/muuv_ros
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/imu_repub.dir/all
 all: CMakeFiles/sensors.dir/all
+all: CMakeFiles/pid_recombiner.dir/all
 all: CMakeFiles/thrusters.dir/all
 
 .PHONY : all
@@ -64,12 +66,41 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/imu_repub.dir/clean
 clean: CMakeFiles/sensors.dir/clean
+clean: CMakeFiles/pid_recombiner.dir/clean
 clean: CMakeFiles/thrusters.dir/clean
 clean: CMakeFiles/muuv_ros_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/imu_repub.dir
+
+# All Build rule for target.
+CMakeFiles/imu_repub.dir/all:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/depend
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=1,2 "Built target imu_repub"
+.PHONY : CMakeFiles/imu_repub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/imu_repub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imu_repub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles 0
+.PHONY : CMakeFiles/imu_repub.dir/rule
+
+# Convenience name for target.
+imu_repub: CMakeFiles/imu_repub.dir/rule
+
+.PHONY : imu_repub
+
+# clean rule for target.
+CMakeFiles/imu_repub.dir/clean:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/clean
+.PHONY : CMakeFiles/imu_repub.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/sensors.dir
@@ -78,7 +109,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/sensors.dir/all:
 	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/depend
 	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=1,2,3,4 "Built target sensors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=5,6,7,8 "Built target sensors"
 .PHONY : CMakeFiles/sensors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,13 +130,40 @@ CMakeFiles/sensors.dir/clean:
 .PHONY : CMakeFiles/sensors.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pid_recombiner.dir
+
+# All Build rule for target.
+CMakeFiles/pid_recombiner.dir/all:
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/depend
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=3,4 "Built target pid_recombiner"
+.PHONY : CMakeFiles/pid_recombiner.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pid_recombiner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pid_recombiner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles 0
+.PHONY : CMakeFiles/pid_recombiner.dir/rule
+
+# Convenience name for target.
+pid_recombiner: CMakeFiles/pid_recombiner.dir/rule
+
+.PHONY : pid_recombiner
+
+# clean rule for target.
+CMakeFiles/pid_recombiner.dir/clean:
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/clean
+.PHONY : CMakeFiles/pid_recombiner.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/thrusters.dir
 
 # All Build rule for target.
 CMakeFiles/thrusters.dir/all:
 	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/depend
 	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=5,6,7 "Built target thrusters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/isopodin-time/ros2_ws/build/muuv_ros/CMakeFiles --progress-num=9,10,11 "Built target thrusters"
 .PHONY : CMakeFiles/thrusters.dir/all
 
 # Build rule for subdir invocation for target.

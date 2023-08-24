@@ -1,0 +1,53 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:88:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   88 |     std::shared_ptr<message_filters::TimeSynchronizer<[01;31m[Ksensor_msgs[m[K::msg::Temperature, sensor_msgs::msg::Temperature>> sync_;
+      |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:88:115:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be at least 2)
+   88 |     std::shared_ptr<message_filters::TimeSynchronizer<sensor_msgs::msg::Temperature, sensor_msgs::msg::Temperature[01;31m[K>>[m[K sync_;
+      |                                                                                                                   [01;31m[K^~[m[K
+In file included from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/time_synchronizer.h:83:7:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> class message_filters::TimeSynchronizer[m[K’
+   83 | class [01;36m[KTimeSynchronizer[m[K : public Synchronizer<sync_policies::ExactTime<M0, M1, M2, M3, M4, M5, M6, M7, M8> >
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:88:118:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   88 |     std::shared_ptr<message_filters::TimeSynchronizer<sensor_msgs::msg::Temperature, sensor_msgs::msg::Temperature>> [01;31m[Ksync_[m[K;
+      |                                                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:51:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPid_recombiner::ctrl_effort_callback()[m[K’
+   51 |         syncApproximate.registerCallback(ctrl_effort_callback([01;31m[K)[m[K);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:60:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr) const[m[K’
+   60 |     void [01;36m[Kctrl_effort_callback[m[K(const StampedFloatMsg::SharedPtr msg_x, const StampedFloatMsg::SharedPtr msg_rx,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:60:10:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 0 provided
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksync_[m[K’ was not declared in this scope
+   53 |         [01;31m[Ksync_[m[K = std::make_shared<message_filters::TimeSynchronizer<sensor_msgs::msg::Temperature,
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:53:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   53 |         sync_ = std::make_shared<message_filters::TimeSynchronizer<[01;31m[Ksensor_msgs[m[K::msg::Temperature,
+      |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:54:97:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be at least 2)
+   54 |                                                                    sensor_msgs::msg::Temperature[01;31m[K>>[m[K(subscription_temp_1_,
+      |                                                                                                 [01;31m[K^~[m[K
+In file included from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/message_filters/time_synchronizer.h:83:7:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class M0, class M1, class M2, class M3, class M4, class M5, class M6, class M7, class M8> class message_filters::TimeSynchronizer[m[K’
+   83 | class [01;36m[KTimeSynchronizer[m[K : public Synchronizer<sync_policies::ExactTime<M0, M1, M2, M3, M4, M5, M6, M7, M8> >
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:54:100:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_temp_1_[m[K’ was not declared in this scope
+   54 |                                                                    sensor_msgs::msg::Temperature>>([01;31m[Ksubscription_temp_1_[m[K,
+      |                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:55:100:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_temp_2_[m[K’ was not declared in this scope
+   55 |                                                                                                    [01;31m[Ksubscription_temp_2_[m[K, 3);
+      |                                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:53:22:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   53 |         sync_ = std::[01;31m[Kmake_shared<message_filters::TimeSynchronizer<sensor_msgs::msg::Temperature,[m[K
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   54 | [01;31m[K                                                                   sensor_msgs::msg::Temperature>>(subscription_temp_1_,[m[K
+      |                                                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   55 | [01;31m[K                                                                                                   subscription_temp_2_, 3)[m[K;
+      |                                                                                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:56:44:[m[K [01;31m[Kerror: [m[K‘[01m[KExactTimeSubscriber[m[K’ has not been declared
+   56 |         sync_->registerCallback(std::bind(&[01;31m[KExactTimeSubscriber[m[K::topic_callback, this, _1, _2));
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -11,6 +11,11 @@
   <depend>rclcpp</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
+  <exec_depend>ros2launch</exec_depend>
+  <depend>custom_msg_srv</depend>
+  <depend>message_filters</depend>
+  <depend>std_msgs</depend>
+  
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

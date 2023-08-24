@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target imu_repub[0m
+[35m[1mScanning dependencies of target sensors[0m
+[ 18%] Built target pid_recombiner
+[ 45%] Built target thrusters
+[ 54%] [32mBuilding CXX object CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg_srv/msg/float64_stamped.hpp: No such file or directory
+    6 | #include [01;31m[K"custom_msg_srv/msg/float64_stamped.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/imu_repub.dir/build.make:63: CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/imu_repub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 72%] [32m[1mLinking CXX executable sensors[0m
+[ 90%] Built target sensors
+make: *** [Makefile:141: all] Error 2

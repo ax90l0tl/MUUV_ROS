@@ -1,0 +1,73 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   64 |     [01;31m[Kcustom_qos_profile[m[K.depth = 1;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   65 |     [01;31m[Kcustom_qos_profile[m[K.reliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   66 |     [01;31m[Kcustom_qos_profile[m[K.history = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   67 |     [01;31m[Kcustom_qos_profile[m[K.durability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[34m[K([m[K[01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+      |                                                                                         [34m[K~[m[K[01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                          [32m[K)[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   74 |     message_filters::Synchronizer<approximate_policy> syncApproximate[34m[K([m[Kapproximate_policy([01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+      |                                                                      [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                          [32m[K)[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:89:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[01;31m[K([m[K10), sub_x, sub_y, sub_z,
+      |                                                                                         [01;31m[K^[m[K
+      |                                                                                          [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:74:90:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   74 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy([01;31m[K10[m[K), sub_x, sub_y, sub_z,
+      |                                                                                          [01;31m[K^~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   27 |         : Node::make_shared[01;31m[K([m[K"pid_recombiner")
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:8[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1193 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+   98 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   86 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+   27 |         : Node::make_shared[01;31m[K([m[K"pid_recombiner")
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In member function ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:47:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   47 |         msg.linear.x = msg_x.[01;31m[Kdata[m[K;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:48:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   48 |         msg.linear.y = msg_y.[01;31m[Kdata[m[K;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:49:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   49 |         msg.linear.z = msg_z.[01;31m[Kdata[m[K;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:50:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   50 |         msg.angular.x = msg_rx.[01;31m[Kdata[m[K;
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   51 |         msg.angular.y = msg_ry.[01;31m[Kdata[m[K;
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:52:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   52 |         msg.angular.z = msg_rz.[01;31m[Kdata[m[K;
+      |                                [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

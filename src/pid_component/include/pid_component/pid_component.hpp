@@ -3,12 +3,14 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "visibility_control.h"
-#include "std_msgs/msg/float64.hpp"
+// #include "std_msgs/msg/float64.hpp"
+#include "custom_msg_srv/msg/float64_stamped.hpp"
 #include "control_toolbox/pid.hpp"
 #include <cmath>
 #include <chrono>
 #include <iostream>
-using namespace std;
+using namespace std::chrono_literals;
+
     class Pid_component
     {
     public:
@@ -20,12 +22,13 @@ using namespace std;
 
     private:
         rclcpp::Node::SharedPtr node_;
-        rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr ctrl_effort;
-        rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr setpoint;
-        rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr state;
-        rclcpp::TimerBase::SharedPtr timer_;
-        size_t count_ = 0;
+        rclcpp::Publisher<custom_msg_srv::msg::Float64Stamped>::SharedPtr ctrl_effort;
+        rclcpp::Subscription<custom_msg_srv::msg::Float64Stamped>::SharedPtr setpoint;
+        rclcpp::Subscription<custom_msg_srv::msg::Float64Stamped>::SharedPtr state;
+        control_toolbox::Pid pid_controller;
         float state_ = 0;
         float setpoint_ = 0;
+        double error;
+        rclcpp::Time last_time;
     };
 #endif

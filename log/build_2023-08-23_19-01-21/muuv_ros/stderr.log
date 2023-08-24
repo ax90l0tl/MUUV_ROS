@@ -1,0 +1,22 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   68 |     [01;31m[Kcustom_qos_profile[m[K.depth = 1;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   69 |     [01;31m[Kcustom_qos_profile[m[K.reliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   70 |     [01;31m[Kcustom_qos_profile[m[K.history = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_qos_profile[m[K’ does not name a type
+   71 |     [01;31m[Kcustom_qos_profile[m[K.durability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:40:42:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr) const[m[K’
+   40 |         syncApproximate.registerCallback([01;31m[Kctrl_effort_callback[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:44:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 |     void [01;36m[Kctrl_effort_callback[m[K(const StampedFloatMsg::SharedPtr msg_x, const StampedFloatMsg::SharedPtr msg_rx,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

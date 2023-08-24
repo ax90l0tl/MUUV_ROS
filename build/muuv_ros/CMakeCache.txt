@@ -272,7 +272,7 @@ SITE:STRING=My-Peach-Farm
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/libmessage_filters.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
@@ -343,6 +343,9 @@ control_msgs_DIR:PATH=/opt/ros/foxy/share/control_msgs/cmake
 //The directory containing a CMake configuration file for control_toolbox.
 control_toolbox_DIR:PATH=/opt/ros/foxy/share/control_toolbox/cmake
 
+//The directory containing a CMake configuration file for custom_msg_srv.
+custom_msg_srv_DIR:PATH=/home/isopodin-time/ros2_ws/install/custom_msg_srv/share/custom_msg_srv/cmake
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr
 
@@ -363,6 +366,9 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/foxy/share/message_filters/cmake
 
 //Value Computed by CMake
 muuv_ros_BINARY_DIR:STATIC=/home/isopodin-time/ros2_ws/build/muuv_ros

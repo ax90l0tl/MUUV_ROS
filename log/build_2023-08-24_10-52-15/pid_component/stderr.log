@@ -1,0 +1,30 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:3:120:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcontrol_toolbox::PidROS::PidROS()[m[K’
+    3 | _component(const rclcpp::NodeOptions &options) : node_(std::make_shared<rclcpp::Node>("pid", options)[01;31m[K)[m[K
+      |                                                                                                      [01;31m[K^[m[K
+
+In file included from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/include/pid_component/pid_component.hpp:8[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:77:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcontrol_toolbox::PidROS::PidROS(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeParametersInterface::SharedPtr, rclcpp::node_interfaces::NodeTopicsInterface::SharedPtr, std::string)[m[K’
+   77 |   [01;36m[KPidROS[m[K(
+      |   [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:77:3:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 0 provided
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:67:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT> control_toolbox::PidROS::PidROS(std::shared_ptr<_Tp>, std::string)[m[K’
+   67 |   explicit [01;36m[KPidROS[m[K(std::shared_ptr<NodeT> node_ptr, std::string topic_prefix = std::string(""))
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:67:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:3:120:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+    3 | _component(const rclcpp::NodeOptions &options) : node_(std::make_shared<rclcpp::Node>("pid", options)[01;36m[K)[m[K
+      |                                                                                                      [01;36m[K^[m[K
+
+In file included from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/include/pid_component/pid_component.hpp:8[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:54:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcontrol_toolbox::PidROS::PidROS(const control_toolbox::PidROS&)[m[K’
+   54 | class CONTROL_TOOLBOX_PUBLIC [01;36m[KPidROS[m[K
+      |                              [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:54:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:54:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcontrol_toolbox::PidROS::PidROS(control_toolbox::PidROS&&)[m[K’
+[01m[K/opt/ros/foxy/include/control_toolbox/control_toolbox/pid_ros.hpp:54:30:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

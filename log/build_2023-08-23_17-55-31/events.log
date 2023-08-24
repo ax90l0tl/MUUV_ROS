@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.003904] (-) JobUnselected: {'identifier': 'muuv_ros'}
+[0.004063] (-) JobUnselected: {'identifier': 'muuv_sim'}
+[0.004471] (-) JobUnselected: {'identifier': 'muuv_sim_control'}
+[0.004575] (-) JobUnselected: {'identifier': 'muuv_sim_description'}
+[0.004652] (-) JobUnselected: {'identifier': 'pid_component'}
+[0.005094] (-) JobUnselected: {'identifier': 'plankton'}
+[0.005179] (-) JobUnselected: {'identifier': 'plankton_utils'}
+[0.005258] (-) JobUnselected: {'identifier': 'test_sim'}
+[0.005283] (-) JobUnselected: {'identifier': 'uuv_assistants'}
+[0.005359] (-) JobUnselected: {'identifier': 'uuv_auv_control_allocator'}
+[0.005379] (-) JobUnselected: {'identifier': 'uuv_control_cascaded_pid'}
+[0.005454] (-) JobUnselected: {'identifier': 'uuv_control_msgs'}
+[0.005473] (-) JobUnselected: {'identifier': 'uuv_control_utils'}
+[0.005549] (-) JobUnselected: {'identifier': 'uuv_descriptions'}
+[0.005568] (-) JobUnselected: {'identifier': 'uuv_gazebo'}
+[0.005610] (-) JobUnselected: {'identifier': 'uuv_gazebo_plugins'}
+[0.005673] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins'}
+[0.005750] (-) JobUnselected: {'identifier': 'uuv_gazebo_ros_plugins_msgs'}
+[0.005784] (-) JobUnselected: {'identifier': 'uuv_gazebo_worlds'}
+[0.005826] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins'}
+[0.005903] (-) JobUnselected: {'identifier': 'uuv_sensor_ros_plugins_msgs'}
+[0.005923] (-) JobUnselected: {'identifier': 'uuv_simulator'}
+[0.005999] (-) JobUnselected: {'identifier': 'uuv_teleop'}
+[0.006018] (-) JobUnselected: {'identifier': 'uuv_thruster_manager'}
+[0.006060] (-) JobUnselected: {'identifier': 'uuv_trajectory_control'}
+[0.006137] (-) JobUnselected: {'identifier': 'uuv_tutorial_disturbances'}
+[0.006157] (-) JobUnselected: {'identifier': 'uuv_tutorial_dp_controller'}
+[0.006246] (-) JobUnselected: {'identifier': 'uuv_tutorial_seabed_world'}
+[0.006266] (-) JobUnselected: {'identifier': 'uuv_tutorials'}
+[0.006335] (-) JobUnselected: {'identifier': 'uuv_world_plugins'}
+[0.006355] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins'}
+[0.006412] (-) JobUnselected: {'identifier': 'uuv_world_ros_plugins_msgs'}
+[0.006479] (custom_msg_srv) JobQueued: {'identifier': 'custom_msg_srv', 'dependencies': OrderedDict()}
+[0.006574] (custom_msg_srv) JobStarted: {'identifier': 'custom_msg_srv'}
+[0.025516] (custom_msg_srv) JobProgress: {'identifier': 'custom_msg_srv', 'progress': 'cmake'}
+[0.026577] (custom_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '/home/isopodin-time/ros2_ws/src/custom_msg_srv', '-DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/custom_msg_srv'], 'cwd': '/home/isopodin-time/ros2_ws/build/custom_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'isopodin-time'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_world_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins/lib:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/isopodin-time'), ('OLDPWD', '/home/isopodin-time/ros2_ws/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/isopodin-time/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'isopodin-time'), ('NAME', 'My-Peach-Farm'), ('WSL_INTEROP', '/run/WSL/20811_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/home/isopodin-time/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/AMD:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/aznmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aznmo/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '75f7ae35-4fe8-4a80-be9e-086fbfd5bba0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorials:/home/isopodin-time/ros2_ws/install/uuv_tutorial_dp_controller:/home/isopodin-time/ros2_ws/install/uuv_tutorial_disturbances:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorial_seabed_world:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/test_sim:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim_description:/home/isopodin-time/ros2_ws/install/muuv_sim_control:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/isopodin-time/ros2_ws/build/custom_msg_srv'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/isopodin-time/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/isopodin-time/ros2_ws/install/plankton:/home/isopodin-time/ros2_ws/install/uuv_simulator:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorials:/home/isopodin-time/ros2_ws/install/uuv_tutorial_dp_controller:/home/isopodin-time/ros2_ws/install/uuv_tutorial_disturbances:/home/isopodin-time/ros2_ws/install/uuv_control_utils:/home/isopodin-time/ros2_ws/install/uuv_world_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_world_plugins:/home/isopodin-time/ros2_ws/install/uuv_tutorial_seabed_world:/home/isopodin-time/ros2_ws/install/uuv_trajectory_control:/home/isopodin-time/ros2_ws/install/uuv_teleop:/home/isopodin-time/ros2_ws/install/uuv_thruster_manager:/home/isopodin-time/ros2_ws/install/uuv_descriptions:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_sensor_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_worlds:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/isopodin-time/ros2_ws/install/uuv_gazebo_plugins:/home/isopodin-time/ros2_ws/install/uuv_gazebo:/home/isopodin-time/ros2_ws/install/uuv_control_msgs:/home/isopodin-time/ros2_ws/install/uuv_control_cascaded_pid:/home/isopodin-time/ros2_ws/install/uuv_auv_control_allocator:/home/isopodin-time/ros2_ws/install/uuv_assistants:/home/isopodin-time/ros2_ws/install/muuv_sim:/home/isopodin-time/ros2_ws/install/test_sim:/home/isopodin-time/ros2_ws/install/plankton_utils:/home/isopodin-time/ros2_ws/install/muuv_sim_description:/home/isopodin-time/ros2_ws/install/muuv_sim_control:/home/isopodin-time/ros2_ws/install/muuv_ros:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.099623] (-) TimerEvent: {}
+[0.200161] (-) TimerEvent: {}
+[0.286047] (custom_msg_srv) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300412] (-) TimerEvent: {}
+[0.400855] (-) TimerEvent: {}
+[0.501293] (-) TimerEvent: {}
+[0.601908] (-) TimerEvent: {}
+[0.703374] (-) TimerEvent: {}
+[0.795677] (custom_msg_srv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.803437] (-) TimerEvent: {}
+[0.903934] (-) TimerEvent: {}
+[0.995065] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.004051] (-) TimerEvent: {}
+[1.104567] (-) TimerEvent: {}
+[1.205053] (-) TimerEvent: {}
+[1.218097] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.219169] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.305291] (-) TimerEvent: {}
+[1.405701] (-) TimerEvent: {}
+[1.436543] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.452136] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.452759] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.455294] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.505866] (-) TimerEvent: {}
+[1.606298] (-) TimerEvent: {}
+[1.676985] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.678114] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.706464] (-) TimerEvent: {}
+[1.806880] (-) TimerEvent: {}
+[1.881213] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.892161] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.892701] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.897163] (custom_msg_srv) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.906975] (-) TimerEvent: {}
+[1.927241] (custom_msg_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.927457] (custom_msg_srv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.007130] (-) TimerEvent: {}
+[2.107513] (-) TimerEvent: {}
+[2.151234] (custom_msg_srv) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.207662] (-) TimerEvent: {}
+[2.308116] (-) TimerEvent: {}
+[2.373412] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.385303] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.408299] (-) TimerEvent: {}
+[2.508685] (-) TimerEvent: {}
+[2.609132] (-) TimerEvent: {}
+[2.709539] (-) TimerEvent: {}
+[2.810054] (-) TimerEvent: {}
+[2.910533] (-) TimerEvent: {}
+[3.011052] (-) TimerEvent: {}
+[3.111609] (-) TimerEvent: {}
+[3.212106] (-) TimerEvent: {}
+[3.312559] (-) TimerEvent: {}
+[3.413030] (-) TimerEvent: {}
+[3.513459] (-) TimerEvent: {}
+[3.614012] (-) TimerEvent: {}
+[3.714452] (-) TimerEvent: {}
+[3.731418] (custom_msg_srv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.814642] (-) TimerEvent: {}
+[3.915113] (-) TimerEvent: {}
+[4.015695] (-) TimerEvent: {}
+[4.116269] (-) TimerEvent: {}
+[4.216817] (-) TimerEvent: {}
+[4.317339] (-) TimerEvent: {}
+[4.417925] (-) TimerEvent: {}
+[4.518367] (-) TimerEvent: {}
+[4.618795] (-) TimerEvent: {}
+[4.719246] (-) TimerEvent: {}
+[4.819813] (-) TimerEvent: {}
+[4.920294] (-) TimerEvent: {}
+[5.020737] (-) TimerEvent: {}
+[5.121234] (-) TimerEvent: {}
+[5.140440] (custom_msg_srv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.221393] (-) TimerEvent: {}
+[5.321814] (-) TimerEvent: {}
+[5.422276] (-) TimerEvent: {}
+[5.522747] (-) TimerEvent: {}
+[5.623272] (-) TimerEvent: {}
+[5.723748] (-) TimerEvent: {}
+[5.824193] (-) TimerEvent: {}
+[5.924672] (-) TimerEvent: {}
+[6.025122] (-) TimerEvent: {}
+[6.125671] (-) TimerEvent: {}
+[6.226172] (-) TimerEvent: {}
+[6.326631] (-) TimerEvent: {}
+[6.427093] (-) TimerEvent: {}
+[6.527535] (-) TimerEvent: {}
+[6.628152] (-) TimerEvent: {}
+[6.728665] (-) TimerEvent: {}
+[6.829191] (-) TimerEvent: {}
+[6.929701] (-) TimerEvent: {}
+[7.030143] (-) TimerEvent: {}
+[7.130617] (-) TimerEvent: {}
+[7.231094] (-) TimerEvent: {}
+[7.331625] (-) TimerEvent: {}
+[7.432102] (-) TimerEvent: {}
+[7.532634] (-) TimerEvent: {}
+[7.633179] (-) TimerEvent: {}
+[7.733693] (-) TimerEvent: {}
+[7.822984] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.833781] (-) TimerEvent: {}
+[7.880855] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[7.924182] (custom_msg_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.933945] (-) TimerEvent: {}
+[8.034331] (-) TimerEvent: {}
+[8.103582] (custom_msg_srv) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[8.103816] (custom_msg_srv) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[8.103884] (custom_msg_srv) StderrLine: {'line': b'  custom_msg_srv --arguments-file\n'}
+[8.103943] (custom_msg_srv) StderrLine: {'line': b'  /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter__arguments__custom_msg_srv.json\n'}
+[8.104001] (custom_msg_srv) StderrLine: {'line': b'  --output-dir\n'}
+[8.104058] (custom_msg_srv) StderrLine: {'line': b'  /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter/custom_msg_srv\n'}
+[8.104113] (custom_msg_srv) StderrLine: {'line': b'  --output-file\n'}
+[8.104167] (custom_msg_srv) StderrLine: {'line': b'  /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter/custom_msg_srv.idls)\n'}
+[8.104220] (custom_msg_srv) StderrLine: {'line': b'  returned error code 1:\n'}
+[8.104274] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.104329] (custom_msg_srv) StderrLine: {'line': b"  Error processing 'std_msgs/msg/Header header' of\n"}
+[8.104385] (custom_msg_srv) StderrLine: {'line': b"  'custom_msg_srv/Float64Stamped': 'std_msgs/msg/Header'\n"}
+[8.104439] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.104494] (custom_msg_srv) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[8.104547] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.104601] (custom_msg_srv) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[8.104654] (custom_msg_srv) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[8.104707] (custom_msg_srv) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[8.104760] (custom_msg_srv) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[8.104813] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[8.104867] (custom_msg_srv) StderrLine: {'line': b'      sys.exit(main())\n'}
+[8.104920] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[8.104974] (custom_msg_srv) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[8.105027] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[8.105081] (custom_msg_srv) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[8.105155] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[8.105225] (custom_msg_srv) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[8.105521] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[8.105603] (custom_msg_srv) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[8.105663] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[8.105719] (custom_msg_srv) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[8.105774] (custom_msg_srv) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 189, in __init__\n'}
+[8.105833] (custom_msg_srv) StderrLine: {'line': b'      raise InvalidResourceName(type_string)\n'}
+[8.105889] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.105943] (custom_msg_srv) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: std_msgs/msg/Header\n'}
+[8.105998] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.106053] (custom_msg_srv) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.106107] (custom_msg_srv) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[8.106161] (custom_msg_srv) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[8.106214] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.106267] (custom_msg_srv) StderrLine: {'line': b'\n'}
+[8.106347] (custom_msg_srv) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.106418] (custom_msg_srv) StdoutLine: {'line': b'See also "/home/isopodin-time/ros2_ws/build/custom_msg_srv/CMakeFiles/CMakeOutput.log".\n'}
+[8.113209] (custom_msg_srv) CommandEnded: {'returncode': 1}
+[8.135436] (-) TimerEvent: {}
+[8.145931] (custom_msg_srv) JobEnded: {'identifier': 'custom_msg_srv', 'rc': 1}
+[8.157280] (-) EventReactorShutdown: {}

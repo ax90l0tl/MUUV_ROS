@@ -1,0 +1,15 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:28:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64_4[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint64_t[m[K’?
+   28 |     last_time = ([01;31m[Kuint64_4[m[K) this->node_->now();
+      |                  [01;31m[K^~~~~~~~[m[K
+      |                  [32m[Kuint64_t[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:47:43:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}) ()[m[K’
+   47 |         uint64_t dt = state->header.stamp([01;31m[K)[m[K - last_time;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:50:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   50 |         msg->data = setpoint->[01;31m[Kdata[m[K;
+      |                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,5 +1,8 @@
+/home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/imu_repub
+/home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid_recombiner
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
+/home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch/test.launch.py
 /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/package_run_dependencies/muuv_ros
 /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/parent_prefix_path/muuv_ros
 /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.sh

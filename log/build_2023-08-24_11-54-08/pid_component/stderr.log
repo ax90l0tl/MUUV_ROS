@@ -1,0 +1,11 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:28:31:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   28 |     last_time = rclcpp::Time::[01;31m[Know[m[K();
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In lambda function:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:47:52:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Krclcpp::Time[m[K’ to non-scalar type ‘[01m[Krclcpp::Duration[m[K’ requested
+   47 |         rclcpp::Duration diff = [01;31m[Kthis->node_->now() - last_time[m[K;
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

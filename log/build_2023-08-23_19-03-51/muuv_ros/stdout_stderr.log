@@ -1,0 +1,70 @@
+[35m[1mScanning dependencies of target pid_recombiner[0m
+[ 33%] Built target thrusters
+[ 77%] Built target sensors
+[ 88%] [32mBuilding CXX object CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:68:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   68 |     [01;31m[Kauto[m[K custom_qos_profile.depth = 1;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:68:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |     auto [01;31m[Kcustom_qos_profile[m[K.depth = 1;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:68:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[K<typeprefixerror>Pid_recombiner::custom_qos_profile[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krmw_qos_profile_t Pid_recombiner::custom_qos_profile[m[K’
+   67 |     rmw_qos_profile_t [01;36m[Kcustom_qos_profile[m[K = rmw_qos_profile_default;
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:68:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   68 |     auto custom_qos_profile[01;31m[K.[m[Kdepth = 1;
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:69:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   69 |     [01;31m[Kauto[m[K custom_qos_profile.reliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:69:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   69 |     auto [01;31m[Kcustom_qos_profile[m[K.reliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:69:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[K<typeprefixerror>Pid_recombiner::custom_qos_profile[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krmw_qos_profile_t Pid_recombiner::custom_qos_profile[m[K’
+   67 |     rmw_qos_profile_t [01;36m[Kcustom_qos_profile[m[K = rmw_qos_profile_default;
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:69:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   69 |     auto custom_qos_profile[01;31m[K.[m[Kreliability = rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT;
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:70:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   70 |     [01;31m[Kauto[m[K custom_qos_profile.history = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:70:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   70 |     auto [01;31m[Kcustom_qos_profile[m[K.history = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:70:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[K<typeprefixerror>Pid_recombiner::custom_qos_profile[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krmw_qos_profile_t Pid_recombiner::custom_qos_profile[m[K’
+   67 |     rmw_qos_profile_t [01;36m[Kcustom_qos_profile[m[K = rmw_qos_profile_default;
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:70:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   70 |     auto custom_qos_profile[01;31m[K.[m[Khistory = rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:71:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   71 |     [01;31m[Kauto[m[K custom_qos_profile.durability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:71:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   71 |     auto [01;31m[Kcustom_qos_profile[m[K.durability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:71:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[K<typeprefixerror>Pid_recombiner::custom_qos_profile[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:67:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krmw_qos_profile_t Pid_recombiner::custom_qos_profile[m[K’
+   67 |     rmw_qos_profile_t [01;36m[Kcustom_qos_profile[m[K = rmw_qos_profile_default;
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:71:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   71 |     auto custom_qos_profile[01;31m[K.[m[Kdurability = rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL;
+      |                            [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:40:42:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr) const[m[K’
+   40 |         syncApproximate.registerCallback([01;31m[Kctrl_effort_callback[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:44:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 |     void [01;36m[Kctrl_effort_callback[m[K(const StampedFloatMsg::SharedPtr msg_x, const StampedFloatMsg::SharedPtr msg_rx,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

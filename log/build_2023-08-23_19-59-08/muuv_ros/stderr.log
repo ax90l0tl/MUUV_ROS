@@ -1,0 +1,26 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:82:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   82 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[34m[K([m[K[01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+      |                                                                                         [34m[K~[m[K[01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                          [32m[K)[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:82:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   82 |     message_filters::Synchronizer<approximate_policy> syncApproximate[34m[K([m[Kapproximate_policy([01;31m[K1[m[K[32m[K0[m[K), sub_x, sub_y, sub_z,
+      |                                                                      [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                          [32m[K)[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:82:89:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   82 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy[01;31m[K([m[K10), sub_x, sub_y, sub_z,
+      |                                                                                         [01;31m[K^[m[K
+      |                                                                                          [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:82:90:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   82 |     message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy([01;31m[K10[m[K), sub_x, sub_y, sub_z,
+      |                                                                                          [01;31m[K^~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:47:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > > > Pid_recombiner::syncApproximate(...)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   47 |         [01;31m[KsyncApproximate[m[K->registerCallback(std::bind(&Pid_recombiner::ctrl_effort_callback, this, _1, _2, _3, _4, _5, _6));
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                        [32m[K()[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:47:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   47 |         syncApproximate[01;31m[K->[m[KregisterCallback(std::bind(&Pid_recombiner::ctrl_effort_callback, this, _1, _2, _3, _4, _5, _6));
+      |                        [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

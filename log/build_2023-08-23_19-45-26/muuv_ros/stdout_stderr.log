@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target pid_recombiner[0m
+[ 33%] Built target thrusters
+[ 77%] Built target sensors
+[ 88%] [32mBuilding CXX object CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksync_[m[K’ was not declared in this scope
+   52 |         [01;31m[Ksync_[m[K = message_filters::Synchronizer<approximate_policy> syncApproximate(approximate_policy(10), sub_x, sub_y, sub_z,
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:52:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KsyncApproximate[m[K’
+   52 |         sync_ = message_filters::Synchronizer<approximate_policy> [01;31m[KsyncApproximate[m[K(approximate_policy(10), sub_x, sub_y, sub_z,
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

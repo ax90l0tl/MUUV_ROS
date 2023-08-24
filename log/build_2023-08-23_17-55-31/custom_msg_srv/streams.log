@@ -1,0 +1,70 @@
+[0.023s] Invoking command in '/home/isopodin-time/ros2_ws/build/custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/custom_msg_srv
+[0.280s] -- The C compiler identification is GNU 9.4.0
+[0.789s] -- The CXX compiler identification is GNU 9.4.0
+[0.989s] -- Check for working C compiler: /usr/bin/cc
+[1.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.213s] -- Detecting C compiler ABI info
+[1.430s] -- Detecting C compiler ABI info - done
+[1.446s] -- Detecting C compile features
+[1.446s] -- Detecting C compile features - done
+[1.449s] -- Check for working CXX compiler: /usr/bin/c++
+[1.671s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.672s] -- Detecting CXX compiler ABI info
+[1.875s] -- Detecting CXX compiler ABI info - done
+[1.886s] -- Detecting CXX compile features
+[1.886s] -- Detecting CXX compile features - done
+[1.891s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.921s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.921s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.145s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.379s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.134s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.817s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.875s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[7.918s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[8.097s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[8.097s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[8.097s]   custom_msg_srv --arguments-file
+[8.097s]   /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter__arguments__custom_msg_srv.json
+[8.097s]   --output-dir
+[8.097s]   /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter/custom_msg_srv
+[8.098s]   --output-file
+[8.098s]   /home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_adapter/custom_msg_srv.idls)
+[8.098s]   returned error code 1:
+[8.098s] 
+[8.098s]   Error processing 'std_msgs/msg/Header header' of
+[8.098s]   'custom_msg_srv/Float64Stamped': 'std_msgs/msg/Header'
+[8.098s] 
+[8.098s]   Traceback (most recent call last):
+[8.098s] 
+[8.098s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[8.098s]       return _run_code(code, main_globals, None,
+[8.098s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[8.098s]       exec(code, run_globals)
+[8.098s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[8.098s]       sys.exit(main())
+[8.098s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[8.098s]       abs_idl_file = convert_to_idl(
+[8.098s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[8.099s]       return convert_msg_to_idl(
+[8.099s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[8.099s]       msg = parse_message_string(package_name, input_file.stem, content)
+[8.099s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[8.099s]       Type(type_string, context_package_name=pkg_name),
+[8.099s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[8.099s]       super(Type, self).__init__(
+[8.099s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 189, in __init__
+[8.099s]       raise InvalidResourceName(type_string)
+[8.099s] 
+[8.099s]   rosidl_adapter.parser.InvalidResourceName: std_msgs/msg/Header
+[8.099s] 
+[8.099s] Call Stack (most recent call first):
+[8.100s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[8.100s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[8.100s] 
+[8.100s] 
+[8.100s] -- Configuring incomplete, errors occurred!
+[8.100s] See also "/home/isopodin-time/ros2_ws/build/custom_msg_srv/CMakeFiles/CMakeOutput.log".
+[8.107s] Invoked command in '/home/isopodin-time/ros2_ws/build/custom_msg_srv' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/custom_msg_srv

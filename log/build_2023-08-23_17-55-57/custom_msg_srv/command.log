@@ -1,0 +1,2 @@
+Invoking command in '/home/isopodin-time/ros2_ws/build/custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/custom_msg_srv
+Invoked command in '/home/isopodin-time/ros2_ws/build/custom_msg_srv' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/custom_msg_srv

@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target pid_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid[m[K’ was not declared in this scope
+   10 |     [01;31m[Kpid[m[K.initPid(1.0, 1.0, 1.0, 5.0, -5.0, false);
+      |     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pid_component.dir/build.make:63: CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pid_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/isopodin-time/ros2_ws/src/pid_component/include/pid_component"
+  "/home/isopodin-time/ros2_ws/install/custom_msg_srv/include"
   "/opt/ros/foxy/include"
   "/opt/ros/foxy/include/control_toolbox"
   )

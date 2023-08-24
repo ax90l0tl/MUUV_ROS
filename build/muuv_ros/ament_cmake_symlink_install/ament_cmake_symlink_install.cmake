@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "thrusters" "sensors" "DESTINATION" "lib/muuv_ros")
+# install("TARGETS" "imu_repub" "pid_recombiner" "thrusters" "sensors" "DESTINATION" "lib/muuv_ros")
 include("/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/muuv_ros")

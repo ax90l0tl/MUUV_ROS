@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target pid_recombiner[0m
+[ 44%] Built target sensors
+[ 77%] Built target thrusters
+[ 88%] [32mBuilding CXX object CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:51:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >, custom_msg_srv::msg::Float64Stamped_<std::allocator<void> > > >[m[K’
+   51 |         syncApproximate[01;31m[K->[m[KregisterCallback(std::bind(&Pid_recombiner::ctrl_effort_callback, this, _1, _2, _3, _4, _5, _6));
+      |                        [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

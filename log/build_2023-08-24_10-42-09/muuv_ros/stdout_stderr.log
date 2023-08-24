@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target imu_repub[0m
+[ 27%] Built target thrusters
+[ 72%] Built target sensors
+[ 81%] Built target pid_recombiner
+[ 90%] [32mBuilding CXX object CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:104:54:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type
+  104 |     void setpoint_callback(const geometry_msgs::msg::[01;31m[KTransformStamped[m[K::SharedPtr msg) const
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:104:82:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  104 |     void setpoint_callback(const geometry_msgs::msg::TransformStamped::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:104:81:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  104 |     void setpoint_callback[34m[K([m[Kconst geometry_msgs::msg::TransformStamped::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+      |                           [34m[K~[m[K                                                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                 [32m[K)[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:104:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  104 |     void setpoint_callback(const geometry_msgs::msg::TransformStamped::[01;31m[KSharedPtr[m[K msg) const
+      |                                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                                 [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:104:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  104 |     void setpoint_callback(const geometry_msgs::msg::TransformStamped::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                                  [01;31m[K^~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:46:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+  138 |     rclcpp::Subscription<geometry_msgs::msg::[01;31m[KTransformStamped[m[K>::SharedPtr setpoint_sub;
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:46:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  138 |     rclcpp::Subscription<geometry_msgs::msg::TransformStamped[01;31m[K>[m[K::SharedPtr setpoint_sub;
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  138 |     rclcpp::Subscription<geometry_msgs::msg::TransformStamped>::[01;31m[KSharedPtr[m[K setpoint_sub;
+      |                                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:138:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpoint_sub[m[K’ does not name a type
+  138 |     rclcpp::Subscription<geometry_msgs::msg::TransformStamped>::SharedPtr [01;31m[Ksetpoint_sub[m[K;
+      |                                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:[m[K In constructor ‘[01m[KImu_repub::Imu_repub()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpoint_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetpoint_x[m[K’?
+   53 |         [01;31m[Ksetpoint_sub[m[K = this->create_subscription<geometry_msgs::msg::TransformStamped>(
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Ksetpoint_x[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:53:70:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   53 |         setpoint_sub = this->create_subscription<geometry_msgs::msg::[01;31m[KTransformStamped[m[K>(
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:53:70:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:54:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KImu_repub::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (Imu_repub::*)(...), Imu_repub*, const std::_Placeholder<1>&>::type)[m[K’
+   54 |             "setpoint", 10, std::bind(&Imu_repub::setpoint_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   91 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:54:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |             "setpoint", 10, std::bind(&Imu_repub::setpoint_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/imu_repub.dir/build.make:63: CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/imu_repub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
