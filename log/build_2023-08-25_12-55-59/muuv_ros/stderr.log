@@ -1,0 +1,54 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::readPipeNotif()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:82:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   82 |     for (int i = 0; [01;35m[Ki < sizeof(datanotif_2)[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:89:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+   89 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:269:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+  269 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+      |           [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:76: CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In constructor ‘[01m[KSensors::Sensors()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:17:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::unique_ptr<MTi>[m[K’ and ‘[01m[KMTi*[m[K’)
+   17 |     imu = new MTi(pi[01;31m[K)[m[K;
+      |                     [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/sensors.hpp:4[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:305:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::operator=(std::unique_ptr<_Tp, _Dp>&&) [with _Tp = MTi; _Dp = std::default_delete<MTi>][m[K’
+  305 |       [01;36m[Koperator[m[K=(unique_ptr&& __u) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:305:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMTi*[m[K’ to ‘[01m[Kstd::unique_ptr<MTi>&&[m[K’
+  305 |       operator=([01;36m[Kunique_ptr&& __u[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:325:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep> typename std::enable_if<std::__and_<std::__and_<std::is_convertible<typename std::unique_ptr<_Up, _Ep>::pointer, typename std::__uniq_ptr_impl<_Tp, _Dp>::pointer>, std::__not_<std::is_array<_Up> > >, std::is_assignable<_T2&, _U2&&> >::value, std::unique_ptr<_Tp, _Dp>&>::type std::unique_ptr<_Tp, _Dp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Up = _Up; _Ep = _Ep; _Tp = MTi; _Dp = std::default_delete<MTi>][m[K’
+  325 |  [01;36m[Koperator[m[K=(unique_ptr<_Up, _Ep>&& __u) noexcept
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:325:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:17:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[KMTi*[m[K’
+   17 |     imu = new MTi(pi[01;36m[K)[m[K;
+      |                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/sensors.hpp:4[m[K,
+                 from [01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:334:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::operator=(std::nullptr_t) [with _Tp = MTi; _Dp = std::default_delete<MTi>; std::nullptr_t = std::nullptr_t][m[K’
+  334 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:334:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMTi*[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  334 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::unique_ptr<MTi>[m[K’ has no member named ‘[01m[Kdetect[m[K’
+   18 |     if (imu.[01;31m[Kdetect[m[K(1000))
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In destructor ‘[01m[Kvirtual Sensors::~Sensors()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:40:15:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kclass std::unique_ptr<MTi>[m[K’ argument given to ‘[01m[Kdelete[m[K’, expected pointer
+   40 |     delete(imu[01;31m[K)[m[K;
+      |               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

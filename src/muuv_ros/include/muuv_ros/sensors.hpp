@@ -24,7 +24,7 @@ private:
     void timer_Callback();
     rclcpp::TimerBase::SharedPtr timer_;
     size_t count_;
-    MTi *imu;
+    unique_ptr<MTi> imu;
     int pi;
 };
 

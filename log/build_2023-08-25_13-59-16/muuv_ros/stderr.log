@@ -1,0 +1,4 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:271:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+  271 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+      |           [01;35m[K^~~[m[K

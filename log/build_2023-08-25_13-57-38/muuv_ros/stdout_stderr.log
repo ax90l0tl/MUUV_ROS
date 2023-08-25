@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o[0m
+[ 45%] Built target imu_repub
+[ 45%] Built target pid_recombiner
+[ 72%] Built target thrusters
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::readPipeMeas()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:99:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdatameas_2[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   99 |     uint8_t *[01;35m[Kdatameas_2[m[K;
+      |              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:271:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+  271 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+      |           [01;35m[K^~~[m[K
+[ 81%] [32m[1mLinking CXX executable sensors[0m
+[100%] Built target sensors
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/imu_repub
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid_recombiner
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch/test.launch.py
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/package_run_dependencies/muuv_ros
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/parent_prefix_path/muuv_ros
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/environment/path.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.bash
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.zsh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/local_setup.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/ament_index/resource_index/packages/muuv_ros
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig.cmake
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake/muuv_rosConfig-version.cmake
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/package.xml

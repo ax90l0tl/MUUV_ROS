@@ -7,20 +7,22 @@ Sensors::Sensors() : rclcpp::Node("sensors"), count_(0)
     this->declare_parameter("pi_address", "192.168.8.157");
     this->declare_parameter("pi_port", "8888");
     pi = pigpio_start(this->get_parameter("pi_address").as_string().c_str(),
-                          this->get_parameter("pi_port").as_string().c_str());
+                      this->get_parameter("pi_port").as_string().c_str());
     if (pi < 0)
     {
         RCLCPP_INFO(this->get_logger(), "PI not detected!");
     }
     cout << "pigpio_id " << pi << endl;
-    imu = new MTi(pi);
+    // create a dummy pointer for the class obj imu
+    unique_ptr<MTi> dummy(new MTi(pi));
+    imu = move(dummy);
     if (imu->detect(1000))
     {
-        const string modes[3] = {"QUATERNION", "RATEOFTURN", "ACCELERATION"};
-        const uint16_t hz[3] = {30, 30, 30};
+        const string modes[3] = {"QUATERNION", "RATEOFTURNHR", "ACCELERATION"};
+        const uint16_t hz[3] = {100, 100, 100};
         imu->configureOutputs(modes, hz, 3);
         imu->goToMeasurement();
-        imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 10);
+        imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 1);
         int n = sizeof(hz) / sizeof(hz[0]);
         int period = 1000 / (*max_element(hz, hz + n));
         timer_ = this->create_wall_timer(chrono::milliseconds(period), bind(&Sensors::timer_Callback, this));
@@ -35,14 +37,13 @@ Sensors::Sensors() : rclcpp::Node("sensors"), count_(0)
 Sensors::~Sensors()
 {
     RCLCPP_INFO(this->get_logger(), "Destructing");
-    imu->~MTi();
-    delete imu;
 }
 
 void Sensors::timer_Callback()
 {
     auto msg = sensor_msgs::msg::Imu();
     // imu->printData();
+    imu->readData();
     msg.header.stamp = now();
 
     msg.orientation.x = imu->getQuat()[0];
