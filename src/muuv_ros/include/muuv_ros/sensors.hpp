@@ -23,8 +23,8 @@ private:
     // North(x)-East(y)-Down(z) Coordinate
     void timer_Callback();
     rclcpp::TimerBase::SharedPtr timer_;
-    size_t count_;
-    unique_ptr<MTi> imu;
+    // unique_ptr<MTi> imu;
+    MTi imu;
     int pi;
 };
 

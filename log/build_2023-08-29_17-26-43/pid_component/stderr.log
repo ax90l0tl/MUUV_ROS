@@ -1,0 +1,4 @@
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:[m[K In constructor ‘[01m[KPid_component::Pid_component(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/pid_component/src/pid_component/pid_component.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcustom_qos_profile[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   19 |     rclcpp::QoS [01;35m[Kcustom_qos_profile[m[K = rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_default))
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~[m[K

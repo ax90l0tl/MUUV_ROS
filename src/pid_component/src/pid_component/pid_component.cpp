@@ -16,19 +16,21 @@ Pid_component::Pid_component(const rclcpp::NodeOptions &options)
                            this->node_->get_parameter("gains.d").as_double(), this->node_->get_parameter("gains.i_max").as_double(),
                            this->node_->get_parameter("gains.i_min").as_double(), this->node_->get_parameter("antiwindup").as_bool());
     // quality of service profile for message filtering
-    rclcpp::QoS custom_qos_profile = rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_default))
-                                         .history(rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST)
-                                         .keep_last(1)
-                                         .reliability(rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT)
-                                         .durability(rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL)
-                                         .avoid_ros_namespace_conventions(false);
+    // rclcpp::QoS custom_qos_profile = rclcpp::QoS(rclcpp::QoSInitialization::from_rmw(rmw_qos_profile_default))
+    //                                      .history(rmw_qos_history_policy_t::RMW_QOS_POLICY_HISTORY_KEEP_LAST)
+    //                                      .keep_last(1)
+    //                                      .reliability(rmw_qos_reliability_policy_t::RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT)
+    //                                      .durability(rmw_qos_durability_policy_t::RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL)
+    //                                      .avoid_ros_namespace_conventions(false);
 
     last_time = this->node_->now();
     // RCLCPP_INFO(this->node_->get_logger(), "starttime: '%i'", last_time);
 
     // Create a publisher of "custom_msg_srv/Float64Stamped" messages on the parameter topic.
+    // ctrl_effort = this->node_->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("ctrl_effort_name").as_string(),
+    //                                                                                  custom_qos_profile);
     ctrl_effort = this->node_->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("ctrl_effort_name").as_string(),
-                                                                                     custom_qos_profile);
+                                                                                     10);
 
     // Create a callback function for when messages are received.
     // Variations of this function also exist using, for example, UniquePtr for zero-copy transport.
@@ -43,7 +45,7 @@ Pid_component::Pid_component(const rclcpp::NodeOptions &options)
     {
         // RCLCPP_INFO(this->node_->get_logger(), "last_time: '%i'", last_time);
         state_ = state->data;
-        error = setpoint_ - state_;
+        double error = setpoint_ - state_;
         // RCLCPP_INFO(this->node_->get_logger(), "now: '%i'", this->node_->now());
         rclcpp::Duration diff = this->node_->now() - last_time;
         auto nano_sec = diff.to_chrono<std::chrono::nanoseconds>();

@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 18%] Built target imu_repub
+[ 36%] Built target pid_recombiner
+[ 63%] Built target thrusters
+[ 72%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o[0m
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:[m[K In member function ‘[01m[Kvoid Xbus::dataswapendian(char*, uint8_t)[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c/Xbus.cpp:273:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kcpy[m[K’ [[01;35m[K-Wvla[m[K]
+  273 |   uint8_t [01;35m[Kcpy[m[K[length];       // Create a copy of the data
+      |           [01;35m[K^~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In member function ‘[01m[Kvoid Sensors::timer_Callback()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:47:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KMTi[m[K’
+   47 |     imu[01;31m[K->[m[KreadData();
+      |        [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/sensors.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

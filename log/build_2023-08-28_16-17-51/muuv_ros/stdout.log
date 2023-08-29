@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target sensors[0m
+[ 45%] Built target imu_repub
+[ 45%] Built target thrusters
+[ 63%] Built target pid_recombiner
+[ 90%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m

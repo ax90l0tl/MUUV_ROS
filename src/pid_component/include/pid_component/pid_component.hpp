@@ -28,7 +28,6 @@ using namespace std::chrono_literals;
         control_toolbox::Pid pid_controller;
         float state_ = 0;
         float setpoint_ = 0;
-        double error;
         rclcpp::Time last_time;
     };
 #endif

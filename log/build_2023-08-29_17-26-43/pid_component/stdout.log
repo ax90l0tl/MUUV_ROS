@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target pid_component[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/pid_component/pid_component.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpid_component.so[0m
+[100%] Built target pid_component
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/include/pid_component/pid_component.hpp
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/include/pid_component/visibility_control.h
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/muuv_pid.launch.py
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/pid.launch.py
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/single_node.launch.py
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/package_run_dependencies/pid_component
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/parent_prefix_path/pid_component
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/path.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/environment/path.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.bash
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.sh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.zsh
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/local_setup.dsv
+-- Symlinking: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/package.dsv
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/packages/pid_component
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/rclcpp_components/pid_component
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/cmake/pid_componentConfig.cmake
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/cmake/pid_componentConfig-version.cmake
+-- Up-to-date symlink: /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/package.xml

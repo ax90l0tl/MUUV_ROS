@@ -1,5 +1,6 @@
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/imu_repub
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid_recombiner
+/home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/pid_recombiner_sync
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/thrusters
 /home/isopodin-time/ros2_ws/install/muuv_ros/lib/muuv_ros/sensors
 /home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/launch/test.launch.py

@@ -1,0 +1,17 @@
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:[m[K In constructor ‘[01m[KImu_repub::Imu_repub()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:63:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Imu_repub[m[K’ has no member named ‘[01m[Knode_[m[K’
+   63 |         this->[01;31m[Knode_[m[K->declare_parameters("imu", imu);
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp:72:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Imu_repub[m[K’ has no member named ‘[01m[Knode_[m[K’
+   72 |         this->[01;31m[Knode_[m[K->declare_parameters("setpoint", setpoint);
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In constructor ‘[01m[KPid_recombiner::Pid_recombiner()[m[K’:
+[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:40:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pid_recombiner[m[K’ has no member named ‘[01m[Knode_[m[K’
+   40 |         this->[01;31m[Knode_[m[K->declare_parameters("ctrl_effort", ctrl_effort);
+      |               [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/imu_repub.dir/build.make:63: CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/imu_repub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:63: CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/pid_recombiner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -5,6 +5,7 @@
 #include "sensor_msgs/msg/imu.hpp"
 #include "custom_msg_srv/msg/float64_stamped.hpp"
 #include "geometry_msgs/msg/transform_stamped.hpp"
+#include "qos_profile.hpp"
 using std::placeholders::_1;
 using namespace std;
 
@@ -46,24 +47,56 @@ class Imu_repub : public rclcpp::Node
 {
 public:
     Imu_repub()
-        : Node("minimal_subscriber")
+        : Node("imu_repub")
     {
         imu_sub = this->create_subscription<sensor_msgs::msg::Imu>(
             "imu_data", 10, std::bind(&Imu_repub::state_callback, this, _1));
         setpoint_sub = this->create_subscription<geometry_msgs::msg::TransformStamped>(
             "setpoint", 10, std::bind(&Imu_repub::setpoint_callback, this, _1));
-        state_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_x", 10);
-        state_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_y", 10);
-        state_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_z", 10);
-        state_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_rx", 10);
-        state_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_ry", 10);
-        state_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("imu_rz", 10);
-        setpoint_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_x", 10);
-        setpoint_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_y", 10);
-        setpoint_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_z", 10);
-        setpoint_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_rx", 10);
-        setpoint_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_ry", 10);
-        setpoint_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>("setpoint_rz", 10);
+
+        const std::map<std::string, std::string> &imu = {
+            {"x", "imu_x"},
+            {"y", "imu_y"},
+            {"z", "imu_z"},
+            {"rx", "imu_rx"},
+            {"ry", "imu_ry"},
+            {"rz", "imu_rz"}};
+        this->declare_parameters("imu", imu);
+
+        const std::map<std::string, std::string> &setpoint = {
+            {"x", "setpoint_x"},
+            {"y", "setpoint_y"},
+            {"z", "setpoint_z"},
+            {"rx", "setpoint_rx"},
+            {"ry", "setpoint_ry"},
+            {"rz", "setpoint_rz"}};
+        this->declare_parameters("setpoint", setpoint);
+
+        state_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.x").as_string(), 10);
+        state_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.y").as_string(), 10);
+        state_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.z").as_string(), 10);
+        state_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.rx").as_string(), 10);
+        state_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.ry").as_string(), 10);
+        state_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.rz").as_string(), 10);
+        setpoint_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.x").as_string(), 10);
+        setpoint_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.y").as_string(), 10);
+        setpoint_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.z").as_string(), 10);
+        setpoint_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.rx").as_string(), 10);
+        setpoint_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.ry").as_string(), 10);
+        setpoint_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.rz").as_string(), 10);
+
+        // state_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.x").as_string(), custom_qos_profile);
+        // state_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.y").as_string(), custom_qos_profile);
+        // state_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.z").as_string(), custom_qos_profile);
+        // state_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.rx").as_string(), custom_qos_profile);
+        // state_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.ry").as_string(), custom_qos_profile);
+        // state_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("imu.rz").as_string(), custom_qos_profile);
+        // setpoint_x = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.x").as_string(), custom_qos_profile);
+        // setpoint_y = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.y").as_string(), custom_qos_profile);
+        // setpoint_z = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.z").as_string(), custom_qos_profile);
+        // setpoint_rx = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.rx").as_string(), custom_qos_profile);
+        // setpoint_ry = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.ry").as_string(), custom_qos_profile);
+        // setpoint_rz = this->create_publisher<custom_msg_srv::msg::Float64Stamped>(this->get_parameter("setpoint.rz").as_string(), custom_qos_profile);
     }
 
 private:

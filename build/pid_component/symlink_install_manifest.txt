@@ -1,5 +1,6 @@
 /home/isopodin-time/ros2_ws/install/pid_component/include/pid_component/pid_component.hpp
 /home/isopodin-time/ros2_ws/install/pid_component/include/pid_component/visibility_control.h
+/home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/muuv_pid.launch.py
 /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/pid.launch.py
 /home/isopodin-time/ros2_ws/install/pid_component/share/pid_component/launch/single_node.launch.py
 /home/isopodin-time/ros2_ws/install/pid_component/share/ament_index/resource_index/package_run_dependencies/pid_component

@@ -66,6 +66,10 @@ custom_msg_srv/msg/detail/float64_stamped__type_support.hpp
 
 /home/isopodin-time/ros2_ws/install/custom_msg_srv/include/custom_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp
 
+/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/qos_profile.hpp
+rclcpp/rclcpp.hpp
+/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/rclcpp/rclcpp.hpp
+
 /home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp
 memory
 -
@@ -81,6 +85,8 @@ custom_msg_srv/msg/float64_stamped.hpp
 /home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/custom_msg_srv/msg/float64_stamped.hpp
 geometry_msgs/msg/transform_stamped.hpp
 /home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/geometry_msgs/msg/transform_stamped.hpp
+qos_profile.hpp
+/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/qos_profile.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

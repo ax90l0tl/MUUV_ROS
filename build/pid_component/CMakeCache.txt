@@ -367,6 +367,9 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for muuv_ros.
+muuv_ros_DIR:PATH=/home/isopodin-time/ros2_ws/install/muuv_ros/share/muuv_ros/cmake
+
 //Value Computed by CMake
 pid_component_BINARY_DIR:STATIC=/home/isopodin-time/ros2_ws/build/pid_component
 

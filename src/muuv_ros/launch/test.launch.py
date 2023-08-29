@@ -13,7 +13,7 @@ def generate_launch_description():
                 package="muuv_ros",
                 executable="sensors",
                 name="sensors",
-                output="screen",
+                # output="screen",
                 emulate_tty=True,
                 parameters=[{"pi_address": "192.168.8.157"}],
             ),
@@ -23,6 +23,12 @@ def generate_launch_description():
                 name="pid_recombiner",
                 output="screen",
                 emulate_tty=True,
+                parameters=[
+                    {
+                        "ctrl_effort.y": "imu_y",
+                        "ctrl_effort.z": "imu_z",
+                    }
+                ],
             ),
             Node(
                 package="muuv_ros",
@@ -30,13 +36,30 @@ def generate_launch_description():
                 name="imu_repub",
                 output="screen",
                 emulate_tty=True,
+                parameters=[{}],
+            ),
+            Node(
+                package="muuv_ros",
+                executable="thrusters",
+                name="thrusters",
+                output="screen",
+                emulate_tty=True,
+                parameters=[
+                    {
+                        "pi_address": "192.168.8.157",
+                        "motor.0": 17,
+                        "motor.1": 22,
+                        "motor.2": 27,
+                    }
+                ],
             ),
         ]
     )
     pid_launch_file = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory("pid_component"), "launch/pid.launch.py"
+                get_package_share_directory("pid_component"),
+                "launch/muuv_pid.launch.py",
             )
         )
     )

@@ -33,8 +33,11 @@ add_executable(sensors src/${PROJECT_NAME}/sensors.cpp
 ament_target_dependencies(sensors rclcpp sensor_msgs)
 target_link_libraries(sensors pigpiod_if2)
 
+add_executable(pid_recombiner_sync src/${PROJECT_NAME}/pid_recombiner_sync.cpp)
+ament_target_dependencies(pid_recombiner_sync rclcpp geometry_msgs custom_msg_srv message_filters)
+
 add_executable(pid_recombiner src/${PROJECT_NAME}/pid_recombiner.cpp)
-ament_target_dependencies(pid_recombiner rclcpp geometry_msgs custom_msg_srv message_filters)
+ament_target_dependencies(pid_recombiner rclcpp geometry_msgs custom_msg_srv)
 
 add_executable(imu_repub src/${PROJECT_NAME}/imu_repub.cpp)
 ament_target_dependencies(imu_repub rclcpp geometry_msgs sensor_msgs custom_msg_srv)
@@ -47,7 +50,7 @@ target_include_directories(
   sensors PUBLIC "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
                  "$<INSTALL_INTERFACE:include>")
 
-install(TARGETS imu_repub pid_recombiner thrusters sensors DESTINATION lib/${PROJECT_NAME})
+install(TARGETS imu_repub pid_recombiner pid_recombiner_sync thrusters sensors DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
 

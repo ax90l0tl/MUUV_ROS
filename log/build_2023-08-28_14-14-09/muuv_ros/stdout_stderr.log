@@ -1,0 +1,9 @@
+make[2]: *** [CMakeFiles/pid_recombiner.dir/build.make:154: CMakeFiles/pid_recombiner.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/thrusters.dir/build.make:163: CMakeFiles/thrusters.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/imu_repub.dir/build.make:158: CMakeFiles/imu_repub.dir/depend] Interrupt
+make[2]: *** [CMakeFiles/sensors.dir/build.make:183: CMakeFiles/sensors.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid_recombiner.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/imu_repub.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:110: CMakeFiles/sensors.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/thrusters.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

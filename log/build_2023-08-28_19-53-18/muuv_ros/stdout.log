@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target thrusters[0m
+[ 18%] Built target pid_recombiner
+[ 36%] Built target imu_repub
+[ 72%] Built target sensors
+[ 81%] [32mBuilding CXX object CMakeFiles/thrusters.dir/src/muuv_ros/thrusters.cpp.o[0m

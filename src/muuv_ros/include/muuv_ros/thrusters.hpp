@@ -6,6 +6,8 @@
 #include "raspi_dma_pwm.h"
 #include <cmath>
 #include <iostream>
+#include <algorithm>
+#include <memory>
 using namespace std;
 
 #define NUMBER_OF_MOTORS 3
@@ -21,7 +23,7 @@ private:
 
     void ctrl_effort_Callback(const geometry_msgs::msg::Twist::SharedPtr msg);
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr ctrl_sub;
-    PWM_obj *motor[3];
+    unique_ptr<PWM_obj> motor_[NUMBER_OF_MOTORS];
 
     // Thrustrs in triangle formation
     /*            0

@@ -68,39 +68,15 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target install
 install: preinstall
@@ -114,15 +90,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target test
+test/fast: test
 
-.PHONY : list_install_components/fast
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -134,6 +111,29 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,30 +168,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named imu_repub
+# Target rules for targets named muuv_ros_uninstall
 
 # Build rule for target.
-imu_repub: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 imu_repub
-.PHONY : imu_repub
+muuv_ros_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 muuv_ros_uninstall
+.PHONY : muuv_ros_uninstall
 
 # fast build rule for target.
-imu_repub/fast:
-	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/build
-.PHONY : imu_repub/fast
+muuv_ros_uninstall/fast:
+	$(MAKE) -f CMakeFiles/muuv_ros_uninstall.dir/build.make CMakeFiles/muuv_ros_uninstall.dir/build
+.PHONY : muuv_ros_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named sensors
+# Target rules for targets named pid_recombiner_sync
 
 # Build rule for target.
-sensors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensors
-.PHONY : sensors
+pid_recombiner_sync: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pid_recombiner_sync
+.PHONY : pid_recombiner_sync
 
 # fast build rule for target.
-sensors/fast:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/build
-.PHONY : sensors/fast
+pid_recombiner_sync/fast:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/build
+.PHONY : pid_recombiner_sync/fast
 
 #=============================================================================
 # Target rules for targets named pid_recombiner
@@ -220,17 +220,30 @@ thrusters/fast:
 .PHONY : thrusters/fast
 
 #=============================================================================
-# Target rules for targets named muuv_ros_uninstall
+# Target rules for targets named sensors
 
 # Build rule for target.
-muuv_ros_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 muuv_ros_uninstall
-.PHONY : muuv_ros_uninstall
+sensors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensors
+.PHONY : sensors
 
 # fast build rule for target.
-muuv_ros_uninstall/fast:
-	$(MAKE) -f CMakeFiles/muuv_ros_uninstall.dir/build.make CMakeFiles/muuv_ros_uninstall.dir/build
-.PHONY : muuv_ros_uninstall/fast
+sensors/fast:
+	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/build
+.PHONY : sensors/fast
+
+#=============================================================================
+# Target rules for targets named imu_repub
+
+# Build rule for target.
+imu_repub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imu_repub
+.PHONY : imu_repub
+
+# fast build rule for target.
+imu_repub/fast:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/build
+.PHONY : imu_repub/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -298,6 +311,33 @@ src/muuv_ros/pid_recombiner.s: src/muuv_ros/pid_recombiner.cpp.s
 src/muuv_ros/pid_recombiner.cpp.s:
 	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.s
 .PHONY : src/muuv_ros/pid_recombiner.cpp.s
+
+src/muuv_ros/pid_recombiner_sync.o: src/muuv_ros/pid_recombiner_sync.cpp.o
+
+.PHONY : src/muuv_ros/pid_recombiner_sync.o
+
+# target to build an object file
+src/muuv_ros/pid_recombiner_sync.cpp.o:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.o
+.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.o
+
+src/muuv_ros/pid_recombiner_sync.i: src/muuv_ros/pid_recombiner_sync.cpp.i
+
+.PHONY : src/muuv_ros/pid_recombiner_sync.i
+
+# target to preprocess a source file
+src/muuv_ros/pid_recombiner_sync.cpp.i:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.i
+.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.i
+
+src/muuv_ros/pid_recombiner_sync.s: src/muuv_ros/pid_recombiner_sync.cpp.s
+
+.PHONY : src/muuv_ros/pid_recombiner_sync.s
+
+# target to generate assembly for a file
+src/muuv_ros/pid_recombiner_sync.cpp.s:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.s
+.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.s
 
 src/muuv_ros/sensors.o: src/muuv_ros/sensors.cpp.o
 
@@ -441,24 +481,28 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... imu_repub"
-	@echo "... sensors"
+	@echo "... muuv_ros_uninstall"
+	@echo "... pid_recombiner_sync"
 	@echo "... pid_recombiner"
 	@echo "... thrusters"
-	@echo "... muuv_ros_uninstall"
+	@echo "... sensors"
+	@echo "... imu_repub"
+	@echo "... list_install_components"
+	@echo "... install"
 	@echo "... uninstall"
+	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... install/local"
 	@echo "... src/muuv_ros/imu_repub.o"
 	@echo "... src/muuv_ros/imu_repub.i"
 	@echo "... src/muuv_ros/imu_repub.s"
 	@echo "... src/muuv_ros/pid_recombiner.o"
 	@echo "... src/muuv_ros/pid_recombiner.i"
 	@echo "... src/muuv_ros/pid_recombiner.s"
+	@echo "... src/muuv_ros/pid_recombiner_sync.o"
+	@echo "... src/muuv_ros/pid_recombiner_sync.i"
+	@echo "... src/muuv_ros/pid_recombiner_sync.s"
 	@echo "... src/muuv_ros/sensors.o"
 	@echo "... src/muuv_ros/sensors.i"
 	@echo "... src/muuv_ros/sensors.s"

@@ -2,7 +2,7 @@
 
 using std::placeholders::_1;
 
-Sensors::Sensors() : rclcpp::Node("sensors"), count_(0)
+Sensors::Sensors() : rclcpp::Node("sensors")
 {
     this->declare_parameter("pi_address", "192.168.8.157");
     this->declare_parameter("pi_port", "8888");
@@ -14,19 +14,20 @@ Sensors::Sensors() : rclcpp::Node("sensors"), count_(0)
     }
     cout << "pigpio_id " << pi << endl;
     // create a dummy pointer for the class obj imu
-    unique_ptr<MTi> dummy(new MTi(pi));
-    imu = move(dummy);
-    if (imu->detect(1000))
+    // unique_ptr<MTi> dummy(new MTi(pi));
+    // imu = move(dummy);
+    imu.setPi(pi);
+    if (imu.detect(1000))
     {
         const string modes[3] = {"QUATERNION", "RATEOFTURNHR", "ACCELERATION"};
-        const uint16_t hz[3] = {100, 100, 100};
-        imu->configureOutputs(modes, hz, 3);
-        imu->goToMeasurement();
-        imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 1);
+        const uint16_t hz[3] = {30, 30, 30};
+        imu.configureOutputs(modes, hz, 3);
+        imu_pub = this->create_publisher<sensor_msgs::msg::Imu>("imu_data", 10);
         int n = sizeof(hz) / sizeof(hz[0]);
-        int period = 1000 / (*max_element(hz, hz + n));
+        int period = 0.5*(1000 / (*max_element(hz, hz + n)));
         timer_ = this->create_wall_timer(chrono::milliseconds(period), bind(&Sensors::timer_Callback, this));
         RCLCPP_INFO(this->get_logger(), "Publishing to topic: imu_data at '%i' hz", 1000 / period);
+        imu.goToMeasurement();
     }
     else
     {
@@ -43,23 +44,23 @@ void Sensors::timer_Callback()
 {
     auto msg = sensor_msgs::msg::Imu();
     // imu->printData();
-    imu->readData();
+    imu.readData();
     msg.header.stamp = now();
 
-    msg.orientation.x = imu->getQuat()[0];
-    msg.orientation.y = imu->getQuat()[1];
-    msg.orientation.z = imu->getQuat()[2];
-    msg.orientation.w = imu->getQuat()[3];
+    msg.orientation.x = imu.getQuat()[0];
+    msg.orientation.y = imu.getQuat()[1];
+    msg.orientation.z = imu.getQuat()[2];
+    msg.orientation.w = imu.getQuat()[3];
     msg.orientation_covariance = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-    msg.angular_velocity.x = imu->getRateOfTurn()[0];
-    msg.angular_velocity.y = imu->getRateOfTurn()[1];
-    msg.angular_velocity.z = imu->getRateOfTurn()[2];
+    msg.angular_velocity.x = imu.getRateOfTurn()[0];
+    msg.angular_velocity.y = imu.getRateOfTurn()[1];
+    msg.angular_velocity.z = imu.getRateOfTurn()[2];
     msg.angular_velocity_covariance = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-    msg.linear_acceleration.x = imu->getAcceleration()[0];
-    msg.linear_acceleration.y = imu->getAcceleration()[1];
-    msg.linear_acceleration.z = imu->getAcceleration()[2];
+    msg.linear_acceleration.x = imu.getAcceleration()[0];
+    msg.linear_acceleration.y = imu.getAcceleration()[1];
+    msg.linear_acceleration.z = imu.getAcceleration()[2];
     msg.linear_acceleration_covariance = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     imu_pub->publish(msg);
