@@ -5,17 +5,18 @@
   <!-- Loading file with sensor macros -->
   <xacro:include filename="$(find uuv_sensor_ros_plugins)/urdf/sensor_snippets.xacro"/>
   <!-- Loading the UUV simulator ROS plugin macros -->
-  <xacro:include filename="$(find uuv_gazebo_ros_plugins)/urdf/snippets.xacro"/>  
+  <xacro:include filename="$(find uuv_gazebo_ros_plugins)/urdf/snippets.xacro"/>
   <!-- Loading vehicle's specific macros -->
-  <xacro:include filename="$(find $CATKIN_PACKAGE)/urdf/snippets.xacro"/>
-
+  <!-- <xacro:include filename="$(find muuv_sim_description)/urdf/snippets.xacro"/> -->
+  <xacro:include filename="$(find muuv_sim_description)/urdf/thruster_types.xacro"/>
+  <xacro:include filename="$(find muuv_sim_description)/urdf/inertial_macros.xacro"/>
   <!--
     Vehicle's parameters (remember to enter the model parameters below)
   -->
 
-  <xacro:property name="mass" value="0"/>
+  <xacro:property name="mass" value="15"/>
   <!-- Center of gravity -->
-  <xacro:property name="cog" value="0 0 0"/>
+  <xacro:property name="cog" value="0 0 -0.08"/>
   <!-- Fluid density -->
   <xacro:property name="rho" value="1028"/>
 
@@ -25,44 +26,42 @@
     the mesh pose will have to be corrected below in the <visual> block.
     Open the meshes for the RexROV vehicle in Blender to see an example on the mesh placement.
   -->
-  <xacro:property name="visual_mesh_file" value="file://$(find $CATKIN_PACKAGE)/meshes/vehicle.dae"/>
+  <xacro:property name="visual_mesh_file" value="file://$(find muuv_sim_description)/meshes/vehicle.dae"/>
 
   <!-- Collision geometry mesh, usually in STL format (it is recommended to keep
   this geometry as simple as possible to improve the performance the physics engine
   regarding the computation of collision forces) -->
-  <xacro:property name="collision_mesh_file" value="file://$(find $CATKIN_PACKAGE)/meshes/vehicle.stl"/>
+  <xacro:property name="collision_mesh_file" value="file://$(find muuv_sim_description)/meshes/vehicle.stl"/>
 
   <!-- Vehicle macro -->
   <xacro:macro name="muuv_sim_base" params="namespace *gazebo">
 
-      <!-- Rigid body description of the base link -->
-      <link name="${namespace}/base_link">
-        <!--
+    <!-- Rigid body description of the base link -->
+    <link name="${namespace}/base_link">
+      <!--
           Be careful to setup the coefficients for the inertial tensor,
           otherwise your model will become unstable on Gazebo
         -->
-        <inertial>
-          <mass value="${mass}" />
-          <origin xyz="${cog}" rpy="0 0 0"/>
-          <inertia ixx="0" ixy="0" ixz="0"
-                   iyy="0" iyz="0"
-                   izz="0" />
-        </inertial>
+      <inertial>
+        <mass value="${mass}" />
+        <origin xyz="${cog}" rpy="0 0 0"/>
+        <inertia ixx="2.508" ixy="0" ixz="0" iyy="2.508" iyz="0" izz="0.10584"/>
+      </inertial>
 
-        <visual>
-          <origin xyz="0 0 0" rpy="0 0 0"/>
-          <geometry>
-            <mesh filename="${visual_mesh_file}" scale="1 1 1" />
-          </geometry>
-        </visual>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="${visual_mesh_file}" scale="1 1 1" />
+        </geometry>
+      </visual>
 
-        <collision>
-          <origin xyz="0 0 0" rpy="0 0 0"/>
-          <geometry>
-            <mesh filename="${collision_mesh_file}" scale="1 1 1" />
-          </geometry>
-        </collision>
-      </link>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="${collision_mesh_file}" scale="1 1 1" />
+        </geometry>
+      </collision>
+    </link>
 
     <gazebo reference="${namespace}/base_link">
       <selfCollide>false</selfCollide>
@@ -72,10 +71,10 @@
     <xacro:insert_block name="gazebo"/>
 
     <!-- Include the thruster modules -->
-    <xacro:include filename="$(find $CATKIN_PACKAGE)/urdf/actuators.xacro"/>
+    <xacro:include filename="$(find muuv_sim_description)/urdf/actuators.xacro"/>
 
     <!-- Include the sensor modules -->
-    <xacro:include filename="$(find $CATKIN_PACKAGE)/urdf/sensors.xacro"/>
+    <xacro:include filename="$(find muuv_sim_description)/urdf/sensors.xacro"/>
 
   </xacro:macro>
 

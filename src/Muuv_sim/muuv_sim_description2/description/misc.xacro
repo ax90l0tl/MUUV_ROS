@@ -1,0 +1,19 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Super basic file to automate making frames, since I do that a lot, and there is a lot of boiler plate -->
+    <xacro:macro name="fixed_frame" params="parent_link child_link rpy xyz">
+        <!-- Create echosounder link -->
+        <link name="${child_link}">
+            <inertial>
+                <mass value="0.001"/>
+                <origin xyz="0 0.0 0" rpy="0 0 0"/>
+                <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+            </inertial>
+        </link>
+
+        <joint name="${child_link}_joint" type="fixed">
+            <parent link="${parent_link}"/>
+            <child link="${child_link}"/>
+            <origin rpy="${rpy}" xyz="${xyz}"/>
+        </joint>
+    </xacro:macro>
+</robot>

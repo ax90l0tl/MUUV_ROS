@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Adding the thruster units with the macro created in snippets.xacro -->
+  <xacro:include filename="$(find muuv_sim_description)/urdf/thruster_types.xacro"/>
+  <!--
+    Important:
+        - The thruster IDs must be given as integers and must be unique to each thruster unit
+        - The thruster pose in the <origin> block is relative to the body's center of mass. Be
+          aware that Gazebo does not use the SNAME convention per default.
+    -->
+
+  <xacro:T200_thruster_V2 namespace="${namespace}" thruster_id="0">
+    <origin xyz="0 -26.1092 6.69483" rpy="-${0.5*pi} 0 0 " />
+  </xacro:T200_thruster_V2>
+
+  <xacro:T200_thruster_V2 namespace="${namespace}" thruster_id="1">
+    <origin xyz="5.79789 -26.1092 -3.34742" rpy="-${0.5*pi} 0 0" />
+  </xacro:T200_thruster_V2>
+
+  <xacro:T200_thruster_V2 namespace="${namespace}" thruster_id="2">
+    <origin xyz="-5.79789 -26.1092 -3.34742" rpy="-${0.5*pi} 0 0" />
+  </xacro:T200_thruster_V2>
+
+</robot>

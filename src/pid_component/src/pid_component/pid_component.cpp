@@ -63,8 +63,8 @@ Pid_component::Pid_component(const rclcpp::NodeOptions &options)
     // compatible ROS publishers.
     // Note that not all publishers on the same topic with the same type will be compatible:
     // they must have compatible Quality of Service policies.
-    setpoint = this->node_->create_subscription<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("setpoint_name").as_string(), 10, setpoint_callback);
-    state = this->node_->create_subscription<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("state_name").as_string(), 10, state_callback);
+    setpoint = this->node_->create_subscription<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("setpoint_name").as_string(), 1, setpoint_callback);
+    state = this->node_->create_subscription<custom_msg_srv::msg::Float64Stamped>(this->node_->get_parameter("state_name").as_string(), 1, state_callback);
 }
 
 rclcpp::node_interfaces::NodeBaseInterface::SharedPtr

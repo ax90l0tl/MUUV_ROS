@@ -2,15 +2,15 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <!-- Center of buoyancy -->
-    <xacro:property name="muuv_sim_cob" value="0 0 0"/>
+    <xacro:property name="muuv_sim_cob" value="0 0 0.08"/>
 
     <!-- Vehicle actual volume (Gazebo cannot compute the volume out of the mesh) -->
-    <xacro:property name="muuv_sim_volume" value="0"/>
+    <xacro:property name="muuv_sim_volume" value="0.024"/>
 
     <!-- Describing the dimensions of the vehicle bounding box -->
-    <xacro:property name="muuv_sim_length" value="0"/>
-    <xacro:property name="muuv_sim_width"  value="0"/>
-    <xacro:property name="muuv_sim_height" value="0"/>
+    <xacro:property name="muuv_sim_length" value="0.146"/>
+    <xacro:property name="muuv_sim_width"  value="0.991"/>
+    <xacro:property name="muuv_sim_height" value="0.168"/>
 
     <xacro:macro name="muuv_sim_hydro_model" params="namespace">
       <!-- List of hydrodynamic models this robot links -->
@@ -59,7 +59,7 @@
           -->
           <linear_damping>
             0 0 0 0 0 0
-          </linear_damping>
+        </linear_damping>
           <!--
             The linear damping coefficients proportional to the forward speed
             can be provided as a diagonal (6 elements) or a full matrix (36 coefficients),
@@ -75,7 +75,7 @@
           -->
           <quadratic_damping>
             0 0 0 0 0 0
-          </quadratic_damping>
+        </quadratic_damping>
 
           <!--
             In case you want to model a simple surface vessel, you can use the
@@ -103,7 +103,7 @@
         in the fluid with the given radius -->
         <hydrodynamic_model>
           <type>sphere</type>
-          <radius>0</radius>
+          <radius>1</radius>
         </hydrodynamic_model>
 
       </link>
