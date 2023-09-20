@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o"
+  "CMakeFiles/imu_repub.dir/src/imu_repub.cpp.o"
   "imu_repub"
   "imu_repub.pdb"
 )

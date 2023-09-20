@@ -1,5 +1,0 @@
-Invoking command in '/home/isopodin-time/ros2_ws/build/test_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Muuv_sim/test_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/test_sim
-Invoked command in '/home/isopodin-time/ros2_ws/build/test_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/isopodin-time/ros2_ws/src/Muuv_sim/test_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/isopodin-time/ros2_ws/install/test_sim
-Invoking command in '/home/isopodin-time/ros2_ws/build/test_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/test_sim -- -j8 -l8
-Invoked command in '/home/isopodin-time/ros2_ws/build/test_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/test_sim -- -j8 -l8
-Invoking command in '/home/isopodin-time/ros2_ws/build/test_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/test_sim

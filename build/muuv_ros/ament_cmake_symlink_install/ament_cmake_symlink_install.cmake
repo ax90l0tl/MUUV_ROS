@@ -310,50 +310,50 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "imu_repub" "pid_recombiner" "pid_recombiner_sync" "thrusters" "sensors" "DESTINATION" "lib/muuv_ros")
+# install("TARGETS" "imu_repub" "pid_recombiner" "pid_recombiner_sync" "DESTINATION" "lib/muuv_ros")
 include("/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_directory("/home/isopodin-time/ros2_ws/src/muuv_ros" DIRECTORY "launch" "config" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_directory("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" DIRECTORY "launch" "config" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/muuv_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/muuv_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/muuv_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/muuv_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/muuv_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/muuv_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/muuv_ros/environment")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/muuv_ros/environment")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/muuv_ros/environment")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/muuv_ros/environment")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/muuv_ros/environment")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/muuv_ros/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/muuv_ros/environment")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/muuv_ros/environment")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/muuv_ros/environment")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/muuv_ros/environment")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/muuv_ros/environment")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/muuv_ros/environment")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/muuv_ros")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/packages/muuv_ros" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/packages/muuv_ros" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_index/share/ament_index/resource_index/packages/muuv_ros" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig.cmake" "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig-version.cmake" "DESTINATION" "share/muuv_ros/cmake")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig.cmake" "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig-version.cmake" "DESTINATION" "share/muuv_ros/cmake")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig.cmake" "/home/isopodin-time/ros2_ws/build/muuv_ros/ament_cmake_core/muuv_rosConfig-version.cmake" "DESTINATION" "share/muuv_ros/cmake")
 
-# install(FILES "/home/isopodin-time/ros2_ws/src/muuv_ros/package.xml" "DESTINATION" "share/muuv_ros")
-ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/muuv_ros" FILES "/home/isopodin-time/ros2_ws/src/muuv_ros/package.xml" "DESTINATION" "share/muuv_ros")
+# install(FILES "/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/package.xml" "DESTINATION" "share/muuv_ros")
+ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros" FILES "/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/package.xml" "DESTINATION" "share/muuv_ros")

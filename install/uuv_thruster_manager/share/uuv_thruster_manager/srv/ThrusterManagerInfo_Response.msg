@@ -1,4 +1,1 @@
-
-int32 n_thrusters
-float64[] allocation_matrix
-string reference_frame
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_cmake/srv/ThrusterManagerInfo_Response.msg

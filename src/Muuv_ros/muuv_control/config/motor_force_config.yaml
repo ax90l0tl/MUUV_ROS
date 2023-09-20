@@ -6,7 +6,7 @@ motor_controller:
     #             0
     #            / \
     #           2   1
-    # 
+    
     # Directional Vectors
     # North(x)-East(y)-Down(z) Coordinate
     # Motor0 (CCW), Motor1(CCW), Motor2(CW)

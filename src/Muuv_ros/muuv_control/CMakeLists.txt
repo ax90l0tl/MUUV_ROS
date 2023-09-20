@@ -21,6 +21,7 @@ find_package(muuv_msgs REQUIRED)
 find_package(drivers REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(pid REQUIRED)
 
 include_directories(include/${PROJECT_NAME} include/utilities)
 
@@ -29,10 +30,15 @@ add_executable(motor_controller src/motor_controller.cpp
 ament_target_dependencies(motor_controller rclcpp std_msgs muuv_msgs)
 target_link_libraries(motor_controller drivers::raspi_dma_pwm)
 
-add_executable(pid_node src/pid_node.cpp src/pid.cpp
-                        src/utilities/common_functions.cpp)
+add_executable(motor_controller2 src/motor_controller2.cpp
+                                 src/utilities/common_functions.cpp)
+ament_target_dependencies(motor_controller2 rclcpp std_msgs muuv_msgs)
+target_link_libraries(motor_controller2 drivers::raspi_dma_pwm)
+
+add_executable(pid_node src/pid_node.cpp src/utilities/common_functions.cpp)
 ament_target_dependencies(pid_node rclcpp std_msgs muuv_msgs geometry_msgs
                           sensor_msgs)
+target_link_libraries(pid_node pid::pid)
 
 add_executable(thrusters src/thrusters.cpp)
 ament_target_dependencies(thrusters rclcpp geometry_msgs muuv_msgs)
@@ -44,14 +50,20 @@ target_include_directories(
          "$<INSTALL_INTERFACE:include>")
 
 target_include_directories(
+  motor_controller2
+  PUBLIC "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
+         "$<INSTALL_INTERFACE:include>")
+
+target_include_directories(
   pid_node PUBLIC "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
                   "$<INSTALL_INTERFACE:include>")
 
 target_include_directories(
   thrusters PUBLIC "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
-                  "$<INSTALL_INTERFACE:include>")
+                   "$<INSTALL_INTERFACE:include>")
 
-install(TARGETS thrusters motor_controller pid_node DESTINATION lib/${PROJECT_NAME})
+install(TARGETS thrusters motor_controller pid_node motor_controller2
+        DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
 

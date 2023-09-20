@@ -1,2 +1,0 @@
-[0.048s] Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8
-[0.075s] Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_ros' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_ros -- -j8 -l8

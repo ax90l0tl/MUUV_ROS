@@ -12,7 +12,7 @@ def generate_launch_description():
     config = os.path.join(
     get_package_share_directory('muuv_control'),
     'config',
-    'motor_force_config.yaml'
+    'ekf.yaml'
     )
         
     ekf=Node(

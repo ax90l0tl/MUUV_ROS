@@ -1,4 +1,4 @@
-# Install script for directory: /home/isopodin-time/ros2_ws/src/muuv_ros
+# Install script for directory: /home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -47,7 +47,7 @@ rcl_interfaces::msg::SetParametersResult Pid_node::parametersCallback(
         RCLCPP_INFO(this->get_logger(), "%s", param.get_type_name().c_str());
         RCLCPP_INFO(this->get_logger(), "%s", param.value_to_string().c_str());
     }
-    new_params = true;    
+    new_params = true;
     return result;
 }
 
@@ -63,19 +63,13 @@ void Pid_node::setConstants()
     vector<double> antiwindup = this->get_parameter("antiwindup").as_double_array();
     for (size_t n = 0; n < 6; n++)
     {
-        kP_[n] = p.at(n);
-        kI_[n] = i.at(n);
-        kD_[n] = d.at(n);
-        output_limit_[n] = out_lim.at(n);
-        integrator_limit_[n] = i_lim.at(n);
         pid_enabled_[n] = enable.at(n);
-        antiwindup_[n] = antiwindup.at(n);
-        angle_wrap_compensation_[n] = angle_wrap_compensation.at(n);
         RCLCPP_INFO(this->get_logger(), "PID state: '%i'", pid_enabled_[n]);
-        RCLCPP_INFO(this->get_logger(), "P: '%f' I: '%f' D: '%f' I_lim: '%f' Output_lim: '%f' Antiwindup: '%i'", kP_[n],
-                    kI_[n], kD_[n], output_limit_[n], integrator_limit_[n], antiwindup_[n]);
-        pid[n].setGains(kP_[n], kI_[n], kD_[n], output_limit_[n],
-                        integrator_limit_[n], angle_wrap_compensation_[n], antiwindup_[n],
+        RCLCPP_INFO(this->get_logger(), "P: '%f' I: '%f' D: '%f' I_lim: '%f' Output_lim: '%f' Antiwindup: '%i'", p.at(n),
+                    i.at(n), d.at(n), out_lim.at(n),
+                    i_lim.at(n), angle_wrap_compensation.at(n), antiwindup.at(n));
+        pid[n].setGains(p.at(n), i.at(n), d.at(n), out_lim.at(n),
+                        i_lim.at(n), angle_wrap_compensation.at(n), antiwindup.at(n),
                         this->get_parameter("cutoff_frequency").as_double());
     }
     new_params = false;
@@ -122,7 +116,7 @@ void Pid_node::pid_callback()
     {
         setConstants();
     }
-    
+
     if (new_state_or_setpt_)
     {
         // calculate delta_t

@@ -1,2 +1,1 @@
-source;share/muuv_sim_control/environment/ament_prefix_path.sh
-source;share/muuv_sim_control/environment/path.sh
+/home/isopodin-time/ros2_ws/build/muuv_sim_control/ament_cmake_environment_hooks/local_setup.dsv

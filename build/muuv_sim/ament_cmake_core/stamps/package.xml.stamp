@@ -8,9 +8,9 @@
 
     <buildtool_depend>ament_cmake</buildtool_depend>
 
-    <exec_depend>test_sim</exec_depend>
     <exec_depend>muuv_sim_description</exec_depend>
     <exec_depend>muuv_sim_control</exec_depend>
+    <exec_depend>ros2launch</exec_depend>
 
     <export>
         <build_type>ament_cmake</build_type>

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o"
+  "CMakeFiles/pid_recombiner.dir/src/pid_recombiner.cpp.o"
   "pid_recombiner"
   "pid_recombiner.pdb"
 )

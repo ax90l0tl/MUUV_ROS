@@ -32,8 +32,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/isopodin-time/ros2_ws/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake-extras.cmake"
   "/home/isopodin-time/ros2_ws/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "/home/isopodin-time/ros2_ws/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
-  "/home/isopodin-time/ros2_ws/src/muuv_ros/CMakeLists.txt"
-  "/home/isopodin-time/ros2_ws/src/muuv_ros/package.xml"
+  "/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/CMakeLists.txt"
+  "/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/package.xml"
   "/opt/ros/foxy/cmake/yamlConfig.cmake"
   "/opt/ros/foxy/cmake/yamlConfigVersion.cmake"
   "/opt/ros/foxy/cmake/yamlTargets-none.cmake"
@@ -597,11 +597,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/muuv_ros_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/pid_recombiner_sync.dir/DependInfo.cmake"
-  "CMakeFiles/pid_recombiner.dir/DependInfo.cmake"
-  "CMakeFiles/thrusters.dir/DependInfo.cmake"
-  "CMakeFiles/sensors.dir/DependInfo.cmake"
   "CMakeFiles/imu_repub.dir/DependInfo.cmake"
+  "CMakeFiles/pid_recombiner.dir/DependInfo.cmake"
+  "CMakeFiles/pid_recombiner_sync.dir/DependInfo.cmake"
+  "CMakeFiles/muuv_ros_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   )

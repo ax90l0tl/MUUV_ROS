@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target sensors[0m
-[ 22%] Built target pid
-[ 55%] Built target thrusters
-[ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o[0m
-make[2]: *** Deleting file 'CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o'
-make[2]: *** [CMakeFiles/sensors.dir/build.make:63: CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/sensors.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

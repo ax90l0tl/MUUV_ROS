@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/src/pid_component/include/pid_component/pid_component.hpp

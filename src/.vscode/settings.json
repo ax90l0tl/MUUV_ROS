@@ -78,7 +78,9 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "hash_map": "cpp",
-        "hash_set": "cpp"
+        "hash_set": "cpp",
+        "any": "cpp",
+        "valarray": "cpp"
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"

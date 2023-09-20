@@ -1,1 +1,1 @@
-/home/isopodin-time/ros2_ws/src/muuv_ros/launch/test.launch.py
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/launch/test.launch.py

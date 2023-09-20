@@ -29,7 +29,7 @@
 #include "tf2_ros/transform_listener.h"
 #include "std_msgs/msg/float64.hpp"
 
-#include "raspi_dma_pwm/raspi_dma_pwm.h"
+#include "raspi_dma_pwm.h"
 #include "muuv_msgs/msg/motor_command.hpp"
 #include "muuv_msgs/msg/motor_command_list.hpp"
 #include "muuv_msgs/msg/allocator_command.hpp"

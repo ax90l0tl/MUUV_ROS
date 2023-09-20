@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/pid_component/ament_cmake_environment_hooks/local_setup.sh

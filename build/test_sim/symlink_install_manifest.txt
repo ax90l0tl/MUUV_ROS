@@ -2,7 +2,6 @@
 /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/inertial_macros.xacro
 /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot.urdf.xacro
 /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/description/robot_core.xacro
-/home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/robot.launch.py
 /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/launch/test.launch.py
 /home/isopodin-time/ros2_ws/install/test_sim/share/test_sim/worlds/empty.world
 /home/isopodin-time/ros2_ws/install/test_sim/share/ament_index/resource_index/package_run_dependencies/test_sim

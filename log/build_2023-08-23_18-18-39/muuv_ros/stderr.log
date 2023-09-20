@@ -1,4 +1,0 @@
-[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:[m[K In member function ‘[01m[Kvoid Pid_recombiner::ctrl_effort_callback(custom_msg_srv::msg::Float64Stamped_<std::allocator<void> >::SharedPtr) const[m[K’:
-[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_recombiner.cpp:38:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   38 |     void ctrl_effort_callback([01;35m[Kconst custom_msg_srv::msg::Float64Stamped::SharedPtr msg[m[K) const
-      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

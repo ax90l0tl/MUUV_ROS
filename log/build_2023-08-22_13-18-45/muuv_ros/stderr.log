@@ -1,6 +1,0 @@
-[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:[m[K In constructor ‘[01m[KSensors::Sensors()[m[K’:
-[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensors.cpp:9:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
-    9 |     if ([01;35m[Kpi = pigpio_start((const char *)this->get_parameter("pi_address").as_string().c_str(),[m[K
-      |         [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-   10 | [01;35m[K                          this->get_parameter("pi_port").as_string().c_str())[m[K)
-      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

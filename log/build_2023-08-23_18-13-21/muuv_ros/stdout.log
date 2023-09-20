@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target pid_recombiner[0m
-[ 66%] Built target sensors
-[ 77%] Built target thrusters
-[ 88%] [32mBuilding CXX object CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o[0m

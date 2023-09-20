@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "meshes" "robots" "launch" "DESTINATION" "share/muuv_sim_description")
-ament_cmake_symlink_install_directory("/home/isopodin-time/ros2_ws/src/Muuv_sim/muuv_sim_description" DIRECTORY "urdf" "meshes" "robots" "launch" "DESTINATION" "share/muuv_sim_description")
+# install(DIRECTORY "launch" "meshes" "robots" "urdf" "DESTINATION" "share/muuv_sim_description" "PATTERN_EXCLUDE" "*~")
+ament_cmake_symlink_install_directory("/home/isopodin-time/ros2_ws/src/Muuv_sim/muuv_sim_description" DIRECTORY "launch" "meshes" "robots" "urdf" "DESTINATION" "share/muuv_sim_description" "PATTERN_EXCLUDE" "*~")
 
 # install(FILES "/home/isopodin-time/ros2_ws/build/muuv_sim_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/muuv_sim_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/isopodin-time/ros2_ws/src/Muuv_sim/muuv_sim_description" FILES "/home/isopodin-time/ros2_ws/build/muuv_sim_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/muuv_sim_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

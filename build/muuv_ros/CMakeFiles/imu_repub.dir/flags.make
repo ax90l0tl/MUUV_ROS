@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros -I/home/isopodin-time/ros2_ws/src/muuv_ros/src/xsens_mti_i2c -I/home/isopodin-time/ros2_ws/src/muuv_ros/src/raspi_dma_pwm -isystem /home/isopodin-time/ros2_ws/install/custom_msg_srv/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/include/muuv_ros -isystem /home/isopodin-time/ros2_ws/install/custom_msg_srv/include -isystem /opt/ros/foxy/include 
 

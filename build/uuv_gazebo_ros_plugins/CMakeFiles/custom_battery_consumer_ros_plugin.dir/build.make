@@ -227,7 +227,7 @@ libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_ato
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.4.0
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.9.0
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.11.0
-libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.14.0
+libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.0
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.16.0
 libcustom_battery_consumer_ros_plugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so

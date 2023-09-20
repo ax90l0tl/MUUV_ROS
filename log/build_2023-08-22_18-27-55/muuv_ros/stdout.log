@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target pid_component[0m
-[ 63%] Built target sensors
-[ 63%] Built target thrusters
-[ 72%] [32m[1mLinking CXX executable component_container[0m
-[ 81%] [32mBuilding CXX object CMakeFiles/pid_component.dir/src/muuv_ros/pid_component.cpp.o[0m
-[ 90%] [32m[1mLinking CXX shared library libpid_component.so[0m
-[ 90%] Built target pid_component

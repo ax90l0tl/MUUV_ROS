@@ -17,6 +17,7 @@
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager_launch.xml
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/pos_pid_control.yaml
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch/start_thruster_manager.launch.template
+/home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch/start_thruster_manager.launch.py.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config/thruster_manager.yaml.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots/default.xacro.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/actuators.xacro.template
@@ -24,6 +25,7 @@
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/sensors.xacro.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/snippets.xacro.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/gazebo.xacro.template
+/home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.py.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.template
 /home/isopodin-time/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes/README.md
 /home/isopodin-time/ros2_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf

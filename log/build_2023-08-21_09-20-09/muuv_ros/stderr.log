@@ -1,7 +1,0 @@
-[01m[K/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/pid_node.cpp:3:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
-    3 | [01;31m[KPid_node[m[K::
-      | [01;31m[K^~~~~~~~[m[K
-make[2]: *** [CMakeFiles/pid.dir/build.make:63: CMakeFiles/pid.dir/src/muuv_ros/pid_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/pid.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [Makefile:141: all] Error 2

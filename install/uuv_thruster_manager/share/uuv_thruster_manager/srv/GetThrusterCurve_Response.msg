@@ -1,3 +1,1 @@
-
-float64[] input
-float64[] thrust
+/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_cmake/srv/GetThrusterCurve_Response.msg

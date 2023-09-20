@@ -1,11 +1,12 @@
 #ifndef PID_NODE_H
 #define PID_NODE_H
 
-#include "pid.hpp"
+#include "pid/pid.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <chrono>
 #include <memory>
 #include <functional>
+#include "common_functions.hpp"
 #include <array>
 #include "muuv_msgs/msg/allocator_command.hpp"
 #include "rcl_interfaces/msg/set_parameters_result.hpp"
@@ -37,24 +38,13 @@ protected:
     rclcpp::Time last_loop_time_;
     bool new_params = false;
 
-    bool angle_wrap_compensation_[6] = {0};
-
     double setpoint_[6] = {0};
     double state_[6] = {0};
     double last_output_[6] = {0};
 
-    // PID gains
-    double kP_[6];
-    double kI_[6];
-    double kD_[6];
-
-    double integrator_limit_[6];
-    double output_limit_[6];
-
     // Primary PID controller input variables
     bool pid_enabled_[6];             // PID is enabled to run
     bool new_state_or_setpt_ = false; // Indicate that fresh calculations need to be run
-    bool antiwindup_[6];
 
     PID pid[6];
 };

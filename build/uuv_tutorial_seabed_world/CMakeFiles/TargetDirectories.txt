@@ -1,9 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install/strip.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install/local.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/install.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/list_install_components.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/rebuild_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/edit_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/test.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/uuv_tutorial_seabed_world_uninstall.dir
-/home/isopodin-time/ros2_ws/build/uuv_tutorial_seabed_world/CMakeFiles/uninstall.dir

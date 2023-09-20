@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/src/muuv_ros/launch/pid.launch.py

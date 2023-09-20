@@ -66,27 +66,27 @@ custom_msg_srv/msg/detail/float64_stamped__type_support.hpp
 
 /home/isopodin-time/ros2_ws/install/custom_msg_srv/include/custom_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp
 
-/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/qos_profile.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/include/muuv_ros/qos_profile.hpp
 rclcpp/rclcpp.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/include/muuv_ros/rclcpp/rclcpp.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/include/muuv_ros/rclcpp/rclcpp.hpp
 
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/imu_repub.cpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/imu_repub.cpp
 memory
 -
 cmath
 -
 rclcpp/rclcpp.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/rclcpp/rclcpp.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/rclcpp/rclcpp.hpp
 vector
 -
 sensor_msgs/msg/imu.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/sensor_msgs/msg/imu.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/sensor_msgs/msg/imu.hpp
 custom_msg_srv/msg/float64_stamped.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/custom_msg_srv/msg/float64_stamped.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/custom_msg_srv/msg/float64_stamped.hpp
 geometry_msgs/msg/transform_stamped.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/geometry_msgs/msg/transform_stamped.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/geometry_msgs/msg/transform_stamped.hpp
 qos_profile.hpp
-/home/isopodin-time/ros2_ws/src/muuv_ros/src/muuv_ros/qos_profile.hpp
+/home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros/src/qos_profile.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

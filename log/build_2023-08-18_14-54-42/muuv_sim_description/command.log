@@ -1,4 +1,0 @@
-Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_sim_description -- -j8 -l8
-Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/isopodin-time/ros2_ws/build/muuv_sim_description -- -j8 -l8
-Invoking command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_sim_description
-Invoked command in '/home/isopodin-time/ros2_ws/build/muuv_sim_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/isopodin-time/ros2_ws/build/muuv_sim_description

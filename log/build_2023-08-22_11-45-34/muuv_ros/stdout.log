@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target sensors[0m
-[ 33%] Built target thrusters
-[ 55%] Built target pid
-[ 66%] [32mBuilding CXX object CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.o[0m

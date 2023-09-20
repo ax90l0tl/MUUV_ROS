@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isopodin-time/ros2_ws/src/muuv_ros
+CMAKE_SOURCE_DIR = /home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/isopodin-time/ros2_ws/build/muuv_ros
@@ -68,15 +68,39 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
-.PHONY : list_install_components/fast
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target install
 install: preinstall
@@ -90,16 +114,15 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : test/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -111,29 +134,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,30 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named muuv_ros_uninstall
+# Target rules for targets named imu_repub
 
 # Build rule for target.
-muuv_ros_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 muuv_ros_uninstall
-.PHONY : muuv_ros_uninstall
+imu_repub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imu_repub
+.PHONY : imu_repub
 
 # fast build rule for target.
-muuv_ros_uninstall/fast:
-	$(MAKE) -f CMakeFiles/muuv_ros_uninstall.dir/build.make CMakeFiles/muuv_ros_uninstall.dir/build
-.PHONY : muuv_ros_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named pid_recombiner_sync
-
-# Build rule for target.
-pid_recombiner_sync: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pid_recombiner_sync
-.PHONY : pid_recombiner_sync
-
-# fast build rule for target.
-pid_recombiner_sync/fast:
-	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/build
-.PHONY : pid_recombiner_sync/fast
+imu_repub/fast:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/build
+.PHONY : imu_repub/fast
 
 #=============================================================================
 # Target rules for targets named pid_recombiner
@@ -207,43 +194,30 @@ pid_recombiner/fast:
 .PHONY : pid_recombiner/fast
 
 #=============================================================================
-# Target rules for targets named thrusters
+# Target rules for targets named pid_recombiner_sync
 
 # Build rule for target.
-thrusters: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thrusters
-.PHONY : thrusters
+pid_recombiner_sync: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pid_recombiner_sync
+.PHONY : pid_recombiner_sync
 
 # fast build rule for target.
-thrusters/fast:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/build
-.PHONY : thrusters/fast
+pid_recombiner_sync/fast:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/build
+.PHONY : pid_recombiner_sync/fast
 
 #=============================================================================
-# Target rules for targets named sensors
+# Target rules for targets named muuv_ros_uninstall
 
 # Build rule for target.
-sensors: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensors
-.PHONY : sensors
+muuv_ros_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 muuv_ros_uninstall
+.PHONY : muuv_ros_uninstall
 
 # fast build rule for target.
-sensors/fast:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/build
-.PHONY : sensors/fast
-
-#=============================================================================
-# Target rules for targets named imu_repub
-
-# Build rule for target.
-imu_repub: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 imu_repub
-.PHONY : imu_repub
-
-# fast build rule for target.
-imu_repub/fast:
-	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/build
-.PHONY : imu_repub/fast
+muuv_ros_uninstall/fast:
+	$(MAKE) -f CMakeFiles/muuv_ros_uninstall.dir/build.make CMakeFiles/muuv_ros_uninstall.dir/build
+.PHONY : muuv_ros_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -258,221 +232,86 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/muuv_ros/imu_repub.o: src/muuv_ros/imu_repub.cpp.o
+src/imu_repub.o: src/imu_repub.cpp.o
 
-.PHONY : src/muuv_ros/imu_repub.o
-
-# target to build an object file
-src/muuv_ros/imu_repub.cpp.o:
-	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.o
-.PHONY : src/muuv_ros/imu_repub.cpp.o
-
-src/muuv_ros/imu_repub.i: src/muuv_ros/imu_repub.cpp.i
-
-.PHONY : src/muuv_ros/imu_repub.i
-
-# target to preprocess a source file
-src/muuv_ros/imu_repub.cpp.i:
-	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.i
-.PHONY : src/muuv_ros/imu_repub.cpp.i
-
-src/muuv_ros/imu_repub.s: src/muuv_ros/imu_repub.cpp.s
-
-.PHONY : src/muuv_ros/imu_repub.s
-
-# target to generate assembly for a file
-src/muuv_ros/imu_repub.cpp.s:
-	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/muuv_ros/imu_repub.cpp.s
-.PHONY : src/muuv_ros/imu_repub.cpp.s
-
-src/muuv_ros/pid_recombiner.o: src/muuv_ros/pid_recombiner.cpp.o
-
-.PHONY : src/muuv_ros/pid_recombiner.o
+.PHONY : src/imu_repub.o
 
 # target to build an object file
-src/muuv_ros/pid_recombiner.cpp.o:
-	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.o
-.PHONY : src/muuv_ros/pid_recombiner.cpp.o
+src/imu_repub.cpp.o:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/imu_repub.cpp.o
+.PHONY : src/imu_repub.cpp.o
 
-src/muuv_ros/pid_recombiner.i: src/muuv_ros/pid_recombiner.cpp.i
+src/imu_repub.i: src/imu_repub.cpp.i
 
-.PHONY : src/muuv_ros/pid_recombiner.i
+.PHONY : src/imu_repub.i
 
 # target to preprocess a source file
-src/muuv_ros/pid_recombiner.cpp.i:
-	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.i
-.PHONY : src/muuv_ros/pid_recombiner.cpp.i
+src/imu_repub.cpp.i:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/imu_repub.cpp.i
+.PHONY : src/imu_repub.cpp.i
 
-src/muuv_ros/pid_recombiner.s: src/muuv_ros/pid_recombiner.cpp.s
+src/imu_repub.s: src/imu_repub.cpp.s
 
-.PHONY : src/muuv_ros/pid_recombiner.s
+.PHONY : src/imu_repub.s
 
 # target to generate assembly for a file
-src/muuv_ros/pid_recombiner.cpp.s:
-	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/muuv_ros/pid_recombiner.cpp.s
-.PHONY : src/muuv_ros/pid_recombiner.cpp.s
+src/imu_repub.cpp.s:
+	$(MAKE) -f CMakeFiles/imu_repub.dir/build.make CMakeFiles/imu_repub.dir/src/imu_repub.cpp.s
+.PHONY : src/imu_repub.cpp.s
 
-src/muuv_ros/pid_recombiner_sync.o: src/muuv_ros/pid_recombiner_sync.cpp.o
+src/pid_recombiner.o: src/pid_recombiner.cpp.o
 
-.PHONY : src/muuv_ros/pid_recombiner_sync.o
+.PHONY : src/pid_recombiner.o
 
 # target to build an object file
-src/muuv_ros/pid_recombiner_sync.cpp.o:
-	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.o
-.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.o
+src/pid_recombiner.cpp.o:
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/pid_recombiner.cpp.o
+.PHONY : src/pid_recombiner.cpp.o
 
-src/muuv_ros/pid_recombiner_sync.i: src/muuv_ros/pid_recombiner_sync.cpp.i
+src/pid_recombiner.i: src/pid_recombiner.cpp.i
 
-.PHONY : src/muuv_ros/pid_recombiner_sync.i
+.PHONY : src/pid_recombiner.i
 
 # target to preprocess a source file
-src/muuv_ros/pid_recombiner_sync.cpp.i:
-	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.i
-.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.i
+src/pid_recombiner.cpp.i:
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/pid_recombiner.cpp.i
+.PHONY : src/pid_recombiner.cpp.i
 
-src/muuv_ros/pid_recombiner_sync.s: src/muuv_ros/pid_recombiner_sync.cpp.s
+src/pid_recombiner.s: src/pid_recombiner.cpp.s
 
-.PHONY : src/muuv_ros/pid_recombiner_sync.s
+.PHONY : src/pid_recombiner.s
 
 # target to generate assembly for a file
-src/muuv_ros/pid_recombiner_sync.cpp.s:
-	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/muuv_ros/pid_recombiner_sync.cpp.s
-.PHONY : src/muuv_ros/pid_recombiner_sync.cpp.s
+src/pid_recombiner.cpp.s:
+	$(MAKE) -f CMakeFiles/pid_recombiner.dir/build.make CMakeFiles/pid_recombiner.dir/src/pid_recombiner.cpp.s
+.PHONY : src/pid_recombiner.cpp.s
 
-src/muuv_ros/sensors.o: src/muuv_ros/sensors.cpp.o
+src/pid_recombiner_sync.o: src/pid_recombiner_sync.cpp.o
 
-.PHONY : src/muuv_ros/sensors.o
+.PHONY : src/pid_recombiner_sync.o
 
 # target to build an object file
-src/muuv_ros/sensors.cpp.o:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.o
-.PHONY : src/muuv_ros/sensors.cpp.o
+src/pid_recombiner_sync.cpp.o:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/pid_recombiner_sync.cpp.o
+.PHONY : src/pid_recombiner_sync.cpp.o
 
-src/muuv_ros/sensors.i: src/muuv_ros/sensors.cpp.i
+src/pid_recombiner_sync.i: src/pid_recombiner_sync.cpp.i
 
-.PHONY : src/muuv_ros/sensors.i
-
-# target to preprocess a source file
-src/muuv_ros/sensors.cpp.i:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.i
-.PHONY : src/muuv_ros/sensors.cpp.i
-
-src/muuv_ros/sensors.s: src/muuv_ros/sensors.cpp.s
-
-.PHONY : src/muuv_ros/sensors.s
-
-# target to generate assembly for a file
-src/muuv_ros/sensors.cpp.s:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/muuv_ros/sensors.cpp.s
-.PHONY : src/muuv_ros/sensors.cpp.s
-
-src/muuv_ros/thrusters.o: src/muuv_ros/thrusters.cpp.o
-
-.PHONY : src/muuv_ros/thrusters.o
-
-# target to build an object file
-src/muuv_ros/thrusters.cpp.o:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/muuv_ros/thrusters.cpp.o
-.PHONY : src/muuv_ros/thrusters.cpp.o
-
-src/muuv_ros/thrusters.i: src/muuv_ros/thrusters.cpp.i
-
-.PHONY : src/muuv_ros/thrusters.i
+.PHONY : src/pid_recombiner_sync.i
 
 # target to preprocess a source file
-src/muuv_ros/thrusters.cpp.i:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/muuv_ros/thrusters.cpp.i
-.PHONY : src/muuv_ros/thrusters.cpp.i
+src/pid_recombiner_sync.cpp.i:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/pid_recombiner_sync.cpp.i
+.PHONY : src/pid_recombiner_sync.cpp.i
 
-src/muuv_ros/thrusters.s: src/muuv_ros/thrusters.cpp.s
+src/pid_recombiner_sync.s: src/pid_recombiner_sync.cpp.s
 
-.PHONY : src/muuv_ros/thrusters.s
-
-# target to generate assembly for a file
-src/muuv_ros/thrusters.cpp.s:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/muuv_ros/thrusters.cpp.s
-.PHONY : src/muuv_ros/thrusters.cpp.s
-
-src/raspi_dma_pwm/raspi_dma_pwm.o: src/raspi_dma_pwm/raspi_dma_pwm.cpp.o
-
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.o
-
-# target to build an object file
-src/raspi_dma_pwm/raspi_dma_pwm.cpp.o:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/raspi_dma_pwm/raspi_dma_pwm.cpp.o
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.cpp.o
-
-src/raspi_dma_pwm/raspi_dma_pwm.i: src/raspi_dma_pwm/raspi_dma_pwm.cpp.i
-
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.i
-
-# target to preprocess a source file
-src/raspi_dma_pwm/raspi_dma_pwm.cpp.i:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/raspi_dma_pwm/raspi_dma_pwm.cpp.i
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.cpp.i
-
-src/raspi_dma_pwm/raspi_dma_pwm.s: src/raspi_dma_pwm/raspi_dma_pwm.cpp.s
-
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.s
+.PHONY : src/pid_recombiner_sync.s
 
 # target to generate assembly for a file
-src/raspi_dma_pwm/raspi_dma_pwm.cpp.s:
-	$(MAKE) -f CMakeFiles/thrusters.dir/build.make CMakeFiles/thrusters.dir/src/raspi_dma_pwm/raspi_dma_pwm.cpp.s
-.PHONY : src/raspi_dma_pwm/raspi_dma_pwm.cpp.s
-
-src/xsens_mti_i2c/MTi.o: src/xsens_mti_i2c/MTi.cpp.o
-
-.PHONY : src/xsens_mti_i2c/MTi.o
-
-# target to build an object file
-src/xsens_mti_i2c/MTi.cpp.o:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.o
-.PHONY : src/xsens_mti_i2c/MTi.cpp.o
-
-src/xsens_mti_i2c/MTi.i: src/xsens_mti_i2c/MTi.cpp.i
-
-.PHONY : src/xsens_mti_i2c/MTi.i
-
-# target to preprocess a source file
-src/xsens_mti_i2c/MTi.cpp.i:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.i
-.PHONY : src/xsens_mti_i2c/MTi.cpp.i
-
-src/xsens_mti_i2c/MTi.s: src/xsens_mti_i2c/MTi.cpp.s
-
-.PHONY : src/xsens_mti_i2c/MTi.s
-
-# target to generate assembly for a file
-src/xsens_mti_i2c/MTi.cpp.s:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/MTi.cpp.s
-.PHONY : src/xsens_mti_i2c/MTi.cpp.s
-
-src/xsens_mti_i2c/Xbus.o: src/xsens_mti_i2c/Xbus.cpp.o
-
-.PHONY : src/xsens_mti_i2c/Xbus.o
-
-# target to build an object file
-src/xsens_mti_i2c/Xbus.cpp.o:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.o
-.PHONY : src/xsens_mti_i2c/Xbus.cpp.o
-
-src/xsens_mti_i2c/Xbus.i: src/xsens_mti_i2c/Xbus.cpp.i
-
-.PHONY : src/xsens_mti_i2c/Xbus.i
-
-# target to preprocess a source file
-src/xsens_mti_i2c/Xbus.cpp.i:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.i
-.PHONY : src/xsens_mti_i2c/Xbus.cpp.i
-
-src/xsens_mti_i2c/Xbus.s: src/xsens_mti_i2c/Xbus.cpp.s
-
-.PHONY : src/xsens_mti_i2c/Xbus.s
-
-# target to generate assembly for a file
-src/xsens_mti_i2c/Xbus.cpp.s:
-	$(MAKE) -f CMakeFiles/sensors.dir/build.make CMakeFiles/sensors.dir/src/xsens_mti_i2c/Xbus.cpp.s
-.PHONY : src/xsens_mti_i2c/Xbus.cpp.s
+src/pid_recombiner_sync.cpp.s:
+	$(MAKE) -f CMakeFiles/pid_recombiner_sync.dir/build.make CMakeFiles/pid_recombiner_sync.dir/src/pid_recombiner_sync.cpp.s
+.PHONY : src/pid_recombiner_sync.cpp.s
 
 # Help Target
 help:
@@ -481,43 +320,26 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... muuv_ros_uninstall"
-	@echo "... pid_recombiner_sync"
-	@echo "... pid_recombiner"
-	@echo "... thrusters"
-	@echo "... sensors"
-	@echo "... imu_repub"
-	@echo "... list_install_components"
-	@echo "... install"
-	@echo "... uninstall"
-	@echo "... test"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... install/local"
-	@echo "... src/muuv_ros/imu_repub.o"
-	@echo "... src/muuv_ros/imu_repub.i"
-	@echo "... src/muuv_ros/imu_repub.s"
-	@echo "... src/muuv_ros/pid_recombiner.o"
-	@echo "... src/muuv_ros/pid_recombiner.i"
-	@echo "... src/muuv_ros/pid_recombiner.s"
-	@echo "... src/muuv_ros/pid_recombiner_sync.o"
-	@echo "... src/muuv_ros/pid_recombiner_sync.i"
-	@echo "... src/muuv_ros/pid_recombiner_sync.s"
-	@echo "... src/muuv_ros/sensors.o"
-	@echo "... src/muuv_ros/sensors.i"
-	@echo "... src/muuv_ros/sensors.s"
-	@echo "... src/muuv_ros/thrusters.o"
-	@echo "... src/muuv_ros/thrusters.i"
-	@echo "... src/muuv_ros/thrusters.s"
-	@echo "... src/raspi_dma_pwm/raspi_dma_pwm.o"
-	@echo "... src/raspi_dma_pwm/raspi_dma_pwm.i"
-	@echo "... src/raspi_dma_pwm/raspi_dma_pwm.s"
-	@echo "... src/xsens_mti_i2c/MTi.o"
-	@echo "... src/xsens_mti_i2c/MTi.i"
-	@echo "... src/xsens_mti_i2c/MTi.s"
-	@echo "... src/xsens_mti_i2c/Xbus.o"
-	@echo "... src/xsens_mti_i2c/Xbus.i"
-	@echo "... src/xsens_mti_i2c/Xbus.s"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... imu_repub"
+	@echo "... pid_recombiner"
+	@echo "... pid_recombiner_sync"
+	@echo "... muuv_ros_uninstall"
+	@echo "... uninstall"
+	@echo "... src/imu_repub.o"
+	@echo "... src/imu_repub.i"
+	@echo "... src/imu_repub.s"
+	@echo "... src/pid_recombiner.o"
+	@echo "... src/pid_recombiner.i"
+	@echo "... src/pid_recombiner.s"
+	@echo "... src/pid_recombiner_sync.o"
+	@echo "... src/pid_recombiner_sync.i"
+	@echo "... src/pid_recombiner_sync.s"
 .PHONY : help
 
 

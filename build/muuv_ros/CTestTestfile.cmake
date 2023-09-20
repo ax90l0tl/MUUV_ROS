@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/isopodin-time/ros2_ws/src/muuv_ros
+# Source directory: /home/isopodin-time/ros2_ws/src/Muuv_ros/muuv_ros
 # Build directory: /home/isopodin-time/ros2_ws/build/muuv_ros
 # 
 # This file includes the relevant testing commands required for 
