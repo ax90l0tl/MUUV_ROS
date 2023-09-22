@@ -25,3 +25,6 @@
 [submodule "Muuv_ros/drivers/src/raspi_led"]
 	path = Muuv_ros/drivers/src/raspi_led
 	url = https://git.whoi.edu/mural/drivers/raspi_led.git
+[submodule "Plankton"]
+	path = Plankton
+	url = https://github.com/ax90l0tl/Plankton.git
