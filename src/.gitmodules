@@ -1,15 +1,15 @@
 [submodule "src/muuv_ros/src/bar30_depth_sensor"]
 	path = src/muuv_ros/src/bar30_depth_sensor
-	url = https://git.whoi.edu/mural/drivers/bar30_depth_sensor
+	url = https://git.whoi.edu/mural/drivers/bar30_depth_sensor.git
 [submodule "src/muuv_ros/src/raspi_dma_pwm"]
 	path = src/muuv_ros/src/raspi_dma_pwm
-	url = https://git.whoi.edu/mural/drivers/raspi_dma_pwm
+	url = https://git.whoi.edu/mural/drivers/raspi_dma_pwm.git
 [submodule "src/muuv_ros/src/xsens_mti_i2c"]
 	path = src/muuv_ros/src/xsens_mti_i2c
-	url = https://git.whoi.edu/mural/drivers/xsens_mti_i2c
+	url = https://git.whoi.edu/mural/drivers/xsens_mti_i2c.git
 [submodule "src/muuv_ros/src/lps331ap_i2c"]
 	path = src/muuv_ros/src/lps331ap_i2c
-	url = https://git.whoi.edu/mural/drivers/lps331ap_i2c
+	url = https://git.whoi.edu/mural/drivers/lps331ap_i2c.git
 [submodule "src/Muuv_ros/drivers/src/raspi_led"]
 	path = src/Muuv_ros/drivers/src/raspi_led
 	url = https://git.whoi.edu/mural/drivers/raspi_led.git
