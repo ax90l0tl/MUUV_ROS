@@ -1,4 +1,0 @@
-source;share/muuv_sim_control/local_setup.bash
-source;share/muuv_sim_control/local_setup.dsv
-source;share/muuv_sim_control/local_setup.sh
-source;share/muuv_sim_control/local_setup.zsh

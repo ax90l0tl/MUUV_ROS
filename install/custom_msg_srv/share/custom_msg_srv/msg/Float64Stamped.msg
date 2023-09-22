@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/src/custom_msg_srv/msg/Float64Stamped.msg

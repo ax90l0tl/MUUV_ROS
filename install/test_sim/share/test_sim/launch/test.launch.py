@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/src/Muuv_sim/test_sim/launch/test.launch.py

@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/custom_msg_srv/rosidl_generator_c/custom_msg_srv/msg/float64_stamped.h

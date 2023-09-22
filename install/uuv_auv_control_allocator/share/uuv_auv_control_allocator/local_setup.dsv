@@ -1,4 +1,0 @@
-source;share/uuv_auv_control_allocator/environment/ament_prefix_path.sh
-source;share/uuv_auv_control_allocator/environment/library_path.sh
-source;share/uuv_auv_control_allocator/environment/path.sh
-source;share/uuv_auv_control_allocator/environment/pythonpath.sh

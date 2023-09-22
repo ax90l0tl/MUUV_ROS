@@ -1,9 +1,0 @@
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/install/strip.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/install/local.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/install.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/list_install_components.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/rebuild_cache.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/edit_cache.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/test.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/muuv_sim_description_uninstall.dir
-/home/isopodin-time/ros2_ws/build/muuv_sim_description/CMakeFiles/uninstall.dir

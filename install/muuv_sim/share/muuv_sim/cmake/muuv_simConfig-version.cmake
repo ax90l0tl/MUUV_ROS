@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/muuv_sim/ament_cmake_core/muuv_simConfig-version.cmake

@@ -1,3 +1,0 @@
-source;share/uuv_trajectory_control/environment/ament_prefix_path.sh
-source;share/uuv_trajectory_control/environment/path.sh
-source;share/uuv_trajectory_control/environment/pythonpath.sh

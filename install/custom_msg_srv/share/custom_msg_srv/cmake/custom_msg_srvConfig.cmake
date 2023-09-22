@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/custom_msg_srv/ament_cmake_core/custom_msg_srvConfig.cmake

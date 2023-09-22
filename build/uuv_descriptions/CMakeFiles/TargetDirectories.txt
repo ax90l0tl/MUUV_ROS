@@ -1,9 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/install/strip.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/install/local.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/install.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/list_install_components.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/rebuild_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/edit_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/test.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/uuv_descriptions_uninstall.dir
-/home/isopodin-time/ros2_ws/build/uuv_descriptions/CMakeFiles/uninstall.dir

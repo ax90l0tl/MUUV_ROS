@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/rosidl_typesupport_fastrtps_c/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_fastrtps_c.h

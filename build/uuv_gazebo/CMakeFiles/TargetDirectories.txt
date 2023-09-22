@@ -1,9 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/install/local.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/install.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/list_install_components.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/rebuild_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/edit_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/test.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/install/strip.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/uuv_gazebo_uninstall.dir
-/home/isopodin-time/ros2_ws/build/uuv_gazebo/CMakeFiles/uninstall.dir

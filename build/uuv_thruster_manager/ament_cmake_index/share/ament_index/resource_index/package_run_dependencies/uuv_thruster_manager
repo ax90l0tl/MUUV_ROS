@@ -1,1 +1,0 @@
-std_msgs;tf2;tf2_ros;rclpy;python3-yaml;uuv_gazebo_ros_plugins_msgs;geometry_msgs;uuv_assistants;plankton_utils;rosidl_default_runtime;ament_cmake_pytest;joint_state_publisher;python3-numpy;robot_state_publisher;xacro;launch;launch_testing;launch_testing_ros;launch_testing_ament_cmake

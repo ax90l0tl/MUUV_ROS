@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/isopodin-time/ros2_ws/build/muuv_ros/imu_repub" "/home/isopodin-time/ros2_ws/build/muuv_ros/pid_recombiner" "/home/isopodin-time/ros2_ws/build/muuv_ros/pid_recombiner_sync" "TARGETS" "imu_repub" "pid_recombiner" "pid_recombiner_sync" "DESTINATION" "lib/muuv_ros")

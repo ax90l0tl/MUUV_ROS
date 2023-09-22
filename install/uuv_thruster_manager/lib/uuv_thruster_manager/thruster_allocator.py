@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager/scripts/thruster_allocator.py

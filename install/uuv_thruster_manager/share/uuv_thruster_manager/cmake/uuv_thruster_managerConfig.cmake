@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_thruster_manager/ament_cmake_core/uuv_thruster_managerConfig.cmake

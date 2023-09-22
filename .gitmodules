@@ -1,6 +1,3 @@
-[submodule "src/Plankton"]
-	path = src/Plankton
-	url = https://github.com/ax90l0tl/Plankton
 [submodule "src/muuv_ros/src/bar30_depth_sensor"]
 	path = src/muuv_ros/src/bar30_depth_sensor
 	url = https://git.whoi.edu/mural/drivers/bar30_depth_sensor

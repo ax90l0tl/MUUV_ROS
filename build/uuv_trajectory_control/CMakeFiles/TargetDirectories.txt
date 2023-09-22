@@ -1,9 +1,0 @@
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/install/strip.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/install/local.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/install.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/list_install_components.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/rebuild_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/edit_cache.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/test.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/uuv_trajectory_control_uninstall.dir
-/home/isopodin-time/ros2_ws/build/uuv_trajectory_control/CMakeFiles/uninstall.dir

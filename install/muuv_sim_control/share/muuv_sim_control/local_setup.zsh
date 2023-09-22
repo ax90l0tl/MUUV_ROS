@@ -1,1 +1,0 @@
-/home/isopodin-time/ros2_ws/build/muuv_sim_control/ament_cmake_environment_hooks/local_setup.zsh
