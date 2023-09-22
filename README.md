@@ -4,13 +4,18 @@
 - ROS2 Foxy
 - Gazebo 11
 
+# Wiki #
+
+#### Check the [wiki](https://git.whoi.edu/mural/muuv_tests/ros2_ws/-/wikis/home) for more info on packages ####
+
 # Installation #
 
 ### 1. If you don’t have ROS 2 Foxy installed ###
 Follow the instructions below and install the `ros-foxy-desktop` package: 
    <https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/>
 
-### 2. If you don’t have Pigpio installed, follow the instructions below: ###
+### 2. If you don’t have Pigpio installed ### 
+Follow the instructions below:
    <https://abyz.me.uk/rpi/pigpio/download.html>
 
 ### 3. Install Gazebo: ###
@@ -94,7 +99,3 @@ Write the commands below in a terminal:
       ```
       colcon build --symlink-install
       ```
-
-
-
-
