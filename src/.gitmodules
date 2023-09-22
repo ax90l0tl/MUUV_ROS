@@ -1,0 +1,18 @@
+[submodule "src/muuv_ros/src/bar30_depth_sensor"]
+	path = src/muuv_ros/src/bar30_depth_sensor
+	url = https://git.whoi.edu/mural/drivers/bar30_depth_sensor
+[submodule "src/muuv_ros/src/raspi_dma_pwm"]
+	path = src/muuv_ros/src/raspi_dma_pwm
+	url = https://git.whoi.edu/mural/drivers/raspi_dma_pwm
+[submodule "src/muuv_ros/src/xsens_mti_i2c"]
+	path = src/muuv_ros/src/xsens_mti_i2c
+	url = https://git.whoi.edu/mural/drivers/xsens_mti_i2c
+[submodule "src/muuv_ros/src/lps331ap_i2c"]
+	path = src/muuv_ros/src/lps331ap_i2c
+	url = https://git.whoi.edu/mural/drivers/lps331ap_i2c
+[submodule "src/Muuv_ros/drivers/src/raspi_led"]
+	path = src/Muuv_ros/drivers/src/raspi_led
+	url = https://git.whoi.edu/mural/drivers/raspi_led.git
+[submodule "src/Plankton"]
+	path = src/Plankton
+	url = https://github.com/ax90l0tl/Plankton.git
