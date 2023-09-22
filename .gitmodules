@@ -13,6 +13,9 @@
 [submodule "src/Muuv_ros/drivers/src/raspi_led"]
 	path = src/Muuv_ros/drivers/src/raspi_led
 	url = https://git.whoi.edu/mural/drivers/raspi_led.git
+[submodule "src/Muuv_ros/drivers/src/xa1110_i2c"]
+	path = src/Muuv_ros/drivers/src/xa1110_i2c
+	url = https://git.whoi.edu/mural/drivers/xa1110_i2c.git
 [submodule "src/Plankton"]
 	path = src/Plankton
 	url = https://github.com/ax90l0tl/Plankton.git
