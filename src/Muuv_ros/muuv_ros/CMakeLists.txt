@@ -17,9 +17,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(std_msgs)
+find_package(std_msgs REQUIRED)
 find_package(custom_msg_srv REQUIRED)
-find_package(message_filters)
+find_package(message_filters REQUIRED)
 
 include_directories(include/${PROJECT_NAME})
 
