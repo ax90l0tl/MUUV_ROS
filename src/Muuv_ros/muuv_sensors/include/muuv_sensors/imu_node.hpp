@@ -4,7 +4,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/imu.hpp"
 #include "geometry_msgs/msg/vector3.hpp"
-#include "xsens_mti_i2c/MTi.h"
+#include "MTi.h"
 #include <cmath>
 #include <chrono>
 #include <functional>

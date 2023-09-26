@@ -56,12 +56,13 @@ Follow the instructions below:
    ```
    export QT_QPA_PLATFORMTHEME=qt5ct
    ```
-   I like to create an alias (if you have multiple ROS distros)
+   I like to create an alias (if you have multiple ROS distros).
+   Just type "src-ros2" when you open a new terminal.
    ```
    echo "alias src-ros2='source /opt/ros/foxy/setup.bash && cd ~/ros2_ws && source install/setup.bash && source /usr/share/colcon_cd/function/colcon_cd.sh && export _colcon_cd_root=/opt/ros/foxy/ && source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash && source /usr/share/gazebo/setup.sh && export LIBGL_ALWAYS_SOFTWARE=1 && export QT_QPA_PLATFORMTHEME=qt5ct'" >> ~/.bashrc
    ```
    ** The source /opt/ros/foxy/setup.bash file sources all your ros packages installed in /opt
-   ** The source install/setup.bash file sources all your packages in your ws. If colcon cant find a package (this happens the first time after you build a package), resouring these files usually works
+   ** The source install/setup.bash file sources all your packages in your ws. If colcon cant find a package (this happens the first time after you build a package), resourcing these files usually works
 
 ### 7. In order to download missing packages, install ROS dependency manager. ###
 Write the commands below in a terminal:
@@ -76,6 +77,15 @@ Write the commands below in a terminal:
    ```
    cd ~/ros2_ws/
    rosdep install -i --from-path src --rosdistro foxy -y
+   ```
+
+   If rosdep is having trouble installing packages, you can also install them manually using:
+   ```
+   sudo apt install ros-foxy-<PACKAGE_NAME>
+   ```
+   Notable ones are:
+   ```
+   sudo apt install ros-foxy-control-toolbox ros-foxy-joy-teleop ros-foxy-xacro ros-foxy-joint-state-publisher
    ```
 ### 8. Install Colcon, the build tool system: ###
    ```
