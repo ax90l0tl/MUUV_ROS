@@ -27,7 +27,7 @@ include_directories(include/${PROJECT_NAME} include/utilities)
 
 add_executable(motor_controller src/motor_controller.cpp
                                 src/utilities/common_functions.cpp)
-ament_target_dependencies(motor_controller rclcpp std_msgs muuv_msgs)
+ament_target_dependencies(motor_controller rclcpp tf2_ros std_msgs muuv_msgs)
 target_link_libraries(motor_controller drivers::raspi_dma_pwm)
 
 add_executable(motor_controller2 src/motor_controller2.cpp
