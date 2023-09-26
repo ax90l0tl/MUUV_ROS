@@ -11,6 +11,7 @@
   <depend>rclcpp</depend>
   <depend>control_toolbox</depend>
   <depend>custom_msg_srv</depend>
+  <depend>rclcpp_components</depend>
   <exec_depend>ros2launch</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>

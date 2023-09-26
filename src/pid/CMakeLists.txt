@@ -22,7 +22,7 @@ find_package(custom_msg_srv REQUIRED)
 include_directories(include/${PROJECT_NAME})
 
 add_library(pid_component SHARED src/pid_component.cpp src/pid.cpp)
-ament_target_dependencies(pid_component rclcpp custom_msg_srv)
+ament_target_dependencies(pid_component rclcpp_components rclcpp custom_msg_srv)
 rclcpp_components_register_nodes(pid_component "Pid_component")
 # To register multiple components in the same shared library, use multiple calls
 # rclcpp_components_register_nodes(talker_component "composition::Talker2")
