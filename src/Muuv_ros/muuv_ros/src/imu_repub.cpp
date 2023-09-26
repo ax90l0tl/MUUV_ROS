@@ -5,7 +5,7 @@
 #include "sensor_msgs/msg/imu.hpp"
 #include "custom_msg_srv/msg/float64_stamped.hpp"
 #include "geometry_msgs/msg/transform_stamped.hpp"
-#include "qos_profile.hpp"
+#include "muuv_ros/qos_profile.hpp"
 using std::placeholders::_1;
 using namespace std;
 

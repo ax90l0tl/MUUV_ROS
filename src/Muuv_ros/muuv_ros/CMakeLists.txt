@@ -24,15 +24,31 @@ find_package(message_filters REQUIRED)
 include_directories(include/${PROJECT_NAME})
 
 add_executable(pid_recombiner_sync src/pid_recombiner_sync.cpp)
-ament_target_dependencies(pid_recombiner_sync rclcpp geometry_msgs custom_msg_srv message_filters)
+ament_target_dependencies(pid_recombiner_sync rclcpp geometry_msgs
+                          custom_msg_srv message_filters)
 
 add_executable(pid_recombiner src/pid_recombiner.cpp)
 ament_target_dependencies(pid_recombiner rclcpp geometry_msgs custom_msg_srv)
 
 add_executable(imu_repub src/imu_repub.cpp)
-ament_target_dependencies(imu_repub rclcpp geometry_msgs sensor_msgs custom_msg_srv)
+ament_target_dependencies(imu_repub rclcpp geometry_msgs sensor_msgs
+                          custom_msg_srv)
 
-install(TARGETS imu_repub pid_recombiner pid_recombiner_sync DESTINATION lib/${PROJECT_NAME})
+target_include_directories(
+  pid_recombiner_sync
+  PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+         $<INSTALL_INTERFACE:include/>)
+
+target_include_directories(
+  pid_recombiner PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+                        $<INSTALL_INTERFACE:include/>)
+
+target_include_directories(
+  imu_repub PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+                   $<INSTALL_INTERFACE:include/>)
+
+install(TARGETS imu_repub pid_recombiner pid_recombiner_sync
+        DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
 
