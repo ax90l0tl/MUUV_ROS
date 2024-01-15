@@ -7,18 +7,23 @@ Thrusters::Thrusters() : rclcpp::Node("thrusters")
     this->declare_parameter("pi_address", "192.168.8.157");
     this->declare_parameter("pi_port", "8888");
     this->declare_parameter("motor_pins", vector<int64_t>{17, 22, 27});
-    pi = pigpio_start((const char *)this->get_parameter("pi_address").as_string().c_str(), this->get_parameter("pi_port").as_string().c_str());
-    cout << "pigpio_id " << pi << endl;
+    this->declare_parameter("sub_topic", "motor_command");
+    pi_ = pigpio_start(this->get_parameter("pi_address").as_string().c_str(),
+                       this->get_parameter("pi_port").as_string().c_str());
+    if (pi_ < 0)
+    {
+        RCLCPP_INFO(this->get_logger(), "PI not detected!");
+    }
 
     vector<int64_t> motor_pins = this->get_parameter("motor_pins").as_integer_array();
     for (int i = 0; i < NUMBER_OF_MOTORS; i++)
     {
-        unique_ptr<PWM_obj> temp(new PWM_obj(pi, motor_pins.at(i)));
+        unique_ptr<PWM_obj> temp(new PWM_obj(pi_, motor_pins.at(i)));
         motor_[i] = move(temp);
     }
 
-    ctrl_sub = this->create_subscription<muuv_msgs::msg::MotorCommandList>(
-        "motor_command", 10, std::bind(&Thrusters::sub_Callback, this, _1));
+    sub_ = this->create_subscription<muuv_msgs::msg::MotorCommandList>(
+        this->get_parameter("sub_topic").as_string(), 10, std::bind(&Thrusters::sub_Callback, this, _1));
 }
 
 void Thrusters::sub_Callback(const muuv_msgs::msg::MotorCommandList::SharedPtr msg)

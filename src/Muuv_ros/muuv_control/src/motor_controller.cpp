@@ -21,7 +21,7 @@ Motor_controller::Motor_controller() : rclcpp::Node("motor_controller")
     for (size_t i = 0; i < this->get_parameter("num_motors").as_int(); i++)
     {
         this->declare_parameters(string("motor" + to_string(i)), motor);
-        motor_names.push_back(string("motor" + to_string(i)));
+        motor_names_.push_back(string("motor" + to_string(i)));
     }
 
     alloc_sub_ = this->create_subscription<muuv_msgs::msg::AllocatorCommand>(
@@ -36,41 +36,41 @@ void Motor_controller::setVariables()
 {
     double ramp_time = this->get_parameter("ramp_time").as_double();
     rate_hz = this->get_parameter("rate_hz").as_double();
-    enable_priorities = this->get_parameter("enable_priorities").as_bool();
-    loop_rate = std::make_unique<rclcpp::Rate>(rate_hz);
+    enable_priorities_ = this->get_parameter("enable_priorities").as_bool();
+    loop_rate_ = std::make_unique<rclcpp::Rate>(rate_hz);
 
     if (ramp_time > 0)
     {
-        max_step_per_loop = (1.0 / ramp_time) / (double)rate_hz;
+        max_step_per_loop_ = (1.0 / ramp_time) / (double)rate_hz;
     }
     else
     {
-        max_step_per_loop = 10; // Massive number to completely disable ramping
+        max_step_per_loop_ = 10; // Massive number to completely disable ramping
     }
 
-    allocation_priorities = this->get_parameter("allocation_priorities").as_string_array();
+    allocation_priorities_ = this->get_parameter("allocation_priorities").as_string_array();
 
     for (int i = 0; i < this->get_parameter("num_motors").as_int(); ++i)
     {
-        motors[i]["surge"] = this->get_parameter(string("motor" + to_string(i) + ".surge")).as_double();
-        motors[i]["sway"] = this->get_parameter(string("motor" + to_string(i) + ".sway")).as_double();
-        motors[i]["heave"] = this->get_parameter(string("motor" + to_string(i) + ".heave")).as_double();
-        motors[i]["roll"] = this->get_parameter(string("motor" + to_string(i) + ".roll")).as_double();
-        motors[i]["pitch"] = this->get_parameter(string("motor" + to_string(i) + ".pitch")).as_double();
-        motors[i]["yaw"] = this->get_parameter(string("motor" + to_string(i) + ".yaw")).as_double();
+        motors_[i]["surge"] = this->get_parameter(string("motor" + to_string(i) + ".surge")).as_double();
+        motors_[i]["sway"] = this->get_parameter(string("motor" + to_string(i) + ".sway")).as_double();
+        motors_[i]["heave"] = this->get_parameter(string("motor" + to_string(i) + ".heave")).as_double();
+        motors_[i]["roll"] = this->get_parameter(string("motor" + to_string(i) + ".roll")).as_double();
+        motors_[i]["pitch"] = this->get_parameter(string("motor" + to_string(i) + ".pitch")).as_double();
+        motors_[i]["yaw"] = this->get_parameter(string("motor" + to_string(i) + ".yaw")).as_double();
     }
 }
 
 void Motor_controller::alloc_Callback(const muuv_msgs::msg::AllocatorCommand::SharedPtr msg)
 {
-    pwr[0] = msg->axes_command[0]; // surge
+    pwr_[0] = msg->axes_command[0]; // surge
     // Flip for frame conversion
-    pwr[1] = -msg->axes_command[1]; // sway
-    pwr[2] = -msg->axes_command[2]; // heave
-    pwr[3] = msg->axes_command[3];  // roll
+    pwr_[1] = -msg->axes_command[1]; // sway
+    pwr_[2] = -msg->axes_command[2]; // heave
+    pwr_[3] = msg->axes_command[3];  // roll
     // Flip for frame conversion
-    pwr[4] = -msg->axes_command[4]; // pitch
-    pwr[5] = -msg->axes_command[5]; // yaw
+    pwr_[4] = -msg->axes_command[4]; // pitch
+    pwr_[5] = -msg->axes_command[5]; // yaw
     runNode();
 }
 
@@ -96,9 +96,9 @@ double Motor_controller::thrust_to_motor_comm(const double thrust_n)
 void Motor_controller::allocate_generic_motors(std::map<std::string, double> &des_forces, std::vector<double> &des_motor_thrusts)
 {
     // Loop through each motor
-    for (size_t i = 0; i < motors.size(); ++i)
+    for (size_t i = 0; i < motors_.size(); ++i)
     {
-        std::map<std::string, double> motor = motors[i];
+        std::map<std::string, double> motor = motors_[i];
         // Loop through each direction
         for (auto const &DOF : constants::DOFs)
         {
@@ -110,16 +110,16 @@ void Motor_controller::allocate_generic_motors(std::map<std::string, double> &de
 // Allocate thrusts to motors (prioritized)
 void Motor_controller::allocate_prioritized_motors(std::map<std::string, double> &des_forces, std::vector<double> &des_motor_thrusts)
 { // NB: the incoming des_motor_thrusts should be all zeros)
-    for (size_t i = 0; i < allocation_priorities.size(); ++i)
+    for (size_t i = 0; i < allocation_priorities_.size(); ++i)
     {
         // Current allocation priority
-        std::string curr_allocation = allocation_priorities[i];
+        std::string curr_allocation = allocation_priorities_[i];
 
-        std::vector<double> des_motor_thrusts_new(motors.size(), 0);
+        std::vector<double> des_motor_thrusts_new(motors_.size(), 0);
 
-        for (size_t j = 0; j < motors.size(); ++j)
+        for (size_t j = 0; j < motors_.size(); ++j)
         {
-            std::map<std::string, double> motor = motors[j];
+            std::map<std::string, double> motor = motors_[j];
             des_motor_thrusts_new[j] = des_forces[curr_allocation] * motor[curr_allocation];
         }
 
@@ -185,9 +185,9 @@ void Motor_controller::allocate_prioritized_motors(std::map<std::string, double>
         }
 
         // TODO : find largest saturation relative to approximate MAX
-        std::vector<double> saturations(motors.size(), 0);
+        std::vector<double> saturations(motors_.size(), 0);
         double des_thrust_new = 0;
-        for (size_t j = 0; j < motors.size(); ++j)
+        for (size_t j = 0; j < motors_.size(); ++j)
         {
             des_thrust_new = des_motor_thrusts_tmp[j];
             if (des_thrust_new > 0 && des_thrust_new > constants::THRUST_MAX_FWD_N)
@@ -218,9 +218,9 @@ void Motor_controller::allocate_prioritized_motors(std::map<std::string, double>
         if (scale > 0)
         {
             des_forces[curr_allocation] *= scale;
-            for (size_t j = 0; j < motors.size(); ++j)
+            for (size_t j = 0; j < motors_.size(); ++j)
             {
-                std::map<std::string, double> motor = motors[j];
+                std::map<std::string, double> motor = motors_[j];
                 des_motor_thrusts_new[j] = des_forces[curr_allocation] * motor[curr_allocation];
             }
         }
@@ -245,7 +245,7 @@ double Motor_controller::rateLimitMotorCommand(double new_command, double last_c
     }
     else
     {
-        return CommonFunctions::Clamp(new_command, last_command - max_step_per_loop, last_command + max_step_per_loop); // Rate limit
+        return CommonFunctions::Clamp(new_command, last_command - max_step_per_loop_, last_command + max_step_per_loop_); // Rate limit
     }
 }
 
@@ -254,17 +254,17 @@ void Motor_controller::runNode()
     // Assemble desired commands, ensure proper ranges and convert to force/torque requests
     // DOF order: surge, sway, heave, roll, pitch, yaw)
     std::map<std::string, double> des_forces;
-    des_forces["surge"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr[0], -1, 1);
-    des_forces["sway"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr[1], -1, 1);
-    des_forces["heave"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr[2], -1, 1);
-    des_forces["roll"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr[3], -1, 1);
-    des_forces["pitch"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr[4], -1, 1);
-    des_forces["yaw"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr[5], -1, 1);
+    des_forces["surge"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr_[0], -1, 1);
+    des_forces["sway"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr_[1], -1, 1);
+    des_forces["heave"] = constants::FORCE_MAX * CommonFunctions::Clamp(pwr_[2], -1, 1);
+    des_forces["roll"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr_[3], -1, 1);
+    des_forces["pitch"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr_[4], -1, 1);
+    des_forces["yaw"] = constants::TORQUE_MAX * CommonFunctions::Clamp(pwr_[5], -1, 1);
 
     // Force direction prioritization to deal with saturation
     // NOTE: there are many corner cases that this logic doesn't handle
-    std::vector<double> des_motor_thrusts(motors.size(), 0);
-    if (enable_priorities)
+    std::vector<double> des_motor_thrusts(motors_.size(), 0);
+    if (enable_priorities_)
     {
         allocate_prioritized_motors(des_forces, des_motor_thrusts);
     }
@@ -274,24 +274,24 @@ void Motor_controller::runNode()
     }
 
     // Convert motor thrusts to commands
-    std::vector<float> motor_comms(motors.size(), 0);
+    std::vector<float> motor_comms(motors_.size(), 0);
     for (size_t i = 0; i < des_motor_thrusts.size(); ++i)
     {
         double m_comms = thrust_to_motor_comm(des_motor_thrusts[i]);
         m_comms = CommonFunctions::Clamp(m_comms, -1.0, 1.0); // Clamp just in case
-        motor_comms[i] = (float)rateLimitMotorCommand(m_comms, last_motor_command[i]);
+        motor_comms[i] = (float)rateLimitMotorCommand(m_comms, last_motor_command_[i]);
     }
 
     // Publish message
     auto motor_command_msg = muuv_msgs::msg::MotorCommandList();
-    for (size_t i = 0; i < motors.size(); ++i)
+    for (size_t i = 0; i < motors_.size(); ++i)
     {
         auto command = muuv_msgs::msg::MotorCommand();
-        command.name = motor_names[i];
+        command.name = motor_names_[i];
         command.position = motor_comms[i];
         motor_command_msg.motor_commands.push_back(command);
         // Store the last command so we can ramp it
-        last_motor_command[i] = motor_comms[i];
+        last_motor_command_[i] = motor_comms[i];
     }
     cmd_pub_->publish(motor_command_msg);
 } // End of run node

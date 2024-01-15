@@ -19,7 +19,7 @@ public:
     Thrusters();
 private:
     void sub_Callback(const muuv_msgs::msg::MotorCommandList::SharedPtr msg);
-    rclcpp::Subscription<muuv_msgs::msg::MotorCommandList>::SharedPtr ctrl_sub;
+    rclcpp::Subscription<muuv_msgs::msg::MotorCommandList>::SharedPtr sub_;
     unique_ptr<PWM_obj> motor_[NUMBER_OF_MOTORS];
 
     // Thrustrs in triangle formation
@@ -29,8 +29,7 @@ private:
     */
     // Directional Vectors
     // North(x)-East(y)-Down(z) Coordinate
-    float speed[NUMBER_OF_MOTORS] = { 0 };
-    int pi;
+    int pi_;
 };
 
 #endif

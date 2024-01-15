@@ -20,25 +20,15 @@ def generate_launch_description():
             ),
         ]
     )
-    motor_launch_file = IncludeLaunchDescription(
+    muuv_control_file = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
                 get_package_share_directory("muuv_control"),
-                "launch/motor.launch.py",
-            )
-        )
-    )
-    pid_launch_file = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory("muuv_control"),
-                "launch/pid.launch.py",
+                "launch/full_system.launch.py",
             )
         )
     )
 
-    ld.add_action(pid_launch_file)
-    time.sleep(2)
-    ld.add_action(motor_launch_file)
+    ld.add_action(muuv_control_file)
 
     return ld

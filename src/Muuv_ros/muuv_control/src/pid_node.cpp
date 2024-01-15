@@ -16,7 +16,7 @@ Pid_node::Pid_node() : rclcpp::Node("pid_node")
     this->declare_parameter("state_topic", "imu_data");
     this->declare_parameter("setpoint_topic", "setpoint");
     this->declare_parameter("ctrl_effort_topic", "ctrl_effort");
-    this->declare_parameter("rate", 20);
+    this->declare_parameter("rate", 20.0);
 
     state_sub_ = this->create_subscription<sensor_msgs::msg::Imu>(this->get_parameter("state_topic").as_string(),
                                                                   1, bind(&Pid_node::state_callback, this, _1));
@@ -28,8 +28,9 @@ Pid_node::Pid_node() : rclcpp::Node("pid_node")
 
     param_callback_ = this->add_on_set_parameters_callback(
         bind(&Pid_node::parametersCallback, this, placeholders::_1));
-
-    timer_ = this->create_wall_timer(chrono::milliseconds(1000 / this->get_parameter("rate").as_int()),
+    double rate = this->get_parameter("rate").as_double();
+    loop_rate_ = std::make_unique<rclcpp::Rate>(rate);
+    timer_ = this->create_wall_timer(chrono::milliseconds(int(1000 / rate)),
                                      bind(&Pid_node::pid_callback, this));
     last_loop_time_ = this->now();
     setConstants();
@@ -146,7 +147,7 @@ void Pid_node::pid_callback()
             }
             else
             {
-                output.axes_command[i] = last_output_[i];
+                output.axes_command[i] = 0;
             }
         }
         dummy.linear.x = output.axes_command[0];

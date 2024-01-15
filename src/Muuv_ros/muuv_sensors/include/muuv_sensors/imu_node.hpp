@@ -17,17 +17,16 @@ class Imu_node : public rclcpp::Node
 public:
     Imu_node();
     ~Imu_node();
-    // void run();
 
 private:
-    rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr imu_pub;
-    rclcpp::Publisher<geometry_msgs::msg::Vector3>::SharedPtr imu_eul_pub;
+    rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr pub_;
+    // comment out if you don't want to see euler data
+    rclcpp::Publisher<geometry_msgs::msg::Vector3>::SharedPtr eul_pub_;
     // North(x)-East(y)-Down(z) Coordinate
     void timer_Callback();
     rclcpp::TimerBase::SharedPtr timer_;
-    unique_ptr<MTi> imu;
-    int pi;
-    size_t count;
+    unique_ptr<MTi> imu_;
+    int pi_;
 };
 
 #endif

@@ -9,5 +9,5 @@ pid_node:
     pid_enable: [false, false, false, true, true, true]
     cutoff_frequency: 5.
     angle_wrap_compensation: [false, false, false, true, true, true]
-    rate: 30
+    rate: 10.0
 

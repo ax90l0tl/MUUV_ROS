@@ -16,16 +16,14 @@ class Bar30_node : public rclcpp::Node
 public:
     Bar30_node();
     ~Bar30_node();
-    // void run();
 
 private:
     rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr pub_;
     // North(x)-East(y)-Down(z) Coordinate
     void timer_Callback();
     rclcpp::TimerBase::SharedPtr timer_;
-    unique_ptr<MS5837> sensor;
-    int pi;
-    size_t count;
+    unique_ptr<MS5837> sensor_;
+    int pi_;
 };
 
 #endif

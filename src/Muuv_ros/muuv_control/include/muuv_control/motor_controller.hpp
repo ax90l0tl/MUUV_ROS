@@ -86,16 +86,16 @@ private:
     rclcpp::Publisher<muuv_msgs::msg::MotorCommandList>::SharedPtr cmd_pub_;
 
     // Variables
-    double rate_hz = 50;
-    unique_ptr<rclcpp::Rate> loop_rate;
-    map<int, std::map<std::string, double>> motors;
-    vector<std::string> allocation_priorities;
-    vector<std::string> motor_names;
-    array<double, 6> last_motor_command = {0};
-    array<double, 6> pwr = {0};
-    array<double, 6> pwr_limit = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
-    double max_step_per_loop = 1;
-    bool enable_priorities = true;
+    double rate_hz;
+    unique_ptr<rclcpp::Rate> loop_rate_;
+    map<int, std::map<std::string, double>> motors_;
+    vector<std::string> allocation_priorities_;
+    vector<std::string> motor_names_;
+    array<double, 6> last_motor_command_ = {0};
+    array<double, 6> pwr_ = {0};
+    array<double, 6> pwr_limit_ = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+    double max_step_per_loop_ = 1;
+    bool enable_priorities_ = true;
 };
 
 #endif

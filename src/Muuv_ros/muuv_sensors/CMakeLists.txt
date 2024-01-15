@@ -39,6 +39,6 @@ target_include_directories(
 
 install(TARGETS imu_node bar30_node DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 
 ament_package()

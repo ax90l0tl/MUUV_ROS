@@ -41,22 +41,29 @@ public:
     MotorController()
         : Node("motor_controller")
     {
+        // Declare parameters
         this->declare_parameter("sub_topic", "alloc_cmd");
         this->declare_parameter("pub_topic", "pwm_command_list");
+        this->declare_parameter("pi_address", "192.168.8.157");
+        this->declare_parameter("pi_port", "8888");
+        this->declare_parameter("motor_pins", vector<int64_t>{17, 22, 27});
+
         sub_ = this->create_subscription<muuv_msgs::msg::AllocatorCommand>(this->get_parameter("sub_topic").as_string(),
                                                                            10, std::bind(&MotorController::topic_callback, this, std::placeholders::_1));
         pub_ = this->create_publisher<muuv_msgs::msg::MotorCommandList>(
             this->get_parameter("pub_topic").as_string(), 1);
 
-        this->declare_parameter("pi_address", "192.168.8.157");
-        this->declare_parameter("pi_port", "8888");
-        this->declare_parameter("motor_pins", vector<int64_t>{17, 22, 27});
-        pi = pigpio_start((const char *)this->get_parameter("pi_address").as_string().c_str(), this->get_parameter("pi_port").as_string().c_str());
-        cout << "pigpio_id " << pi << endl;
+        // Pigpio
+        pi_ = pigpio_start(this->get_parameter("pi_address").as_string().c_str(),
+                           this->get_parameter("pi_port").as_string().c_str());
+        if (pi_ < 0)
+        {
+            RCLCPP_INFO(this->get_logger(), "PI not detected!");
+        }
         vector<int64_t> motor_pins = this->get_parameter("motor_pins").as_integer_array();
         for (int i = 0; i < 3; i++)
         {
-            unique_ptr<PWM_obj> temp(new PWM_obj(pi, motor_pins.at(i)));
+            unique_ptr<PWM_obj> temp(new PWM_obj(pi_, motor_pins.at(i)));
             motor_[i] = move(temp);
         }
     }
@@ -64,19 +71,29 @@ public:
 private:
     void topic_callback(const muuv_msgs::msg::AllocatorCommand::SharedPtr msg)
     {
-        speed[2] = (msg->axes_command[5] / sqrt(3)) + ((msg->axes_command[0] + msg->axes_command[4]) / 3);
-        speed[1] = (msg->axes_command[0] + msg->axes_command[4]) / 1.5 - speed[2];
-        speed[0] = msg->axes_command[0] - speed[1] - speed[2];
+        speed_
+        [2] = (msg->axes_command[5] / sqrt(3)) + ((msg->axes_command[0] + msg->axes_command[4]) / 3);
+        speed_
+        [1] = (msg->axes_command[0] + msg->axes_command[4]) / 1.5 - speed_
+        [2];
+        speed_
+        [0] = msg->axes_command[0] - speed_
+        [1] - speed_
+        [2];
 
         auto motor_command_msg = muuv_msgs::msg::MotorCommandList();
         for (size_t i = 0; i < 3; ++i)
         {
-            speed[i] = CommonFunctions::Clamp(speed[i], -1, 1);
+            speed_
+            [i] = CommonFunctions::Clamp(speed_
+            [i], -1, 1);
             auto command = muuv_msgs::msg::MotorCommand();
             command.name = string("motor" + to_string(i));
-            command.position = speed[i];
+            command.position = speed_
+            [i];
             motor_command_msg.motor_commands.push_back(command);
-            motor_[i]->run(speed[i]);
+            motor_[i]->run(speed_
+            [i]);
         }
         pub_->publish(motor_command_msg);
     }
@@ -84,8 +101,9 @@ private:
     rclcpp::Subscription<muuv_msgs::msg::AllocatorCommand>::SharedPtr sub_;
     rclcpp::Publisher<muuv_msgs::msg::MotorCommandList>::SharedPtr pub_;
     unique_ptr<PWM_obj> motor_[3];
-    float speed[3] = {0};
-    int pi;
+    float speed_
+    [3] = {0};
+    int pi_;
 };
 
 int main(int argc, char *argv[])

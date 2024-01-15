@@ -31,6 +31,7 @@ protected:
     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr state_sub_;
     rclcpp::Subscription<geometry_msgs::msg::TransformStamped>::SharedPtr setpoint_sub_;
     rclcpp::TimerBase::SharedPtr timer_;
+    unique_ptr<rclcpp::Rate> loop_rate_;
     rcl_interfaces::msg::SetParametersResult parametersCallback(
         const std::vector<rclcpp::Parameter> &parameters);
 
