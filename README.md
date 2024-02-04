@@ -8,7 +8,7 @@
 
 # Wiki #
 
-#### Check the [wiki](https://git.whoi.edu/mural/muuv_tests/ros2_ws/-/wikis/home) for more info on packages ####
+#### Check the [wiki](https://github.com/ax90l0tl/muuv_ros/wiki) for more info on packages ####
 
 # Installation #
 
